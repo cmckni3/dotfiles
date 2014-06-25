@@ -1,0 +1,20 @@
+# Install native apps
+# Usage: `brew bundle Caskfile`
+
+install caskroom/cask/brew-cask
+tap caskroom/versions
+
+cask install android-studio
+cask install chromecast
+cask install filezilla
+cask install google-chrome
+cask install google-chrome-canary
+cask install iterm2
+cask install iterm2
+cask install kaleidoscope
+cask install mplayer-osx-extended
+cask install oclint
+cask install sublime-text3
+cask install the-unarchiver
+cask install virtualbox
+cask install yemuzip
