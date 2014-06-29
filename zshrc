@@ -7,6 +7,8 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="candy"
 
+export HIST_STAMPS="yyyy-mm-dd"
+
 source $HOME/dotfiles/zsh/aliases
 source $HOME/dotfiles/zsh/functions
 
