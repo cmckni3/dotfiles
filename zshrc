@@ -9,12 +9,12 @@ ZSH_THEME="candy"
 
 export HIST_STAMPS="yyyy-mm-dd"
 
-source $HOME/dotfiles/zsh/aliases
-source $HOME/dotfiles/zsh/functions
-
 plugins=(git ruby rails knife capistrano)
 
 source $ZSH/oh-my-zsh.sh
+
+source $HOME/dotfiles/zsh/aliases
+source $HOME/dotfiles/zsh/functions
 
 export SVN_EDITOR=vim
 export EDITOR=vim
