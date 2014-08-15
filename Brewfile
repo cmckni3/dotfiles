@@ -21,7 +21,7 @@ install mysql
 install nginx
 install openssl
 install phantomjs
-install php53 php53-intl php53-mcrypt php53-memcached php53-pcntl php53-redis php53-xdebug php53-yaml
+install php53 php53-mcrypt php53-memcached php53-pcntl php53-redis php53-xdebug php53-yaml
 install postgresql
 install python
 install redis
