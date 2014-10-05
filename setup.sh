@@ -16,12 +16,8 @@ ln -s $DOT_FILES/hgignore_global ~/.hgignore_global
 # Ruby
 ln -s $DOT_FILES/gemrc ~/.gemrc
 ln -s $DOT_FILES/irbrc ~/.irbrc
-ln -s $DOT_FILES/.rbenv ~/.rbenv
-
-ln -s $DOT_FILES/.nvm ~/.nvm
 
 # oh my zsh
-ln -s $DOT_FILES/.oh-my-zsh ~/.oh-my-zsh
 ln -s $DOT_FILES/zshrc ~/.zshrc
 
 # tmux
@@ -37,6 +33,7 @@ source $HOME/.zshrc
 # Install ruby
 rbenv install 1.9.3-p545
 rbenv install 2.0.0-p481
+rbenv install 2.1.3
 
 rbenv global 1.9.3-p545
 
