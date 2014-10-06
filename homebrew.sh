@@ -71,7 +71,6 @@ CASKS=(
   reveal
   sequel-pro
   spark-inspector
-  sparrow
   sourcetree
   sublime-text3
   testflight
