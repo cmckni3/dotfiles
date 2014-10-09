@@ -2,6 +2,20 @@ set -e
 
 DOT_FILES=$HOME/dotfiles
 
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  # Install homebrew
+  echo 'Installing homebrew'
+  ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+
+  echo 'Installing homebrew formulas'
+  sh $DOT_FILES/homebrew.sh
+
+  # Sublime Text 3 preferences
+  echo 'Linking Sublime Text 3 Preferences'
+  mkdir -p "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
+  ln -s $DOT_FILES/Preferences.sublime-settings "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
+fi
+
 echo 'Linking configuration files'
 
 # Global ignore for git and mercurial
@@ -29,24 +43,14 @@ fi
 echo 'Linking zshrc'
 ln -s $DOT_FILES/zshrc ~/.zshrc
 
+# Install oh-my-zsh
+echo 'Installing oh-my-zsh'
+curl -L http://install.ohmyz.sh | sh
+
 echo " Changing shell...."
 sudo echo "/usr/local/bin/zsh" >> /etc/shells && chsh -s $ZSH
 zsh
 source $HOME/.zshrc
-
-if [[ "$OSTYPE" == "darwin"* ]]; then
-  # Install homebrew
-  echo 'Installing homebrew'
-  ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-
-  echo 'Installing homebrew formulas'
-  sh $DOT_FILES/homebrew.sh
-
-  # Sublime Text 3 preferences
-  echo 'Linking Sublime Text 3 Preferences'
-  mkdir -p "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
-  ln -s $DOT_FILES/Preferences.sublime-settings "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
-fi
 
 # Install ruby
 rbenv install 1.9.3-p545
@@ -58,3 +62,4 @@ rbenv global 1.9.3-p545
 # Install nodejs
 nvm install 0.10
 nvm alias default 0.10
+
