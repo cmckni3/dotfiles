@@ -3,19 +3,9 @@ set -e
 cd `dirname $0`
 DOT_FILES=`pwd`
 
-if [[ "$OSTYPE" == "darwin"* ]]; then
-  # Install homebrew
-  echo 'Installing homebrew'
-  ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-
-  echo 'Installing homebrew formulas'
-  sh $DOT_FILES/homebrew.sh
-
-  # Sublime Text 3 preferences
-  echo 'Linking Sublime Text 3 Preferences'
-  mkdir -p "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
-  ln -s $DOT_FILES/Preferences.sublime-settings "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
-fi
+sh $DOT_FILES/homebrew/install.sh
+sh $DOT_FILES/homebrew/formula.sh
+sh $DOT_FILES/sublime-preferences.sh
 
 echo 'Linking configuration files'
 

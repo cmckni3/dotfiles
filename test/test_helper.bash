@@ -1,14 +1,12 @@
-setup() {
-}
-
 teardown() {
+  return 0
 }
 
 flunk() {
   { if [ "$#" -eq 0 ]; then cat -
     else echo "$@"
     fi
-  } | sed "s:${RBENV_TEST_DIR}:TEST_DIR:g" >&2
+  }
   return 1
 }
 
