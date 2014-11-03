@@ -7,7 +7,7 @@ alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C
 alias git=hub
 
 # Bundler
-alias bi="bundle install --binstubs=bin"
+alias bi="bundle install --binstubs"
 alias be="bundle exec"
 
 alias nginxstart="sudo launchctl load /Library/LaunchAgents/homebrew.mxcl.nginx.plist"
