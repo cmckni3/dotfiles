@@ -1,6 +1,7 @@
 set -e
 
-DOT_FILES=$HOME/dotfiles
+cd `dirname $0`
+DOT_FILES=`pwd`
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
   # Install homebrew
