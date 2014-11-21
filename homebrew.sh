@@ -44,6 +44,7 @@ FORMULAS=(
   sqlite
   tmux
   wget
+  zsh
 )
 
 # Homebrew casks
