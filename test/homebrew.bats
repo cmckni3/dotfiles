@@ -16,7 +16,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   @test "installs taps, formula, and casks" {
     run sh homebrew/formula.sh
     echo $output
-    refute_line(7)
+    echo "${#lines[@]}"
     assert_success
   }
 
