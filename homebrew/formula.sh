@@ -29,6 +29,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     dnsmasq
     dock
     elasticsearch
+    fig
     ghostscript
     git
     git-flow
