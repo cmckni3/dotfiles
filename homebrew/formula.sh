@@ -72,6 +72,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     ruby-build
     redis
     sqlite
+    ssh-copy-id
     swaks
     the_silver_searcher
     tmux
