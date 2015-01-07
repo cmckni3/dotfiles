@@ -43,7 +43,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     imagemagick
     memcached
     mercurial
-    mit-scheme
     mogenerator
     mongodb
     mysql
@@ -71,6 +70,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     redis
     ruby-build
     redis
+    scheme48
     sqlite
     ssh-copy-id
     swaks
@@ -94,7 +94,10 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     brackets
     caffeine
     charles
+    chicken
     chromecast
+    clamxav
+    cloud
     filezilla
     firefox
     forklift
@@ -122,9 +125,11 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   brew tap ${TAPS[@]} && brew install ${FORMULAS[@]}
 
   brew cask install ${CASKS[@]} && brew cask alfred link
+  
+  echo "Cleaning up"
+  
+  brew cleanup
 
   echo "Install Dash & Sublime licenses."
-
-  brew cleanup
 
 fi
