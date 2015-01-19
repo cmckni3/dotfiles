@@ -3,35 +3,25 @@ set -e
 cd `dirname $0`
 DOT_FILES=`pwd`
 
-if [[ "$OSTYPE" == "darwin"* ]]; then
-  # Install homebrew
-  echo 'Installing homebrew'
-  ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-
-  echo 'Installing homebrew formulas'
-  sh $DOT_FILES/homebrew.sh
-
-  # Sublime Text 3 preferences
-  echo 'Linking Sublime Text 3 Preferences'
-  mkdir -p "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
-  ln -s $DOT_FILES/Preferences.sublime-settings "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
-fi
+sh homebrew/install.sh
+sh homebrew/formula.sh
+sh sublime-preferences.sh
 
 echo 'Linking configuration files'
 
 # Global ignore for git and mercurial
-ln -s $DOT_FILES/gitignore_global ~/.gitignore_global
-ln -s $DOT_FILES/hgignore_global ~/.hgignore_global
+ln -s gitignore_global ~/.gitignore_global
+ln -s hgignore_global ~/.hgignore_global
 
 # Ruby
-ln -s $DOT_FILES/gemrc ~/.gemrc
-ln -s $DOT_FILES/irbrc ~/.irbrc
+ln -s gemrc ~/.gemrc
+ln -s irbrc ~/.irbrc
 
 # tmux
-ln -s $DOT_FILES/tmux.conf ~/.tmux.conf
+ln -s tmux.conf ~/.tmux.conf
 
 # vim
-ln -s $DOT_FILES/vimrc ~/.vimrc
+ln -s vimrc ~/.vimrc
 
 ZSH=$(which zsh)
 
@@ -44,7 +34,7 @@ if [ -z "$ZSH" ]; then
 fi
 
 echo 'Linking zshrc'
-ln -s $DOT_FILES/zshrc ~/.zshrc
+ln -s zshrc ~/.zshrc
 
 # Install oh-my-zsh
 echo 'Installing oh-my-zsh'
@@ -57,6 +47,7 @@ zsh
 source $HOME/.zshrc
 
 # Install ruby
+echo 'Installing ruby'
 rbenv install 1.9.3-p551
 rbenv install 2.0.0-p598
 rbenv install 2.1.5
@@ -64,5 +55,8 @@ rbenv install 2.1.5
 rbenv global 2.1.5
 
 # Install nodejs
+echo 'Installing nvm'
+curl https://raw.githubusercontent.com/creationix/nvm/v0.18.0/install.sh | bash
+echo 'Installing node.js'
 nvm install 0.10
 nvm alias default 0.10
