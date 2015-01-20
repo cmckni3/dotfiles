@@ -56,7 +56,7 @@ rbenv global 2.1.5
 
 # Install nodejs
 echo 'Installing nvm'
-curl https://raw.githubusercontent.com/creationix/nvm/v0.18.0/install.sh | bash
+curl https://raw.githubusercontent.com/creationix/nvm/v0.23.0/install.sh | bash
 echo 'Installing node.js'
 nvm install 0.10
 nvm alias default 0.10
