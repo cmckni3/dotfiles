@@ -20,7 +20,7 @@ sh setup.sh
 ## What's included
 
 1. Installs [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-1. Installs homebrew (Mac OS X only)
+1. Installs [homebrew](http://brew.sh/) (Mac OS X only)
 1. Taps and installs homebrew and homebrew-cask formulas on (Mac OS X only)
 1. Global ignore config files for git and mercurial
 1. IRB configuration file which adds some convenience methods when using IRB
@@ -33,4 +33,5 @@ sh setup.sh
 
 1. More robust setup script
 1. Add the rest of my common homebrew formulas and casks
+1. Tests
 
