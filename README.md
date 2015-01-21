@@ -6,17 +6,17 @@
 
 * Clone repo
 
-`Note: I clone my dotfiles into `~/dotfiles`. This is optional`
+    ~~~ sh
+    git clone https://github.com/cmckni3/dotfiles.git ~/dotfiles
+    ~~~
 
-```bash
-git clone https://github.com/cmckni3/dotfiles.git ~/dotfiles
-```
+  **Note**: I clone my dotfiles into `~/dotfiles`. This is optional
 
 * Run the setup script
 
-```bash
-sh setup.sh
-```
+    ~~~ sh
+    sh setup.sh
+    ~~~
 
 
 ## What's included
