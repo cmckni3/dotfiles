@@ -1,6 +1,6 @@
 # Dotfiles
 
-Note: work in progress and setup script may not work 100% of the time.
+`Note: work in progress and setup script may not work 100% of the time.`
 
 ## Usage
 
