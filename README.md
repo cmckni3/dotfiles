@@ -10,7 +10,7 @@
     git clone https://github.com/cmckni3/dotfiles.git ~/dotfiles
     ~~~
 
-  **Note**: I clone my dotfiles into `~/dotfiles`. This is optional
+  **Note**: I clone my dotfiles into `~/dotfiles`. This is optional.
 
 * Run the setup script
 
