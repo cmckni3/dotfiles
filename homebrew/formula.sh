@@ -124,7 +124,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 
   brew tap ${TAPS[@]} && brew install ${FORMULAS[@]}
 
-  brew cask install ${CASKS[@]} && brew cask alfred link
+  brew cask install ${CASKS[@]}
   
   echo "Cleaning up"
   

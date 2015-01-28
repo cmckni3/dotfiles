@@ -22,3 +22,5 @@ alias dnsstop="sudo launchctl unload /Library/LaunchAgents/homebrew.mxcl.dnsmasq
 
 alias wfc='when-files-change "clear && bundle exec rake spec"'
 
+alias largestfiles="du -k -I Library ~/* | awk '\$1 > 500000' | sort -nr"
+
