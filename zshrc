@@ -6,6 +6,7 @@ source "$HOME/.antigen/antigen.zsh"
 antigen use oh-my-zsh
 
 antigen bundle git
+antigen bundle git-flow
 antigen bundle ruby
 antigen bundle rails
 antigen bundle knife
