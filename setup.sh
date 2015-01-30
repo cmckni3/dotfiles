@@ -36,9 +36,9 @@ fi
 echo 'Linking zshrc'
 ln -s zshrc ~/.zshrc
 
-# Install oh-my-zsh
-echo 'Installing oh-my-zsh'
-curl -L http://install.ohmyz.sh | sh
+# Install antigen which will automatically bundle oh-my-zsh and other plugins
+echo 'Installing antigen'
+git clone https://github.com/zsh-users/antigen.git ~/.antigen
 
 echo 'Changing shell....'
 sudo echo '/usr/local/bin/zsh' >> /etc/shells && chsh -s $ZSH
