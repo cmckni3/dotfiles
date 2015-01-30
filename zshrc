@@ -1,20 +1,23 @@
-# Path to your oh-my-zsh configuration.
-ZSH=$HOME/.oh-my-zsh
-
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-ZSH_THEME="candy"
-
+# Show timestamps for history
 export HIST_STAMPS="yyyy-mm-dd"
 
-plugins=(git ruby rails knife capistrano)
+source "$HOME/.antigen/antigen.zsh"
 
-source $ZSH/oh-my-zsh.sh
+antigen use oh-my-zsh
 
-source $HOME/dotfiles/zsh/aliases
-source $HOME/dotfiles/zsh/functions
+antigen bundle git
+antigen bundle ruby
+antigen bundle rails
+antigen bundle knife
+antigen bundle capistrano
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# Custom aliases and functions
+antigen bundle $HOME/dotfiles/zsh/custom
+
+antigen theme candy
+
+antigen apply
 
 export SVN_EDITOR=vim
 export EDITOR=vim
