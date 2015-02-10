@@ -15,12 +15,6 @@ alias bi="bundle install --binstubs"
 alias be="bundle exec"
 
 alias gorails="cd ~/Code/ruby/rails"
-alias nginxstart="sudo launchctl load /Library/LaunchAgents/homebrew.mxcl.nginx.plist"
-alias nginxstop="sudo launchctl unload /Library/LaunchAgents/homebrew.mxcl.nginx.plist"
-alias fpmstart="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.php53.plist"
-alias fpmstop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.php53.plist"
-alias dnsstart="sudo launchctl load /Library/LaunchAgents/homebrew.mxcl.dnsmasq.plist"
-alias dnsstop="sudo launchctl unload /Library/LaunchAgents/homebrew.mxcl.dnsmasq.plist"
 
 alias wfc='when-files-change "clear && bundle exec rake spec"'
 
