@@ -2,3 +2,8 @@ syntax: glob
 
 *~
 .DS_Store
+*.swp
+.gemtags
+.tags
+.tags_sorted_by_file
+
