@@ -42,7 +42,7 @@ if which rbenv > /dev/null; then
   eval "$(rbenv init -)"
 fi
 
-if which php-version > /dev/null; then
+if [ -f $(brew --prefix php-version)/php-version.sh ]; then
   source $(brew --prefix php-version)/php-version.sh && php-version 5
 fi
 
