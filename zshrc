@@ -32,11 +32,8 @@ export GOPATH="$HOME/Code/go"
 
 export ANSIBLE_HOSTS=~/ansible_hosts
 
-export RUBYMOTION_ANDROID_NDK=/usr/local/Cellar/android-ndk/r10d
-export RUBYMOTION_ANDROID_SDK=/usr/local/Cellar/android-sdk/24.0.1
-
 # Create the path from scratch so it doesn't get messed up when using tmux
-export PATH=/usr/local/heroku/bin:"$HOME/ansible/bin":"$HOME/.rbenv/bin":./bin:"$HOME/bin":/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin
+export PATH=$GOPATH/bin:/usr/local/heroku/bin:"$HOME/ansible/bin":"$HOME/.rbenv/bin":./bin:"$HOME/bin":/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin
 
 if which rbenv > /dev/null; then
   eval "$(rbenv init -)"

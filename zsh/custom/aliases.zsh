@@ -5,9 +5,10 @@ alias tlog='tail -f ~/php_error_log'
 alias ohmyzsh="subl ~/.oh-my-zsh"
 
 # Git
+alias git=hub
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 alias gittags="git tag | xargs -I@ git log --format=format:\"%ai @%n\" -1 @ | sort | awk '{print \$4}'"
-alias git=hub
+alias gdes="git describe --tags"
 alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
 
 # Bundler
