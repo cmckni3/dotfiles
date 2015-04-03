@@ -35,7 +35,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     git-extras
     gnu-sed
     gnu-tar
-    go
     graphviz
     htop-osx
     hub
