@@ -17,6 +17,17 @@ ln -s hgignore_global ~/.hgignore_global
 ln -s gemrc ~/.gemrc
 ln -s irbrc ~/.irbrc
 
+# Code directories
+mkdir -p ~/Code/ruby/rails
+mkdir -p ~/Code/js/node
+mkdir -p ~/Code/ruby/ruby-motion
+mkdir -p ~/Code/swift
+mkdir -p ~/Code/objective-c
+
+mkdir -p ~/Code/go/src
+mkdir -p ~/Code/go/pkg
+mkdir -p ~/Code/go/bin
+
 # tmux
 ln -s tmux.conf ~/.tmux.conf
 

@@ -15,7 +15,12 @@ alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
 alias bi="bundle install --binstubs"
 alias be="bundle exec"
 
-alias gorails="cd ~/Code/ruby/rails"
+alias cdrails="cd ~/Code/ruby/rails"
+alias cdnode="cd ~/Code/js/node"
+alias cdmotion="cd ~/Code/ruby/ruby-motion"
+alias cdgo="cd ~/Code/go/src"
+alias cdobjc="cd ~/Code/objective-c"
+alias cdswift="cd ~/Code/swift"
 
 alias wfc='when-files-change "clear && bundle exec rake spec"'
 
