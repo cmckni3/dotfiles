@@ -4,6 +4,7 @@
   "build_env": "$HOME/.zshrc",
   "color_scheme": "Packages/User/Twilight (SL).tmTheme",
   "create_window_at_startup": false,
+  "dictionary": "Packages/Language - English/en_US.dic",
   "drag_text": false,
   "draw_white_space": "all",
   "enable_telemetry": false,
@@ -32,26 +33,26 @@
   "highlight_modified_tabs": true,
   "ignored_packages":
   [
-    "Vintage",
-    "RestructuredText",
-    "Predawn",
     "BracketHighlighter",
-    "RubyMotionBuilder"
+    "Vintage",
+    "RubyMotionBuilder",
+    "RestructuredText",
+    "Predawn"
   ],
   "index_files": true,
   "rubymotion_build_env_file": "$HOME/.zshrc",
-  "rulers": [
+  "rulers":
+  [
     80
   ],
   "scroll_past_end": true,
   "scroll_speed": 1.5,
   "soda_classic_tabs": true,
+  "spell_check": true,
   "tab_size": 2,
   "theme": "Soda Dark 3.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
-  "word_wrap": true,
-  "spell_check": true,
-  "dictionary": "Packages/Language - English/en_US.dic"
+  "word_wrap": false,
+  "wrap_width": 80
 }
-
