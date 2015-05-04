@@ -3,6 +3,8 @@ alias reload=". ~/.zshrc"
 alias code='cd ~/Code'
 alias tlog='tail -f ~/php_error_log'
 alias ohmyzsh="subl ~/.oh-my-zsh"
+alias nginxconf="subl /usr/local/etc/nginx"
+alias dc="docker-compose"
 
 # Git
 alias git=hub
@@ -15,6 +17,7 @@ alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
 alias bi="bundle install --binstubs"
 alias be="bundle exec"
 
+# Projects
 alias cdrails="cd ~/Code/ruby/rails"
 alias cdnode="cd ~/Code/js/node"
 alias cdmotion="cd ~/Code/ruby/ruby-motion"
