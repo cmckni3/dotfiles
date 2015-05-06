@@ -34,10 +34,10 @@
   "ignored_packages":
   [
     "BracketHighlighter",
+    "Predawn",
     "Vintage",
-    "RubyMotionBuilder",
     "RestructuredText",
-    "Predawn"
+    "RubyMotionBuilder"
   ],
   "index_files": true,
   "rubymotion_build_env_file": "$HOME/.zshrc",
