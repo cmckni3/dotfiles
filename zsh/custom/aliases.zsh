@@ -21,6 +21,8 @@ alias be="bundle exec"
 # Projects
 alias cdrails="cd ~/Code/ruby/rails"
 alias cdnode="cd ~/Code/js/node"
+alias cdjs="cd ~/Code/js"
+alias cdruby="cd ~/Code/ruby"
 alias cdmotion="cd ~/Code/ruby/ruby-motion"
 alias cdgo="cd ~/Code/go/src"
 alias cdobjc="cd ~/Code/objective-c"
