@@ -35,6 +35,7 @@
 	[
 		"BracketHighlighter",
 		"Vintage",
+		"Predawn",
 		"RestructuredText",
 		"RubyMotionBuilder"
 	],
@@ -46,7 +47,6 @@
 	],
 	"scroll_past_end": true,
 	"scroll_speed": 1.5,
-	"soda_classic_tabs": true,
 	"spell_check": true,
 	"tab_size": 2,
 	"theme": "Seti.sublime-theme",
