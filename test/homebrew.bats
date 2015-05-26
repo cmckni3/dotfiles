@@ -13,8 +13,22 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     [ "${lines[0]}" != "ls: /usr/local/Cellar: No such file or directory" ]
   }
 
-  @test "installs taps, formula, and casks" {
-    run sh homebrew/formula.sh
+  @test "installs taps and common formulae and casks" {
+    run sh homebrew/common.sh
+    echo "$output"
+    echo "${#lines[@]}"
+    assert_success
+  }
+
+  @test "installs optional formulae" {
+    run sh homebrew/optional-formulae.sh
+    echo "$output"
+    echo "${#lines[@]}"
+    assert_success
+  }
+
+  @test "installs optional casks" {
+    run sh homebrew/optional-casks.sh
     echo "$output"
     echo "${#lines[@]}"
     assert_success
