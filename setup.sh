@@ -6,7 +6,7 @@ DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 sh "$DIR/homebrew/install.sh"
 sh "$DIR/homebrew/common.sh"
-sh "$DIR/sublime-preferences.sh"
+sh "$DIR/sublime/install.sh"
 
 echo 'Linking configuration files'
 
