@@ -1,9 +1,11 @@
+#!/usr/bin/env sh
+
 if [[ "$OSTYPE" == "darwin"* ]]; then
-  echo 'Installing homebrew formulas'
+
+  echo 'Installing common homebrew formulae'
 
   # Homebrew taps
   TAPS=(
-    atlassian/tap
     homebrew/dupes
     homebrew/science
     homebrew/versions
@@ -16,7 +18,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   FORMULAS=(
     ack
     apple-gcc42
-    atlassian-plugin-sdk
     bats
     boot2docker
     brew-cask
@@ -24,11 +25,9 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     coreutils
     ctags
     curl
-    dart
     dnsmasq
     dock
-    elasticsearch
-    fig
+    docker-compose
     ghostscript
     git
     git-flow
@@ -38,13 +37,10 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     graphviz
     htop-osx
     hub
-    imagemagick
-    memcached
     mercurial
     mogenerator
     mongodb
     mysql
-    neo4j
     nginx
     nmap
     objc-run
@@ -55,20 +51,14 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     postgresql
     python
     python3
-    qt
-    r
-    ragel
     rbenv
     rbenv-binstubs
     rbenv-ctags
     rbenv-default-gems
     rbenv-gem-rehash
     rbenv-gemset
-    redis
     ruby-build
-    redis
     scheme48
-    sqlite
     ssh-copy-id
     swaks
     the_silver_searcher
@@ -83,50 +73,39 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 
   # Homebrew casks
   CASKS=(
-    airmail-beta
     alfred
-    android-studio
-    atom
-    base
-    brackets
-    caffeine
-    charles
-    chicken
-    chromecast
-    clamxav
-    cloud
-    filezilla
+    dash
     firefox
-    forklift
     google-chrome
     google-chrome-canary
-    hockeyapp
     iterm2
-    kaleidoscope
-    mou
-    mplayer-osx-extended
-    oclint
-    reveal
-    sequel-pro
-    spark-inspector
     sourcetree
     sublime-text3
-    testflight
     the-unarchiver
-    transmit
     yemuzip
   )
 
+  echo 'Updating homebrew'
+
   brew update
 
-  brew tap ${TAPS[@]} && brew install ${FORMULAS[@]}
+  echo 'Installing homebrew taps'
+
+  brew tap ${TAPS[@]}
+
+  echo 'Installing formulae'
+
+  brew install ${FORMULAS[@]}
+
+  echo 'Installing casks'
 
   brew cask install ${CASKS[@]}
-  
-  echo "Cleaning up"
-  
-  brew cleanup
 
-  echo "Install Dash & Sublime licenses."
+  echo 'Cleaning up'
+
+  brew cleanup
+  brew cask cleanup
+
+  echo 'Install Dash & Sublime licenses.'
 
 fi

@@ -33,11 +33,11 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"BracketHighlighter",
 		"Vintage",
 		"Predawn",
-		"RestructuredText",
-		"RubyMotionBuilder"
+		"BracketHighlighter",
+		"RubyMotionBuilder",
+		"RestructuredText"
 	],
 	"index_files": true,
 	"rubymotion_build_env_file": "$HOME/.zshrc",

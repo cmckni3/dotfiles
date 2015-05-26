@@ -1,3 +1,5 @@
+#!/usr/bin/env sh
+
 unlink ~/.gitignore_global
 unlink ~/.hgignore_global
 unlink ~/.irbrc

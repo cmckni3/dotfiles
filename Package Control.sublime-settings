@@ -1,0 +1,40 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"ApacheConf.tmLanguage",
+		"Bats (Bash Automated Testing System)",
+		"Better CoffeeScript",
+		"Bootstrap 3 Snippets",
+		"BracketHighlighter",
+		"Codeivate",
+		"ColorSchemeSelector",
+		"CTags",
+		"DashDoc",
+		"DocBlockr",
+		"GitGutter",
+		"Haml",
+		"Handlebars",
+		"Jade",
+		"JavaScriptNext - ES6 Syntax",
+		"LESS",
+		"Markdown Preview",
+		"Package Control",
+		"Pretty JSON",
+		"RestructuredText Improved",
+		"RubyMotionBuilder",
+		"Sass",
+		"Seti_UI",
+		"SideBarEnhancements",
+		"Sublime-KnockoutJS-Snippets",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimeLinter-rubocop",
+		"SublimeLinter-ruby",
+		"WakaTime"
+	]
+}

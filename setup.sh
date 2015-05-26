@@ -1,21 +1,22 @@
+#!/usr/bin/env sh
+
 set -e
 
-cd `dirname $0`
-DOT_FILES=`pwd`
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
-sh homebrew/install.sh
-sh homebrew/formula.sh
-sh sublime-preferences.sh
+sh "$DIR/homebrew/install.sh"
+sh "$DIR/homebrew/common.sh"
+sh "$DIR/sublime-preferences.sh"
 
 echo 'Linking configuration files'
 
 # Global ignore for git and mercurial
-ln -s gitignore_global ~/.gitignore_global
-ln -s hgignore_global ~/.hgignore_global
+ln -s "$DIR/gitignore_global" ~/.gitignore_global
+ln -s "$DIR/hgignore_global" ~/.hgignore_global
 
 # Ruby
-ln -s gemrc ~/.gemrc
-ln -s irbrc ~/.irbrc
+ln -s "$DIR/gemrc" ~/.gemrc
+ln -s "$DIR/irbrc" ~/.irbrc
 
 # Code directories
 mkdir -p ~/Code/ruby/rails
@@ -29,10 +30,10 @@ mkdir -p ~/Code/go/pkg
 mkdir -p ~/Code/go/bin
 
 # tmux
-ln -s tmux.conf ~/.tmux.conf
+ln -s "$DIR/tmux.conf" ~/.tmux.conf
 
 # vim
-ln -s vimrc ~/.vimrc
+ln -s "$DIR/vimrc" ~/.vimrc
 
 ZSH=$(which zsh)
 
@@ -45,7 +46,7 @@ if [ -z "$ZSH" ]; then
 fi
 
 echo 'Linking zshrc'
-ln -s zshrc ~/.zshrc
+ln -s "$DIR/zshrc" ~/.zshrc
 
 # Install antigen which will automatically bundle oh-my-zsh and other plugins
 echo 'Installing antigen'
@@ -59,11 +60,10 @@ source $HOME/.zshrc
 
 # Install ruby
 echo 'Installing ruby'
-rbenv install 1.9.3-p551
-rbenv install 2.0.0-p598
-rbenv install 2.1.5
+rbenv install 2.1.6
+rbenv install 2.2.2
 
-rbenv global 2.1.5
+rbenv global 2.1.6
 
 # Install nodejs
 echo 'Installing nvm'
