@@ -21,7 +21,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     cloud
     filezilla
     forklift
-    hockeyapp
+    hockey
     kaleidoscope
     mou
     mplayer-osx-extended
