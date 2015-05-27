@@ -2,6 +2,11 @@
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
 
+  TAPS=(
+    caskroom/cask
+    caskroom/versions
+  )
+
   CASKS=(
     airmail-beta
     android-studio
@@ -27,6 +32,10 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     testflight
     transmit
   )
+
+  echo 'Installing homebrew taps'
+
+  brew tap ${TAPS[@]}
 
   echo 'Installing optional casks...this may take awhile'
 
