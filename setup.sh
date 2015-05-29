@@ -18,6 +18,9 @@ ln -s "$DIR/hgignore_global" ~/.hgignore_global
 ln -s "$DIR/gemrc" ~/.gemrc
 ln -s "$DIR/irbrc" ~/.irbrc
 
+# JavaScript
+ln -s "$DIR/jshintrc" ~/.jshintrc
+
 # Code directories
 mkdir -p ~/Code/ruby/rails
 mkdir -p ~/Code/js/node
