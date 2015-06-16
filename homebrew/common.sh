@@ -3,6 +3,7 @@
 if [[ "$OSTYPE" == "darwin"* ]]; then
 
   echo 'Installing common homebrew formulae'
+  alias git='hub'
 
   # Homebrew taps
   TAPS=(
