@@ -2,6 +2,7 @@
 # Based on Ryan Bates' irbrc
 require 'irb/completion'
 require 'irb/ext/save-history'
+require 'irbtools'
 
 IRB.conf[:PROMPT_MODE] = :SIMPLE
 IRB.conf[:SAVE_HISTORY] = 1000
