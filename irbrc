@@ -3,10 +3,10 @@
 require 'irb/completion'
 require 'irb/ext/save-history'
 
-%w(irbtools json).each do |gem|
+%w(json).each do |gem|
   begin
-    require "#{gem}"
-  rescue LoadError
+    gem "#{gem}"
+  rescue Gem::LoadError
     system "gem install #{gem}"
   ensure
     require "#{gem}"
@@ -49,8 +49,8 @@ end
 
 def copy_history
   history = Readline::HISTORY.entries
-  index = history.rindex("exit") || -1
-  content = history[(index+1)..-2].join("\n")
+  index = history.rindex('exit') || -1
+  content = history[(index + 1)..-2].join("\n")
   puts content
   copy content
 end
