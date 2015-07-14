@@ -27,11 +27,11 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     assert_success
   }
 
-  # @test "installs optional casks" {
-  #   run sh homebrew/optional-casks.sh
-  #   echo "$output"
-  #   echo "${#lines[@]}"
-  #   assert_success
-  # }
+  @test "installs optional casks" {
+    run sh homebrew/optional-casks.sh
+    echo "$output"
+    echo "${#lines[@]}"
+    assert_success
+  }
 
 fi

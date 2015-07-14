@@ -36,7 +36,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   echo 'Installing homebrew taps'
 
   brew tap ${TAPS[@]}
-  brew install brew-cask
+  brew install caskroom/cask/brew-cask
 
   echo 'Installing optional casks...this may take awhile'
 
