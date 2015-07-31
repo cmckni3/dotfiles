@@ -45,6 +45,7 @@
 		"SublimeLinter-jsxhint",
 		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
+		"SublimeLinter-slim-lint",
 		"WakaTime"
 	]
 }
