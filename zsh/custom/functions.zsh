@@ -1,16 +1,3 @@
-function changelog() {
-  project_repo=`git config --get remote.origin.url | cut -d':' -f 2 | cut -d '.' -f 1`
-  body=`git log $1...$2  --pretty=format:"1. %s%n\t* __[view commit](http://gitlab.immense.net/$project_repo/commit/%H)__%n" --no-merges`
-  if [ ! -z $2 ]; then
-    date=`git show -s --format="%cd" $2^0`
-    echo "## $1 -> $2\n### $date\n$body"
-  else
-    date=`git show -s --format="%cd"`
-    current_sha=`git show -s --format="%H"`
-    echo "## $1 -> $current_sha\n### $date\n$body"
-  fi
-}
-
 function mysql_fast_import() {
   if [ -z "$1" ] && [ -z "$2" ]; then
     echo 'usage: mysql_fast_import database_name mysql_args'

@@ -18,7 +18,6 @@ alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
 alias gfdiff='git diff --name-only'
 
 # Bundler
-alias bi="bundle install --binstubs"
 alias be="bundle exec"
 
 # Projects
