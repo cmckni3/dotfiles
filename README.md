@@ -18,6 +18,24 @@
     sh setup.sh
     ~~~
 
+## Updating
+
+* Update the dotfiles repo
+
+    ~~~ sh
+    cd dotfiles && git pull
+    ~~~
+
+* Update antigen
+
+    ~~~ sh
+    antigen selfupdate
+    ~~~
+
+* Update antigen plugins
+    ~~~ sh
+    antigen update
+    ~~~
 
 ## What's included
 
