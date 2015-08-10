@@ -4,11 +4,16 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 
   FORMULAS=(
     dart
+    elasticsearch
+    ghostscript
     imagemagick
     neo4j
     qt
     r
+    redis
+    scheme48
     sqlite
+    swaks
   )
 
   echo 'Installing optional formulae...this may take awhile'
