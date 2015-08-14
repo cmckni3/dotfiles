@@ -8,6 +8,8 @@ alias nginxconf="subl /usr/local/etc/nginx"
 # Docker
 alias dc="docker-compose"
 alias docker-cleani="docker images | grep '<none>' | awk '{print \$3}' | xargs docker rmi"
+alias b2d='boot2docker'
+alias b2d-reset='boot2docker download && boot2docker stop && boot2docker delete && boot2docker init && boot2docker up'
 
 # Git
 alias git=hub
