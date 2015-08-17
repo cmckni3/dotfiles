@@ -1,0 +1,24 @@
+AllCops:
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
+  Exclude:
+    - 'Guardfile'
+    - 'vendor/**/*'
+    - 'spec/factories/**/*'
+
+Style/FileName:
+  Enabled: false
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Style/RedundantReturn:
+  Enabled: false
+
+Style/SingleLineBlockParams:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+

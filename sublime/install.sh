@@ -7,5 +7,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   mkdir -p "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
   ln -s "$DIR/Preferences.sublime-settings" "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
   ln -s "$DIR/Package Control.sublime-settings" "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
+  ln -s "$DIR/SublimeLinter.sublime-settings" "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
 fi
 
