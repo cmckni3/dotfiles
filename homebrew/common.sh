@@ -20,7 +20,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     ack
     apple-gcc42
     bats
-    boot2docker
     brew-cask
     composer
     coreutils
