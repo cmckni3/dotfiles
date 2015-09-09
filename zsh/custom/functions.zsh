@@ -16,3 +16,4 @@ function thinctl() {
   bundle exec thin $command -S /tmp/$project_directory-dev.sock -d --tag $project_directory -s 5 -P tmp/pids/thin.pid
 }
 
+function brew-clean() { brew list | grep $@ | xargs brew uninstall ;}

@@ -10,6 +10,11 @@ alias dc='docker-compose'
 alias rock='rocker-compose'
 alias docker-cleani="docker images | grep '<none>' | awk '{print \$3}' | xargs docker rmi"
 
+alias docker-redis-data='docker run -d --name redis-data redis:3 /bin/false'
+alias docker-redis='docker run -d -p 6379:6379 --volumes-from redis-data --name redis redis:3'
+alias docker-mongo-data='docker run -d --name mongo-data mongo:3 /bin/false'
+alias docker-mongo='docker run -d -p 27017:27017 --volumes-from mongo-data --name mongo mongo:3'
+
 # Git
 alias git=hub
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
@@ -17,6 +22,9 @@ alias gittags="git tag | xargs -I@ git log --format=format:\"%ai @%n\" -1 @ | so
 alias gdes='git describe --tags'
 alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
 alias gfdiff='git diff --name-only'
+
+# Homebrew
+alias rstudio='LD_LIBRARY_PATH=$(/usr/libexec/java_home)/jre/lib/server: open -a RStudio'
 
 # Bundler
 alias be="bundle exec"
