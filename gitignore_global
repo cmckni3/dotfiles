@@ -7,4 +7,5 @@
 .tags_sorted_by_file
 npm-debug.log
 .imdone
+.imdoneignore
 
