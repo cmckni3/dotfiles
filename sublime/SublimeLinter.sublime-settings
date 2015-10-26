@@ -40,6 +40,11 @@
                 "args": [],
                 "excludes": []
             },
+            "eslint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "golint": {
                 "@disable": false,
                 "args": [],
@@ -54,6 +59,12 @@
                 "@disable": false,
                 "args": [],
                 "excludes": []
+            },
+            "json": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "strict": true
             },
             "jsxhint": {
                 "@disable": false,
@@ -85,7 +96,10 @@
         "paths": {
             "linux": [],
             "osx": [
-                "~/.rbenv/shims"
+                "~/.rbenv/shims",
+                "~/.nvm/v0.12.7/bin",
+                "~/Code/go/bin",
+                "/usr/local/bin",
             ],
             "windows": []
         },
