@@ -20,6 +20,11 @@
                     "NOTE"
                 ]
             },
+            "bootlint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "chktex": {
                 "@disable": false,
                 "args": [],
@@ -39,6 +44,29 @@
                 "@disable": false,
                 "args": [],
                 "excludes": []
+            },
+            "cppcheck": {
+                "@disable": false,
+                "args": [],
+                "enable": "style",
+                "excludes": [],
+                "std": []
+            },
+            "csslint": {
+                "@disable": false,
+                "args": [],
+                "errors": "",
+                "excludes": [],
+                "ignore": "",
+                "warnings": ""
+            },
+            "elixirc": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "include_dirs": [],
+                "mix": false,
+                "pa": []
             },
             "eslint": {
                 "@disable": false,
@@ -71,6 +99,11 @@
                 "args": [],
                 "excludes": []
             },
+            "phplint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "rubocop": {
                 "@disable": false,
                 "args": [
@@ -84,7 +117,17 @@
                 "args": [],
                 "excludes": []
             },
+            "sass": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "slimlint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "sqlint": {
                 "@disable": false,
                 "args": [],
                 "excludes": []
@@ -99,7 +142,7 @@
                 "~/.rbenv/shims",
                 "~/.nvm/v0.12.7/bin",
                 "~/Code/go/bin",
-                "/usr/local/bin",
+                "/usr/local/bin"
             ],
             "windows": []
         },
