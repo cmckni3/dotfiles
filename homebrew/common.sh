@@ -39,7 +39,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     hub
     mercurial
     mogenerator
-    mongodb
     mysql
     nginx
     nmap

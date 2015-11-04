@@ -4,13 +4,10 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 
   FORMULAS=(
     dart
-    elasticsearch
     imagemagick
-    memcached
     neo4j
     qt
     r
-    redis
     sqlite
   )
 
