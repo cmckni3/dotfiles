@@ -1,7 +1,5 @@
 AllCops:
-  Include:
-    - '**/Rakefile'
-    - '**/config.ru'
+  RunRailsCops: true
   Exclude:
     - 'Guardfile'
     - 'vendor/**/*'
