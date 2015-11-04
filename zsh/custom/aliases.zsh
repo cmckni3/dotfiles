@@ -14,6 +14,8 @@ alias docker-redis-data='docker run -d --name redis-data redis:3 /bin/false'
 alias docker-redis='docker run -d -p 6379:6379 --volumes-from redis-data --name redis redis:3'
 alias docker-mongo-data='docker run -d --name mongo-data mongo:3 /bin/false'
 alias docker-mongo='docker run -d -p 27017:27017 --volumes-from mongo-data --name mongo mongo:3'
+alias docker-elasticsearch-data='docker run -d --name elasticsearch-data elasticsearch:1.7 /bin/false'
+alias docker-elasticsearch='docker run -d -p 9200:9200 --volumes-from elasticsearch-data --name elasticsearch elasticsearch:1.7'
 
 # Git
 alias git=hub
