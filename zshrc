@@ -23,10 +23,6 @@ antigen apply
 export SVN_EDITOR=vim
 export EDITOR=vim
 
-# Rails Environment
-export RAILS_ENV=development
-# Rack/Sinatra environment
-export RACK_ENV=development
 # location to find Go packages
 export GOPATH="$HOME/Code/go"
 
