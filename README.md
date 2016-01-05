@@ -1,5 +1,7 @@
 # Dotfiles
 
+[![License](https://img.shields.io/github/license/cmckni3/dotfiles.svg)](https://github.com/cmckni3/dotfiles/blob/master/MIT-LICENSE)
+
 `Note: work in progress and setup script may not work 100% of the time.`
 
 ## Usage
@@ -54,4 +56,3 @@
 1. More robust setup script
 1. Add the rest of my common homebrew formulas and casks
 1. Tests
-
