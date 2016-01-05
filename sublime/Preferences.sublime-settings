@@ -2,7 +2,7 @@
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
 	"build_env": "$HOME/.zshrc",
-	"color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Seti (SL).tmTheme",
 	"create_window_at_startup": false,
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"drag_text": false,
