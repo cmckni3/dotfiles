@@ -41,7 +41,7 @@
 
 1. Installs [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 1. Installs [homebrew](http://brew.sh/) (Mac OS X only)
-1. Taps and installs [homebrew](http://brew.sh/) and [homebrew-cask](https://github.com/caskroom/homebrew-cask) formulas on (Mac OS X only)
+1. Taps and installs [homebrew](http://brew.sh/) and [homebrew-cask](https://github.com/caskroom/homebrew-cask) formulas (Mac OS X only)
 1. Global ignore config files for git and mercurial
 1. IRB configuration file which adds some convenience methods when using IRB
 1. tmux configuration file based on [Chris Hunt's tmux configuration](https://github.com/chrishunt/dot-files/blob/master/.tmux.conf)
