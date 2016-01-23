@@ -1,3 +1,7 @@
+# Fix to allow using "git"
+# command to call hub commands
+function git() {hub "$@"}
+
 function mysql_fast_import() {
   if [ -z "$1" ] && [ -z "$2" ]; then
     echo 'usage: mysql_fast_import database_name mysql_args'
