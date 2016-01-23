@@ -20,7 +20,6 @@ alias docker-mysql-data='docker run -d --name mysql-data mysql:5.6 /bin/false'
 alias docker-mysql='docker run -d -p 3306:3306 --volumes-from mysql-data --name mysql mysql:5.6'
 
 # Git
-alias git=hub
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 alias gittags="git tag | xargs -I@ git log --format=format:\"%ai @%n\" -1 @ | sort | awk '{print \$4}'"
 alias gdes='git describe --tags'
