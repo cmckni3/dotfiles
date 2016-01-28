@@ -1,9 +1,11 @@
 AllCops:
-  RunRailsCops: true
   Exclude:
     - 'Guardfile'
     - 'vendor/**/*'
     - 'spec/factories/**/*'
+
+Rails:
+  Enabled: true
 
 Style/FileName:
   Enabled: false
@@ -19,4 +21,3 @@ Style/SingleLineBlockParams:
 
 Style/Documentation:
   Enabled: false
-

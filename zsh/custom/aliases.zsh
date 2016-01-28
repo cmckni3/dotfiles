@@ -11,13 +11,20 @@ alias rock='rocker-compose'
 alias docker-cleani="docker images | grep '<none>' | awk '{print \$3}' | xargs docker rmi"
 
 alias docker-redis-data='docker run -d --name redis-data redis:3 /bin/false'
-alias docker-redis='docker run -d -p 6379:6379 --volumes-from redis-data --name redis redis:3'
+alias docker-redis='docker run -d --restart=always -p 6379:6379 --volumes-from redis-data --name redis redis:3'
 alias docker-mongo-data='docker run -d --name mongo-data mongo:3 /bin/false'
-alias docker-mongo='docker run -d -p 27017:27017 --volumes-from mongo-data --name mongo mongo:3'
+alias docker-mongo='docker run -d --restart=always -p 27017:27017 --volumes-from mongo-data --name mongo mongo:3'
 alias docker-elasticsearch-data='docker run -d --name elasticsearch-data elasticsearch:1.7 /bin/false'
-alias docker-elasticsearch='docker run -d -p 9200:9200 --volumes-from elasticsearch-data --name elasticsearch elasticsearch:1.7'
+alias docker-elasticsearch='docker run -d --restart=always -p 9200:9200 --volumes-from elasticsearch-data --name elasticsearch elasticsearch:1.7'
 alias docker-mysql-data='docker run -d --name mysql-data mysql:5.6 /bin/false'
-alias docker-mysql='docker run -d -p 3306:3306 --volumes-from mysql-data --name mysql mysql:5.6'
+alias docker-mysql='docker run -d --restart=always -p 3306:3306 --volumes-from mysql-data --name mysql mysql:5.6'
+alias docker-graphite='docker run -d \
+ --name graphite \
+ --restart=always \
+ -p 8000:80 \
+ -p 8125:8125/udp \
+ -p 8126:8126 \
+ hopsoft/graphite-statsd'
 
 # Git
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
