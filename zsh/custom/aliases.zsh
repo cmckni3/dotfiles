@@ -21,7 +21,7 @@ alias docker-mysql='docker run -d --restart=always -p 3306:3306 --volumes-from m
 alias docker-graphite='docker run -d \
  --name graphite \
  --restart=always \
- -p 8000:80 \
+ -p 8080:80 \
  -p 8125:8125/udp \
  -p 8126:8126 \
  hopsoft/graphite-statsd'
