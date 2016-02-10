@@ -51,7 +51,6 @@
 		"SublimeLinter-csslint",
 		"SublimeLinter-haml",
 		"SublimeLinter-json",
-		"SublimeLinter-phplint",
 		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
 		"SublimeLinter-slim-lint",
