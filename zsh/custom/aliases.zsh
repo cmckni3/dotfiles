@@ -4,6 +4,7 @@ alias code='cd ~/Code'
 alias tlog='tail -f ~/php_error_log'
 alias ohmyzsh="subl ~/.oh-my-zsh"
 alias nginxconf="subl /usr/local/etc/nginx"
+alias sl='ls'
 
 # Docker
 alias dc='docker-compose'
