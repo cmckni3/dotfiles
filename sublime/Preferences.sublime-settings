@@ -1,4 +1,8 @@
 {
+	"added_words":
+	[
+		"broadcasted"
+	],
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
 	"build_env": "$HOME/.zshrc",
