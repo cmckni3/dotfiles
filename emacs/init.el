@@ -75,6 +75,8 @@
 
 (evil-leader/set-key
   "p" 'omnisharp-navigate-to-solution-file
+  "b" 'omnisharp-build-in-emacs
+  "r" 'omnisharp-reload-solution
 )
 
 (company-mode)
@@ -108,13 +110,39 @@
 
 (flyspell-mode 1)
 
+(defun joindirs (root &rest dirs)
+  "Joins a series of directories together, like Python's os.path.join,
+  (dotemacs-joindirs \"/tmp\" \"a\" \"b\" \"c\") => /tmp/a/b/c"
+
+  (if (not dirs)
+      root
+    (apply 'joindirs
+           (expand-file-name (car dirs) root)
+           (cdr dirs))))
+
+(setq code-folder
+  (let ((folder ""))
+  (when (eq system-type 'windows-nt)
+    (unless
+      (or
+        (eq (getenv "USERPROFILE") nil)
+        (eq (getenv "USERPROFILE") ""))
+      (setf folder (joindirs (file-name-as-directory (getenv "USERPROFILE")) "Code"))))
+  (when (eq system-type 'darwin)
+    (unless
+      (or
+        (eq (getenv "HOME") nil)
+        (eq (getenv "HOME") ""))
+      (setf folder (joindirs (file-name-as-directory (getenv "HOME")) "Code"))))
+  folder))
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(omnisharp-server-executable-path
-   "C:\\Users\\cmcknight\\Code\\omnisharp-server\\OmniSharp\\bin\\Debug\\OmniSharp.exe")
+   (joindirs code-folder "omnisharp-server" "OmniSharp" "bin" "Debug" "OmniSharp.exe"))
  '(package-selected-packages (quote (omnisharp evil))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
