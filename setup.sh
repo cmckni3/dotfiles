@@ -10,6 +10,10 @@ sh "$DIR/sublime/install.sh"
 
 echo 'Linking configuration files'
 
+# emacs
+mkdir -p ~/.emacs.d
+ln -s "$DIR/emacs/init.el" ~/.emacs.d/init.el
+
 # Global ignore for git and mercurial
 ln -s "$DIR/gitignore_global" ~/.gitignore_global
 ln -s "$DIR/hgignore_global" ~/.hgignore_global

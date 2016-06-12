@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 
+unlink ~/.emacs.d/init.el
 unlink ~/.gemrc
 unlink ~/.gitignore_global
 unlink ~/.hgignore_global
