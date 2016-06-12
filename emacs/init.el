@@ -8,8 +8,10 @@
   color-theme
   company
   csharp-mode
+  editorconfig
   evil
   evil-leader
+  flyspell
   ido
   ido-vertical-mode
   flx-ido
@@ -29,8 +31,10 @@
 (require 'color-theme)
 (require 'company)
 (require 'csharp-mode)
+(require 'editorconfig)
 (require 'evil)
 (require 'evil-leader)
+(require 'flyspell)
 (require 'ido)
 (require 'ido-vertical-mode)
 (require 'flx-ido)
@@ -39,7 +43,28 @@
 (color-theme-initialize)
 (load-theme 'seti t)
 
-(global-set-key [f8] 'neotree-toggle)
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 2)
+
+;;Misc editor configuration
+(menu-bar-mode -1)
+(define-key global-map (kbd "RET") 'newline-and-indent)
+(setq-default truncate-lines t)
+(setq visible-bell 1)
+(editorconfig-mode 1)
+
+;;Temp files
+(defconst emacs-tmp-dir (format "%s/%s%s/" temporary-file-directory "emacs" (user-uid)))
+
+;; Deletes trailing whitespace
+(defun cmckni3/turn-on-show-trailing-whitespace ()
+  (interactive)
+  (setq show-trailing-whitespace t))
+
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+(add-hook 'prog-mode-hook 'cmckni3/turn-on-show-trailing-whitespace)
+
+;;(global-set-key [f8] 'neotree-toggle)
 
 ;;Evil
 (evil-mode 1)
@@ -80,6 +105,8 @@
 (setq ido-enable-flex-matching t)
 (setq ido-use-faces t)
 (setq ido-enable-flex-matching t)
+
+(flyspell-mode 1)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
