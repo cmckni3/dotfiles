@@ -5,6 +5,7 @@ alias tlog='tail -f ~/php_error_log'
 alias ohmyzsh="subl ~/.oh-my-zsh"
 alias nginxconf="subl /usr/local/etc/nginx"
 alias sl='ls'
+alias syncprogress='rsync -avh --progress'
 
 # Docker
 alias dc='docker-compose'
