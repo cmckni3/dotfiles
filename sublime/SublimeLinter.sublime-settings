@@ -108,7 +108,7 @@
                 "@disable": false,
                 "args": [
                     "--config",
-                    "~/.rubocop.yml"
+                    "${home}/.rubocop.yml"
                 ],
                 "excludes": []
             },

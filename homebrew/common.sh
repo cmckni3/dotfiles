@@ -54,7 +54,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     rbenv-binstubs
     rbenv-ctags
     rbenv-default-gems
-    rbenv-gem-rehash
     rbenv-gemset
     ruby-build
     scheme48
