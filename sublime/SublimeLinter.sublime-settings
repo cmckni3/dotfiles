@@ -108,7 +108,7 @@
                 "@disable": false,
                 "args": [
                     "--config",
-                    "/Users/cmcknight/.rubocop.yml"
+                    "~/.rubocop.yml"
                 ],
                 "excludes": []
             },
@@ -140,7 +140,7 @@
             "linux": [],
             "osx": [
                 "~/.rbenv/shims",
-                "~/.nvm/v0.12.7/bin",
+                "~/.asdf/shims",
                 "~/Code/go/bin",
                 "/usr/local/bin"
             ],
