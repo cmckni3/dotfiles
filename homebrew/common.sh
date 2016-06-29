@@ -79,7 +79,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     google-chrome-canary
     iterm2
     sourcetree
-    sublime-text3
+    sublime-text
     the-unarchiver
     yemuzip
   )
