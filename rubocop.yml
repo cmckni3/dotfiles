@@ -3,6 +3,7 @@ AllCops:
     - 'Guardfile'
     - 'vendor/**/*'
     - 'spec/factories/**/*'
+  TargetRubyVersion: 2.2
 
 Rails:
   Enabled: true
