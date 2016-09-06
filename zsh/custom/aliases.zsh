@@ -35,7 +35,6 @@ alias gdes='git describe --tags'
 alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
 alias gfdiff='git diff --name-only'
 
-# Homebrew
 alias rstudio='LD_LIBRARY_PATH=$(/usr/libexec/java_home)/jre/lib/server: open -a RStudio'
 
 # Bundler
