@@ -49,7 +49,9 @@ alias cdmotion="cd ~/Code/ruby/ruby-motion"
 alias cdphp="cd ~/Code/php"
 alias cdgo="cd ~/Code/go/src"
 alias cdobjc="cd ~/Code/objective-c"
+alias cdobjcios="cd ~/Code/objective-c/ios"
 alias cdswift="cd ~/Code/swift"
+alias cdswiftios="cd ~/Code/swift/ios"
 
 alias wfc='when-files-change "clear && bundle exec rake spec"'
 
