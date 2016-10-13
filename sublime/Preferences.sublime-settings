@@ -19,7 +19,9 @@
 		".tags",
 		".tags_sorted_by_file",
 		".gemtags",
-		".repl_history"
+		".repl_history",
+		"*.sublime-project",
+		"*.sublime-workspace"
 	],
 	"folder_exclude_patterns":
 	[

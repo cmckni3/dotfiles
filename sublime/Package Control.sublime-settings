@@ -20,7 +20,9 @@
 		"CTags",
 		"DashDoc",
 		"DocBlockr",
+		"Git",
 		"GitGutter",
+		"GithubEmoji",
 		"Haml",
 		"Handlebars",
 		"Jade",
@@ -52,12 +54,15 @@
 		"SublimeLinter-contrib-sqlint",
 		"SublimeLinter-cppcheck",
 		"SublimeLinter-csslint",
+		"SublimeLinter-flow",
 		"SublimeLinter-haml",
 		"SublimeLinter-json",
+		"SublimeLinter-phpcs",
 		"SublimeLinter-rst",
 		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
 		"SublimeLinter-slim-lint",
+		"Themes Menu Switcher",
 		"WakaTime"
 	]
 }

@@ -9,4 +9,6 @@ npm-debug.log
 .imdone
 .imdoneignore
 .byebug_history
+*.sublime-project
+*.sublime-workspace
 
