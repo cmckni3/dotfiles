@@ -53,8 +53,14 @@
 (setq visible-bell 1)
 (editorconfig-mode 1)
 
-;;Temp files
+;; Save all tempfiles in $TMPDIR/emacs$UID/
 (defconst emacs-tmp-dir (format "%s/%s%s/" temporary-file-directory "emacs" (user-uid)))
+(setq backup-directory-alist
+    `((".*" . ,emacs-tmp-dir)))
+(setq auto-save-file-name-transforms
+    `((".*" ,emacs-tmp-dir t)))
+(setq auto-save-list-file-prefix
+    emacs-tmp-dir)
 
 ;; Deletes trailing whitespace
 (defun cmckni3/turn-on-show-trailing-whitespace ()
