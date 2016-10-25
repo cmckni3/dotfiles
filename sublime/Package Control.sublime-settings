@@ -10,6 +10,7 @@
 		"Alignment",
 		"ApacheConf.tmLanguage",
 		"Babel",
+		"Babel Snippets",
 		"Bats (Bash Automated Testing System)",
 		"Better Build System",
 		"Better CoffeeScript",
@@ -20,6 +21,8 @@
 		"CTags",
 		"DashDoc",
 		"DocBlockr",
+		"EditorConfig",
+		"Function Name Display",
 		"Git",
 		"GitGutter",
 		"GithubEmoji",
@@ -63,6 +66,7 @@
 		"SublimeLinter-ruby",
 		"SublimeLinter-slim-lint",
 		"Themes Menu Switcher",
+		"TypeScript",
 		"WakaTime"
 	]
 }

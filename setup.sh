@@ -43,6 +43,9 @@ ln -s "$DIR/tmux.conf" ~/.tmux.conf
 # vim
 ln -s "$DIR/vimrc" ~/.vimrc
 
+# editorconfig
+ln -s "$DIR/editorconfig" ~/.editorconfig
+
 ZSH=$(which zsh)
 
 # Check for prerequisites

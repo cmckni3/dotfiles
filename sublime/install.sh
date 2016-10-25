@@ -10,6 +10,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   ln -nfs "$DIR/Preferences.sublime-settings" "$USER_PACKAGES_DIR"
   ln -nfs "$DIR/Package Control.sublime-settings" "$USER_PACKAGES_DIR"
   ln -nfs "$DIR/SublimeLinter.sublime-settings" "$USER_PACKAGES_DIR"
+  ln -nfs "$DIR/Git.sublime-settings" "$USER_PACKAGES_DIR"
   # Fixes Seti theme issues after updating to 10.0...
   # See https://github.com/ctf0/Seti_ST3/issues/207
   SETI_DIR="$USER_PACKAGES_DIR/Seti_UI/Scheme"

@@ -73,6 +73,12 @@
                 "args": [],
                 "excludes": []
             },
+            "flow": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "show-all-errors": true
+            },
             "golint": {
                 "@disable": false,
                 "args": [],
@@ -99,7 +105,18 @@
                 "args": [],
                 "excludes": []
             },
+            "phpcs": {
+                "@disable": false,
+                "args": [],
+                "excludes": ["*.html"],
+                "standard": "PSR2"
+            },
             "phplint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "rst": {
                 "@disable": false,
                 "args": [],
                 "excludes": []
