@@ -19,7 +19,7 @@ alias docker-mongo='docker run -d --restart=always -p 27017:27017 --volumes-from
 alias docker-elasticsearch-data='docker run -d --name elasticsearch-data elasticsearch:1.7 /bin/false'
 alias docker-elasticsearch='docker run -d --restart=always -p 9200:9200 --volumes-from elasticsearch-data --name elasticsearch elasticsearch:1.7'
 alias docker-mysql-data='docker run -d --name mysql-data mysql:5.6 /bin/false'
-alias docker-mysql='docker run -d --restart=always -p 3306:3306 --volumes-from mysql-data --name mysql mysql:5.6'
+alias docker-mysql='docker run -d -e MYSQL_ROOT_PASSWORD=root --restart=always -p 3306:3306 --volumes-from mysql-data --name mysql mysql:5.6'
 alias docker-graphite='docker run -d \
  --name graphite \
  --restart=always \
