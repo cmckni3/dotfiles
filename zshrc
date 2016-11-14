@@ -35,10 +35,6 @@ if which rbenv > /dev/null; then
   eval "$(rbenv init -)"
 fi
 
-if [ -f $(brew --prefix php-version)/php-version.sh ]; then
-  source $(brew --prefix php-version)/php-version.sh && php-version 5
-fi
-
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh  # This loads NVM
 
 [[ -s $HOME/.asdf/asdf.sh ]] && . $HOME/.asdf/asdf.sh
