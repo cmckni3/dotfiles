@@ -13,6 +13,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     homebrew/php
     caskroom/cask
     caskroom/versions
+    bripkens/homebrew-dock
   )
 
   # Homebrew formulas
