@@ -28,6 +28,9 @@ alias docker-graphite='docker run -d \
  -p 8126:8126 \
  hopsoft/graphite-statsd'
 
+# Docker machine
+alias docker-machine-default='docker-machine create --virtualbox-disk-size 20000 -d virtualbox default'
+
 # Git
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 alias gittags="git tag | xargs -I@ git log --format=format:\"%ai @%n\" -1 @ | sort | awk '{print \$4}'"
