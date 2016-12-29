@@ -108,7 +108,9 @@
             "phpcs": {
                 "@disable": false,
                 "args": [],
-                "excludes": ["*.html"],
+                "excludes": [
+                    "*.html"
+                ],
                 "standard": "PSR2"
             },
             "phplint": {

@@ -1,1 +1,1 @@
-bower coffee-script coffeelint eslint lite-server http-server hyperlink webpack jspm n grunt-cli roc hotel diff-so-fancy studio create-react-app typescript tslint angular-cli yarn elm thingssdk-cli
+bower coffee-script coffeelint eslint lite-server http-server hyperlink webpack jspm n grunt-cli roc hotel diff-so-fancy studio create-react-app typescript tslint angular-cli yarn elm thingssdk-cli jsdoc typedoc @kadira/storybook-ui getstorybook
