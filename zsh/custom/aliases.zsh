@@ -38,6 +38,7 @@ alias gdes='git describe --tags'
 alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
 alias gfdiff='git diff --name-only'
 alias ggrep='git log -S'
+alias gfastclone='git clone --depth 20'
 
 alias rstudio='LD_LIBRARY_PATH=$(/usr/libexec/java_home)/jre/lib/server: open -a RStudio'
 
