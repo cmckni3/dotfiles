@@ -39,6 +39,7 @@ alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
 alias gfdiff='git diff --name-only'
 alias ggrep='git log -S'
 alias gfastclone='git clone --depth 20'
+alias ginit="git init && git commit -m 'Initial commit' --allow-empty"
 
 alias rstudio='LD_LIBRARY_PATH=$(/usr/libexec/java_home)/jre/lib/server: open -a RStudio'
 
