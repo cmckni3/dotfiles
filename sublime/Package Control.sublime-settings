@@ -59,6 +59,7 @@
 		"SublimeLinter-contrib-golint",
 		"SublimeLinter-contrib-sass-lint",
 		"SublimeLinter-contrib-sqlint",
+		"SublimeLinter-contrib-tslint",
 		"SublimeLinter-cppcheck",
 		"SublimeLinter-csslint",
 		"SublimeLinter-flow",

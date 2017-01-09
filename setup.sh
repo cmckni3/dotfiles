@@ -58,6 +58,7 @@ fi
 
 echo 'Linking zshrc'
 ln -s "$DIR/zshrc" ~/.zshrc
+ln -s "$DIR/zshenv" ~/.zshenv
 
 # Install antigen which will automatically bundle oh-my-zsh and other plugins
 echo 'Installing antigen'

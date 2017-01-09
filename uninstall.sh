@@ -8,9 +8,9 @@ unlink ~/.irbrc
 unlink ~/.jshintrc
 unlink ~/.tmux.conf
 unlink ~/.vimrc
+unlink ~/.zshenv
 unlink ~/.zshrc
 
 unlink "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
 unlink "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings"
 unlink "$HOME/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings"
-
