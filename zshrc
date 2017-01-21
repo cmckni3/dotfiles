@@ -34,3 +34,6 @@ export PATH=$GOPATH/bin:/usr/local/heroku/bin:"$HOME/ansible/bin":"$HOME/.rbenv/
 if which rbenv > /dev/null; then
   eval "$(rbenv init -)"
 fi
+
+# Hook for desk activation
+[ -n "$DESK_ENV" ] && source "$DESK_ENV" || true
