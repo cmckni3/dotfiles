@@ -56,5 +56,6 @@
 	"theme": "Seti.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
+	"typescript_tsdk": "/usr/local/lib/node_modules/typescript/lib",
 	"word_wrap": true
 }
