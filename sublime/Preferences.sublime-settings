@@ -1,7 +1,8 @@
 {
 	"added_words":
 	[
-		"broadcasted"
+		"broadcasted",
+		"acknowledgement"
 	],
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
