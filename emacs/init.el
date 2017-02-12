@@ -17,6 +17,7 @@
   flx-ido
   omnisharp
   seti-theme
+  editorconfig
 ))
 
 (package-initialize)
@@ -39,6 +40,7 @@
 (require 'ido-vertical-mode)
 (require 'flx-ido)
 (require 'omnisharp)
+(require 'editorconfig)
 
 (color-theme-initialize)
 (load-theme 'seti t)
@@ -116,6 +118,8 @@
 
 (flyspell-mode 1)
 
+(editorconfig-mode 1)
+
 (defun joindirs (root &rest dirs)
   "Joins a series of directories together, like Python's os.path.join,
   (dotemacs-joindirs \"/tmp\" \"a\" \"b\" \"c\") => /tmp/a/b/c"
@@ -126,6 +130,7 @@
            (expand-file-name (car dirs) root)
            (cdr dirs))))
 
+;;Setup code folder location on Windows and Mac
 (setq code-folder
   (let ((folder ""))
   (when (eq system-type 'windows-nt)
