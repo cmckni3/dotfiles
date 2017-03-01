@@ -35,5 +35,9 @@ if which rbenv > /dev/null; then
   eval "$(rbenv init -)"
 fi
 
+[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh # This loads NVM
+
+[[ -s $HOME/.asdf/asdf.sh ]] && . $HOME/.asdf/asdf.sh
+
 # Hook for desk activation
 [ -n "$DESK_ENV" ] && source "$DESK_ENV" || true
