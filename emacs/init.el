@@ -138,13 +138,13 @@
       (or
         (eq (getenv "USERPROFILE") nil)
         (eq (getenv "USERPROFILE") ""))
-      (setf folder (joindirs (file-name-as-directory (getenv "USERPROFILE")) "Code"))))
+      (setf folder (joindirs (file-name-as-directory (getenv "USERPROFILE")) "code"))))
   (when (eq system-type 'darwin)
     (unless
       (or
         (eq (getenv "HOME") nil)
         (eq (getenv "HOME") ""))
-      (setf folder (joindirs (file-name-as-directory (getenv "HOME")) "Code"))))
+      (setf folder (joindirs (file-name-as-directory (getenv "HOME")) "code"))))
   folder))
 
 (custom-set-variables

@@ -160,7 +160,7 @@
             "osx": [
                 "~/.rbenv/shims",
                 "~/.asdf/shims",
-                "~/Code/go/bin",
+                "~/code/go/bin",
                 "/usr/local/bin"
             ],
             "windows": []

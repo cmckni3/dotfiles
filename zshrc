@@ -24,7 +24,7 @@ export SVN_EDITOR=vim
 export EDITOR=vim
 
 # location to find Go packages
-export GOPATH="$HOME/Code/go"
+export GOPATH="$HOME/code/go"
 
 export ANSIBLE_HOSTS=~/ansible_hosts
 

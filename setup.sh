@@ -27,15 +27,15 @@ ln -s "$DIR/rubocop.yml" ~/.rubocop.yml
 ln -s "$DIR/jshintrc" ~/.jshintrc
 
 # Code directories
-mkdir -p ~/Code/ruby/rails
-mkdir -p ~/Code/js/node
-mkdir -p ~/Code/ruby/ruby-motion
-mkdir -p ~/Code/swift
-mkdir -p ~/Code/objective-c
+mkdir -p ~/code/ruby/rails
+mkdir -p ~/code/js/node
+mkdir -p ~/code/ruby/ruby-motion
+mkdir -p ~/code/swift
+mkdir -p ~/code/objective-c
 
-mkdir -p ~/Code/go/src
-mkdir -p ~/Code/go/pkg
-mkdir -p ~/Code/go/bin
+mkdir -p ~/code/go/src
+mkdir -p ~/code/go/pkg
+mkdir -p ~/code/go/bin
 
 # tmux
 ln -s "$DIR/tmux.conf" ~/.tmux.conf

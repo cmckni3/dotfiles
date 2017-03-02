@@ -1,6 +1,6 @@
 alias zshconfig="subl ~/.zshrc"
 alias reload=". ~/.zshrc"
-alias code='cd ~/Code'
+alias code='cd ~/code'
 alias tlog='tail -f ~/php_error_log'
 alias ohmyzsh="subl ~/.oh-my-zsh"
 alias nginxconf="subl /usr/local/etc/nginx"
@@ -48,17 +48,17 @@ alias rstudio='LD_LIBRARY_PATH=$(/usr/libexec/java_home)/jre/lib/server: open -a
 alias be="bundle exec"
 
 # Projects
-alias cdrails="cd ~/Code/ruby/rails"
-alias cdnode="cd ~/Code/js/node"
-alias cdjs="cd ~/Code/js"
-alias cdruby="cd ~/Code/ruby"
-alias cdmotion="cd ~/Code/ruby/ruby-motion"
-alias cdphp="cd ~/Code/php"
-alias cdgo="cd ~/Code/go/src"
-alias cdobjc="cd ~/Code/objective-c"
-alias cdobjcios="cd ~/Code/objective-c/ios"
-alias cdswift="cd ~/Code/swift"
-alias cdswiftios="cd ~/Code/swift/ios"
+alias cdrails="cd ~/code/ruby/rails"
+alias cdnode="cd ~/code/js/node"
+alias cdjs="cd ~/code/js"
+alias cdruby="cd ~/code/ruby"
+alias cdmotion="cd ~/code/ruby/ruby-motion"
+alias cdphp="cd ~/code/php"
+alias cdgo="cd ~/code/go/src"
+alias cdobjc="cd ~/code/objective-c"
+alias cdobjcios="cd ~/code/objective-c/ios"
+alias cdswift="cd ~/code/swift"
+alias cdswiftios="cd ~/code/swift/ios"
 
 alias wfc='when-files-change "clear && bundle exec rake spec"'
 
