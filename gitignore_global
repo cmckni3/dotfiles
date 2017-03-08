@@ -11,4 +11,4 @@ npm-debug.log
 .byebug_history
 *.sublime-project
 *.sublime-workspace
-
+node_modules
