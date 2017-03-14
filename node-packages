@@ -1,6 +1,6 @@
 @kadira/storybook-ui
 alm
-angular-cli
+@angular/cli
 bower
 coffee-script
 coffeelint
