@@ -105,19 +105,6 @@
                 "args": [],
                 "excludes": []
             },
-            "phpcs": {
-                "@disable": false,
-                "args": [],
-                "excludes": [
-                    "*.html"
-                ],
-                "standard": "PSR2"
-            },
-            "phplint": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
             "rst": {
                 "@disable": false,
                 "args": [],
@@ -147,6 +134,11 @@
                 "excludes": []
             },
             "sqlint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "tslint": {
                 "@disable": false,
                 "args": [],
                 "excludes": []
