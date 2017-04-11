@@ -7,4 +7,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   brew install php55-xdebug
   brew install php55-memcached php55-redis
 
+  brew install composer phplint wp-cli
+
 fi

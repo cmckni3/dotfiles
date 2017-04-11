@@ -19,17 +19,12 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   # Homebrew formulas
   FORMULAS=(
     ack
-    apple-gcc42
     bats
     brew-cask
-    composer
     coreutils
     ctags
     curl
     dnsmasq
-    dock
-    docker-compose
-    ghostscript
     git
     git-flow
     git-extras
@@ -46,7 +41,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     objc-run
     openssl
     phantomjs
-    phplint
     pianobar
     postgresql
     python
@@ -57,15 +51,12 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     rbenv-default-gems
     rbenv-gemset
     ruby-build
-    scheme48
     ssh-copy-id
-    swaks
     the_silver_searcher
     tmux
     tree
     valgrind
     wget
-    wp-cli
     xctool
     zsh
   )
