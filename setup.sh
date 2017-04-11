@@ -18,14 +18,6 @@ ln -s "$DIR/emacs/init.el" ~/.emacs.d/init.el
 ln -s "$DIR/gitignore_global" ~/.gitignore_global
 ln -s "$DIR/hgignore_global" ~/.hgignore_global
 
-# Ruby
-ln -s "$DIR/gemrc" ~/.gemrc
-ln -s "$DIR/irbrc" ~/.irbrc
-ln -s "$DIR/rubocop.yml" ~/.rubocop.yml
-
-# JavaScript
-ln -s "$DIR/jshintrc" ~/.jshintrc
-
 # Code directories
 mkdir -p ~/code/ruby/rails
 mkdir -p ~/code/js/node
