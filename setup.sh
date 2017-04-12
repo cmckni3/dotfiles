@@ -22,10 +22,9 @@ ln -nfs "$DIR/hgignore_global" ~/.hgignore_global
 mkdir -p ~/code/ruby/rails
 mkdir -p ~/code/js/node
 mkdir -p ~/code/ruby/ruby-motion
-mkdir -p ~/code/swift
-mkdir -p ~/code/objective-c
+mkdir -p ~/code/{objective-c,swift}
 
-mkdir -p ~/code/go/{bin, pkg, src}
+mkdir -p ~/code/go/{bin,pkg,src}
 
 # tmux
 ln -nfs "$DIR/tmux.conf" ~/.tmux.conf
