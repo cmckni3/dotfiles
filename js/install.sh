@@ -5,5 +5,5 @@ set -e
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 # JavaScript
-ln -s "$DIR/jshintrc" ~/.jshintrc
-ln -s "$DIR/eslintrc" ~/.eslintrc
+ln -nfs "$DIR/jshintrc" ~/.jshintrc
+ln -nfs "$DIR/eslintrc" ~/.eslintrc

@@ -12,11 +12,11 @@ echo 'Linking configuration files'
 
 # emacs
 mkdir -p ~/.emacs.d
-ln -s "$DIR/emacs/init.el" ~/.emacs.d/init.el
+ln -nfs "$DIR/emacs/init.el" ~/.emacs.d/init.el
 
 # Global ignore for git and mercurial
-ln -s "$DIR/gitignore_global" ~/.gitignore_global
-ln -s "$DIR/hgignore_global" ~/.hgignore_global
+ln -nfs "$DIR/gitignore_global" ~/.gitignore_global
+ln -nfs "$DIR/hgignore_global" ~/.hgignore_global
 
 # Code directories
 mkdir -p ~/code/ruby/rails
@@ -25,18 +25,16 @@ mkdir -p ~/code/ruby/ruby-motion
 mkdir -p ~/code/swift
 mkdir -p ~/code/objective-c
 
-mkdir -p ~/code/go/src
-mkdir -p ~/code/go/pkg
-mkdir -p ~/code/go/bin
+mkdir -p ~/code/go/{bin, pkg, src}
 
 # tmux
-ln -s "$DIR/tmux.conf" ~/.tmux.conf
+ln -nfs "$DIR/tmux.conf" ~/.tmux.conf
 
 # vim
-ln -s "$DIR/vimrc" ~/.vimrc
+ln -nfs "$DIR/vimrc" ~/.vimrc
 
 # editorconfig
-ln -s "$DIR/editorconfig" ~/.editorconfig
+ln -nfs "$DIR/editorconfig" ~/.editorconfig
 
 ZSH=$(which zsh)
 
@@ -49,8 +47,8 @@ if [ -z "$ZSH" ]; then
 fi
 
 echo 'Linking zshrc'
-ln -s "$DIR/zshrc" ~/.zshrc
-ln -s "$DIR/zshenv" ~/.zshenv
+ln -nfs "$DIR/zshrc" ~/.zshrc
+ln -nfs "$DIR/zshenv" ~/.zshenv
 
 # Install antigen which will automatically bundle oh-my-zsh and other plugins
 echo 'Installing antigen'
