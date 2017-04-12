@@ -4,6 +4,4 @@ set -e
 
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
-# JavaScript
-ln -s "$DIR/jshintrc" ~/.jshintrc
-ln -s "$DIR/eslintrc" ~/.eslintrc
+npm i -g $(cat "$DIR/packages" | sed '/^#/ d' | xargs)

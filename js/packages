@@ -8,7 +8,13 @@ coffeelint
 create-react-app
 diff-so-fancy
 elm
+# eslint
 eslint
+eslint-plugin-node
+eslint-plugin-import
+eslint-plugin-promise
+eslint-config-standard
+eslint-plugin-standard
 getstorybook
 grunt-cli
 hotel
