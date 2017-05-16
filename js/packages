@@ -1,6 +1,6 @@
+@angular/cli
 @kadira/storybook-ui
 alm
-@angular/cli
 bower
 check-tslint-all
 coffee-script
@@ -8,24 +8,25 @@ coffeelint
 create-react-app
 diff-so-fancy
 elm
-# eslint
 eslint
-eslint-plugin-node
-eslint-plugin-import
-eslint-plugin-promise
 eslint-config-standard
+eslint-plugin-import
+eslint-plugin-node
+eslint-plugin-promise
 eslint-plugin-standard
 getstorybook
 grunt-cli
 hotel
 http-server
 hyperlink
+ignite-cli
 j2m
 jsdoc
 jspm
 lite-server
 n
 nodal
+react-native-cli
 release
 roc
 studio
