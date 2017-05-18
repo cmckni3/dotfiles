@@ -34,7 +34,7 @@ alias docker-machine-default='docker-machine create --virtualbox-disk-size 20000
 
 # Git
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
-alias gittags="git tag | xargs -I@ git log --format=format:\"%ai @%n\" -1 @ | sort | awk '{print \$4}'"
+alias gtags="git tag | xargs -I@ git log --format=format:\"%ai @%n\" -1 @ | sort | awk '{print \$4}'"
 alias gdes='git describe --tags'
 alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
 alias gfdiff='git diff --name-only'
