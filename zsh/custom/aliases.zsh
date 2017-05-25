@@ -7,6 +7,7 @@ alias nginxconf="subl /usr/local/etc/nginx"
 alias sl='ls'
 alias rsyncpr='rsync -avh --progress'
 alias gem-nuke="gem list | cut -d' ' -f1 | xargs gem uninstall -aIx"
+alias brewcc='rm -rf ~/Library/Caches/Homebrew/*'
 
 # Docker
 alias dc='docker-compose'
@@ -42,6 +43,7 @@ alias ggrep='git log -S'
 alias gfastclone='git clone --depth 20'
 alias ginit="git init && git commit -m 'Initial commit' --allow-empty"
 
+# R
 alias rstudio='LD_LIBRARY_PATH=$(/usr/libexec/java_home)/jre/lib/server: open -a RStudio'
 
 # Bundler
