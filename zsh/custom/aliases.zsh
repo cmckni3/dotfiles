@@ -14,14 +14,14 @@ alias dc='docker-compose'
 alias rock='rocker-compose'
 alias docker-cleani="docker images | grep '<none>' | awk '{print \$3}' | xargs docker rmi"
 
-alias docker-redis-data='docker run -d --name redis-data redis:3 /bin/false'
-alias docker-redis='docker run -d --restart=always -p 6379:6379 --volumes-from redis-data --name redis redis:3'
-alias docker-mongo-data='docker run -d --name mongo-data mongo:3 /bin/false'
-alias docker-mongo='docker run -d --restart=always -p 27017:27017 --volumes-from mongo-data --name mongo mongo:3'
-alias docker-elasticsearch-data='docker run -d --name elasticsearch-data elasticsearch:1.7 /bin/false'
-alias docker-elasticsearch='docker run -d --restart=always -p 9200:9200 --volumes-from elasticsearch-data --name elasticsearch elasticsearch:1.7'
-alias docker-mysql-data='docker run -d --name mysql-data mysql:5.6 /bin/false'
-alias docker-mysql='docker run -d -e MYSQL_ROOT_PASSWORD=root --restart=always -p 3306:3306 --volumes-from mysql-data --name mysql mysql:5.6'
+alias docker-redis-data='docker volume create --name redis-data'
+alias docker-redis='docker run -d --restart=always -p 6379:6379 -v redis-data:/data --name redis redis:3'
+alias docker-mongo-data='docker volume create --name mongo-data-db && docker volume create --name mongo-data-config'
+alias docker-mongo='docker run -d --restart=always -p 27017:27017 -v mongo-data-db:/data/db -v mongo-data-config:/data/configdb --name mongo mongo:3'
+alias docker-elasticsearch-data='docker volume create --name elasticsearch-data'
+alias docker-elasticsearch='docker run -d --restart=always -p 9200:9200 -v elasticsearch-data:/usr/share/elasticsearch/data --name elasticsearch elasticsearch:1.7'
+alias docker-mysql-data='docker volume create --name mysql-data'
+alias docker-mysql='docker run -d -e MYSQL_ROOT_PASSWORD=root --restart=always -p 3306:3306 -v mysql-data:/var/lib/mysql --name mysql mysql:5.6'
 alias docker-graphite='docker run -d \
  --name graphite \
  --restart=always \
