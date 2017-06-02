@@ -7,4 +7,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   brew install php56-xdebug
   brew install php56-memcached php56-redis
 
+  brew install php56-libsodium php56-mongo
+
+  brew install composer phplint wp-cli
 fi
