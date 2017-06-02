@@ -1,4 +1,4 @@
 .DS_Store
 
 git/gitconfig.local
-zsh/custom/local.zsh
+zsh/local.zsh

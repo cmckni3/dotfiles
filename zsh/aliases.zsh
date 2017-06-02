@@ -61,6 +61,7 @@ alias cdobjc="cd ~/code/objective-c"
 alias cdobjcios="cd ~/code/objective-c/ios"
 alias cdswift="cd ~/code/swift"
 alias cdswiftios="cd ~/code/swift/ios"
+alias cdwork="cd ~/code/work"
 
 alias wfc='when-files-change "clear && bundle exec rake spec"'
 

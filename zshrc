@@ -14,7 +14,7 @@ antigen bundle capistrano
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Custom aliases and functions
-antigen bundle $HOME/dotfiles/zsh/custom
+antigen bundle $HOME/dotfiles/zsh
 
 antigen theme candy
 
