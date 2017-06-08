@@ -14,9 +14,4 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   ln -nfs "$DIR/Default (OSX).sublime-keymap" "$USER_PACKAGES_DIR"
   ln -nfs "$DIR/MySnippets.sublime-settings" "$USER_PACKAGES_DIR"
   ln -nfs "$DIR/snippets/phpunit.sublime-snippet" "$USER_PACKAGES_DIR/snippets"
-  # Fixes Seti theme issues after updating to 10.0...
-  # See https://github.com/ctf0/Seti_ST3/issues/207
-  SETI_DIR="$USER_PACKAGES_DIR/Seti_UI/Scheme"
-  mkdir -p "$SETI_DIR"
-  cp -f "$DIR/Seti.tmTheme" "$SETI_DIR"
 fi
