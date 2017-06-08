@@ -16,7 +16,7 @@
   ido-vertical-mode
   flx-ido
   omnisharp
-  seti-theme
+  material-theme
   editorconfig
 ))
 
@@ -43,7 +43,7 @@
 (require 'editorconfig)
 
 (color-theme-initialize)
-(load-theme 'seti t)
+(load-theme 'material t)
 
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 2)
