@@ -5,7 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"1337 Color Scheme",
 		"AdvancedNewFile",
 		"Alignment",
 		"Angular 2 Snippets (John Papa)",
@@ -28,7 +27,6 @@
 		"DocBlockr",
 		"EditorConfig",
 		"Emmet",
-		"Firewatch Color Scheme",
 		"Function Name Display",
 		"Git",
 		"Git Commit Message Syntax",
@@ -43,6 +41,7 @@
 		"LaTeXTools",
 		"LESS",
 		"MarkdownEditing",
+		"Material Theme",
 		"My Snippets",
 		"OmniMarkupPreviewer",
 		"Package Control",

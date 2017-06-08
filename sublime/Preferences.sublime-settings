@@ -7,7 +7,7 @@
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
 	"build_env": "$HOME/.zshrc",
-	"color_scheme": "Packages/User/Seti_UI/Scheme/Seti.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"create_window_at_startup": false,
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"drag_text": false,
@@ -35,12 +35,12 @@
 		".meteor",
 		"node_modules"
 	],
-	"font_size": 12,
+	"font_face": "Hack",
+	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Predawn",
 		"RestructuredText",
 		"Vintage"
 	],
@@ -54,7 +54,7 @@
 	"scroll_speed": 1.5,
 	"spell_check": true,
 	"tab_size": 2,
-	"theme": "Seti.sublime-theme",
+	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"typescript_tsdk": "/usr/local/lib/node_modules/typescript/lib",
