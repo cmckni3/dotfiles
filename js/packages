@@ -16,7 +16,7 @@ eslint-plugin-promise
 eslint-plugin-standard
 getstorybook
 grunt-cli
-haraka
+Haraka
 hotel
 http-server
 hyperlink
@@ -40,3 +40,4 @@ tslint
 typedoc
 typescript
 webpack
+yo
