@@ -16,6 +16,7 @@ eslint-plugin-promise
 eslint-plugin-standard
 getstorybook
 grunt-cli
+haraka
 hotel
 http-server
 hyperlink
@@ -24,11 +25,14 @@ j2m
 jsdoc
 jspm
 lite-server
+loadtest
 n
 nodal
+pm2
 react-native-cli
 release
 roc
+spf
 studio
 thingssdk-cli
 trevor
