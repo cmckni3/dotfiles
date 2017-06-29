@@ -5,7 +5,8 @@ unlink ~/.gemrc
 unlink ~/.gitignore_global
 unlink ~/.hgignore_global
 unlink ~/.irbrc
-unlink ~/.jshintrc
+unlink ~/.eslintrc
+unlink ~/.csscomb.json
 unlink ~/.tmux.conf
 unlink ~/.vimrc
 unlink ~/.zshenv
