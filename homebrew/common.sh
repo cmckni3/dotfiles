@@ -33,6 +33,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     graphviz
     htop-osx
     hub
+    jabba
     mercurial
     mogenerator
     mysql
