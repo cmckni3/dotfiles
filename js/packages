@@ -27,8 +27,10 @@ jspm
 lite-server
 loadtest
 n
+nativescript
 nodal
 pm2
+prettier
 react-native-cli
 release
 roc
