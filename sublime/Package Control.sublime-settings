@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AdvancedNewFile",
 		"Alignment",
 		"Angular 2 Snippets (John Papa)",
@@ -61,7 +62,6 @@
 		"RubyMotionBuilder",
 		"RubyMotionSpec",
 		"Sass",
-		"Seti_UI",
 		"SideBarEnhancements",
 		"SqlBeautifier",
 		"Sublime-KnockoutJS-Snippets",
