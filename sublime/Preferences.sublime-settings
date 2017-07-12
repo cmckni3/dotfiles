@@ -46,6 +46,7 @@
 		"Vintage"
 	],
 	"index_files": true,
+	"material_theme_tree_headings": true,
 	"rubymotion_build_env_file": "$HOME/.zshrc",
 	"rulers":
 	[
