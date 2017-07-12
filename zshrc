@@ -5,12 +5,27 @@ source "$HOME/.antigen/antigen.zsh"
 
 antigen use oh-my-zsh
 
-antigen bundle git
-antigen bundle git-flow
-antigen bundle ruby
-antigen bundle rails
-antigen bundle knife
-antigen bundle capistrano
+if which git > /dev/null; then
+  antigen bundle git
+  antigen bundle git-flow
+fi
+
+if which ruby > /dev/null; then
+  antigen bundle ruby
+fi
+
+if which rails > /dev/null; then
+  antigen bundle rails
+fi
+
+if which knife > /dev/null; then
+  antigen bundle knife
+fi
+
+if which cap > /dev/null; then
+  antigen bundle capistrano
+fi
+
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Custom aliases and functions
