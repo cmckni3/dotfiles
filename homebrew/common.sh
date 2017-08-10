@@ -66,7 +66,8 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   CASKS=(
     alfred
     dash
-    docker-toolbox
+    # Previously, docker-toolbox was used until Docker for Mac became usable
+    docker
     firefox
     google-chrome
     google-chrome-canary
