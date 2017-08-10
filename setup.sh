@@ -55,8 +55,16 @@ ln -nfs "$DIR/zshenv" ~/.zshenv
 echo 'Installing antigen'
 git clone https://github.com/zsh-users/antigen.git ~/.antigen
 
+if grep -Fxq "$ZSH" /etc/shells
+then
+  echo 'Skip inserting shell into /etc/shells'
+else
+  echo 'Modifying /etc/shells'
+  echo "$ZSH" | sudo tee -a /etc/shells > /dev/null
+fi
+
 echo 'Changing shell....'
-sudo echo '/usr/local/bin/zsh' >> /etc/shells && chsh -s $ZSH
+chsh -s $ZSH
 echo 'Loading zsh'
 zsh
 source $HOME/.zshrc
