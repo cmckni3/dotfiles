@@ -66,7 +66,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   CASKS=(
     alfred
     dash
-    dockertoolbox
+    docker-toolbox
     firefox
     google-chrome
     google-chrome-canary
