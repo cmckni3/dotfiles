@@ -7,7 +7,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 
   # Homebrew taps
   TAPS=(
-    homebrew/dupes
     homebrew/science
     homebrew/versions
     homebrew/php

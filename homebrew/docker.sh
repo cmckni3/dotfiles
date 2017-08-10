@@ -3,7 +3,6 @@
 if [[ "$OSTYPE" == "darwin"* ]]; then
 
   FORMULAS=(
-    boot2docker
     dock
     docker-compose
   )
