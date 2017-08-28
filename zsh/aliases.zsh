@@ -1,6 +1,5 @@
 alias zshconfig="subl ~/.zshrc"
 alias reload=". ~/.zshrc"
-alias code='cd ~/code'
 alias tlog='tail -f ~/php_error_log'
 alias ohmyzsh="subl ~/.oh-my-zsh"
 alias nginxconf="subl /usr/local/etc/nginx"
@@ -52,6 +51,7 @@ alias rstudio='LD_LIBRARY_PATH=$(/usr/libexec/java_home)/jre/lib/server: open -a
 alias be="bundle exec"
 
 # Projects
+alias cdcode='cd ~/code'
 alias cdrails="cd ~/code/ruby/rails"
 alias cdnode="cd ~/code/js/node"
 alias cdjs="cd ~/code/js"
