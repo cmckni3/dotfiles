@@ -5,24 +5,24 @@ source "$HOME/.antigen/antigen.zsh"
 
 antigen use oh-my-zsh
 
-if which git > /dev/null; then
+if type git >/dev/null 2>&1; then
   antigen bundle git
   antigen bundle git-flow
 fi
 
-if which ruby > /dev/null; then
+if type ruby >/dev/null 2>&1; then
   antigen bundle ruby
 fi
 
-if which rails > /dev/null; then
+if type rails >/dev/null 2>&1; then
   antigen bundle rails
 fi
 
-if which knife > /dev/null; then
+if type knife >/dev/null 2>&1; then
   antigen bundle knife
 fi
 
-if which cap > /dev/null; then
+if type cap >/dev/null 2>&1; then
   antigen bundle capistrano
 fi
 

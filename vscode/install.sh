@@ -13,9 +13,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   type code >/dev/null 2>&1 || { echo 'Visual Studio Code not installed. Skip installing extensions'; CODE_INSTALLED=false; }
 
   if $CODE_INSTALLED; then
-    echo 'here'
     exts=$(cat "$DIR/extensions.txt")
-    echo $exts
     for ext in $exts; do
       echo "Installing $ext"
       code --install-extension "$ext"
