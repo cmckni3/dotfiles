@@ -2,7 +2,17 @@
 
 set -e
 
+# Check for prerequisites
+type zsh >/dev/null 2>&1 || {
+  echo 'Please install zsh';
+  echo 'yum install -y zsh on RHEL';
+  echo 'apt-get install -y zsh on Ubuntu';
+  exit 1;
+}
+
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+
+ZSH=$(which zsh)
 
 sh "$DIR/homebrew/install.sh"
 sh "$DIR/homebrew/common.sh"
@@ -36,16 +46,6 @@ ln -nfs "$DIR/vimrc" ~/.vimrc
 
 # editorconfig
 ln -nfs "$DIR/editorconfig" ~/.editorconfig
-
-ZSH=$(which zsh)
-
-# Check for prerequisites
-if [ -z "$ZSH" ]; then
-  echo 'Please install zsh'
-  echo 'yum install -y zsh on RHEL'
-  echo 'apt-get install -y zsh on Ubuntu'
-  exit
-fi
 
 echo 'Linking zshrc'
 ln -nfs "$DIR/zshrc" ~/.zshrc
