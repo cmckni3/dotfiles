@@ -12,5 +12,6 @@
   "workbench.iconTheme": "eq-material-theme-icons",
   "php.validate.executablePath": "/usr/local/bin/php",
   "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false
+  "telemetry.enableCrashReporter": false,
+  "kite.showTourOnStartup": false
 }
