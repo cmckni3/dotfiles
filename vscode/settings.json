@@ -13,5 +13,6 @@
   "php.validate.executablePath": "/usr/local/bin/php",
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
-  "kite.showTourOnStartup": false
+  "kite.showTourOnStartup": false,
+  "auto-close-tag.SublimeText3Mode": true
 }
