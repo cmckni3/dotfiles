@@ -1,5 +1,8 @@
 // Place your settings in this file to overwrite the default settings
 {
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+
   // Controls the font family.
   "editor.fontFamily": "Fira Code",
   // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
@@ -8,11 +11,12 @@
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.renderWhitespace": "all",
-  "workbench.colorTheme": "Solarized Dark",
-  "workbench.iconTheme": "eq-material-theme-icons",
+  "workbench.iconTheme": "material-icon-theme",
+
+  "auto-close-tag.SublimeText3Mode": true,
+
   "php.validate.executablePath": "/usr/local/bin/php",
-  "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false,
+
   "kite.showTourOnStartup": false,
-  "auto-close-tag.SublimeText3Mode": true
+  "workbench.colorTheme": "Solarized Dark"
 }
