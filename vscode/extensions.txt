@@ -47,9 +47,11 @@ msjsdiag.debugger-for-chrome
 natewallace.angular2-inline
 neilbrayfield.php-docblocker
 neilding.language-liquid
+patbenatar.advanced-new-file
 pmneo.tsimporter
 rebornix.Ruby
 santosh.react-native-snippet
+sianglim.slim
 sysoev.language-stylus
 timothymclane.react-redux-es6-snippets
 vsmobile.vscode-react-native
