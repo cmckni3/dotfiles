@@ -36,10 +36,8 @@ formulahendry.code-runner
 guillaumedoutriaux.name-that-color
 joelday.docthis
 johnpapa.angular-essentials
-johnpapa.Angular2
 junstyle.php-cs-fixer
 killalau.vscode-liquid-snippets
-Kiteco.kite
 lukehoban.Go
 mrmlnc.vscode-scss
 ms-vscode.cpptools
