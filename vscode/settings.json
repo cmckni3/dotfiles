@@ -9,11 +9,11 @@
   "editor.fontSize": 16,
   "editor.renderWhitespace": "all",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Solarized Dark",
 
   "auto-close-tag.SublimeText3Mode": true,
 
   "php.validate.executablePath": "/usr/local/bin/php",
 
-  "kite.showTourOnStartup": false,
-  "workbench.colorTheme": "Solarized Dark"
+  "kite.showTourOnStartup": false
 }
