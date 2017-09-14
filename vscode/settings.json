@@ -1,4 +1,3 @@
-// Place your settings in this file to overwrite the default settings
 {
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
@@ -15,5 +14,22 @@
 
   "php.validate.executablePath": "/usr/local/bin/php",
 
-  "kite.showTourOnStartup": false
+  "kite.showTourOnStartup": false,
+
+  "todohighlight.keywords": [
+    {
+      "text": "NOTE:",
+      "color": "#fff",
+      "backgroundColor": "#009688",
+      "overviewRulerColor": "rgb(0, 151, 136, 0.8)",
+      "isWholeLine": false
+    },
+    {
+      "text": "HACK:",
+      "color": "#fff",
+      "backgroundColor": "#FF3D00",
+      "overviewRulerColor": "rgb(255, 59, 1, 0.8)",
+      "isWholeLine": false
+    }
+  ]
 }
