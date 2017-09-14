@@ -50,12 +50,15 @@ neilding.language-liquid
 patbenatar.advanced-new-file
 pmneo.tsimporter
 rebornix.Ruby
+redhat.java
 santosh.react-native-snippet
 sianglim.slim
+sleistner.vscode-fileutils
 sysoev.language-stylus
 timothymclane.react-redux-es6-snippets
 vsmobile.vscode-react-native
 waderyan.gitblame
+wayou.vscode-todo-highlight
 wix.extractor
 wix.vscode-import-cost
 wmaurer.change-case
