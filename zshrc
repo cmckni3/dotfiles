@@ -14,10 +14,6 @@ if type ruby >/dev/null 2>&1; then
   antigen bundle ruby
 fi
 
-if type rails >/dev/null 2>&1; then
-  antigen bundle rails
-fi
-
 if type knife >/dev/null 2>&1; then
   antigen bundle knife
 fi
