@@ -9,6 +9,7 @@
   "editor.renderWhitespace": "all",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Solarized Dark",
+  "workbench.startupEditor": "newUntitledFile",
 
   "auto-close-tag.SublimeText3Mode": true,
 
