@@ -14,10 +14,14 @@ trim_trailing_whitespace = true
 [*.{m, h}]
 indent_size = 4
 
+[*.java]
+indent_size = 4
+
 [*.py]
 indent_size = 4
 
 [Makefile]
+indent_size = 4
 indent_style = tab
 
 [*.md]
