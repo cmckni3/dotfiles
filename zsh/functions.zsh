@@ -2,6 +2,8 @@
 # command to call hub commands
 function git() {hub "$@"}
 
+function gi() { curl -L -s https://www.gitignore.io/api/\$@ ;}
+
 function mysql_fast_import() {
   if [ -z "$1" ] && [ -z "$2" ]; then
     echo 'usage: mysql_fast_import database_name mysql_args'
