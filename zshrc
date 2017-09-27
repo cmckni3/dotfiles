@@ -39,6 +39,9 @@ export GOPATH="$HOME/code/go"
 
 export ANSIBLE_HOSTS=~/ansible_hosts
 
+# Force GPG passphrase on command line
+export PINENTRY_USER_DATA="USE_CURSES=1"
+
 # Create the path from scratch so it doesn't get messed up when using tmux
 export PATH=$GOPATH/bin:/usr/local/heroku/bin:"$HOME/ansible/bin":"$HOME/.rbenv/bin":./bin:"$HOME/bin":"$HOME/bin/mongo":"$HOME/bin/redis":./node_modules/.bin:/usr/local/bin:/usr/local/sbin:"/usr/local/texlive/2015/bin/x86_64-darwin":/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
 
