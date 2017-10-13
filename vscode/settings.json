@@ -10,8 +10,9 @@
   "editor.rulers": [
     80
   ],
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.fontAliasing": "antialiased",
   "workbench.colorTheme": "Solarized Dark",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
 
   "auto-close-tag.SublimeText3Mode": true,
