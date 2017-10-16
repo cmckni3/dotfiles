@@ -19,6 +19,8 @@ alias docker-mongo-data='docker volume create --name mongo-data-db && docker vol
 alias docker-mongo='docker run -d --restart=always -p 27017:27017 -v mongo-data-db:/data/db -v mongo-data-config:/data/configdb --name mongo mongo:3'
 alias docker-elasticsearch-data='docker volume create --name elasticsearch-data'
 alias docker-elasticsearch='docker run -d --restart=always -p 9200:9200 -v elasticsearch-data:/usr/share/elasticsearch/data --name elasticsearch elasticsearch:1.7'
+alias docker-solr-data='docker volume create --name solr-data'
+alias docker-solr='docker run -d --restart=always -p 8983:8983 -v solr-data:/opt/solr/server/solr/mycores --name solr solr:7'
 alias docker-mysql-data='docker volume create --name mysql-data'
 alias docker-mysql='docker run -d -e MYSQL_ROOT_PASSWORD=root --restart=always -p 3306:3306 -v mysql-data:/var/lib/mysql --name mysql mysql:5.6'
 alias docker-pg-data='docker volume create --name pg-data'
