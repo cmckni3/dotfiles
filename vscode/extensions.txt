@@ -40,6 +40,7 @@ junstyle.php-cs-fixer
 killalau.vscode-liquid-snippets
 lukehoban.Go
 mrmlnc.vscode-scss
+ms-vscode.azure-account
 ms-vscode.cpptools
 ms-vscode.csharp
 ms-vscode.sublime-keybindings
@@ -51,6 +52,7 @@ patbenatar.advanced-new-file
 pmneo.tsimporter
 rebornix.Ruby
 redhat.java
+rust-lang.rust
 santosh.react-native-snippet
 sianglim.slim
 sleistner.vscode-fileutils
