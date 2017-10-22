@@ -18,6 +18,7 @@
   "auto-close-tag.SublimeText3Mode": true,
 
   "php.validate.executablePath": "/usr/local/bin/php",
+  "C_Cpp.intelliSenseEngine": "Default",
 
   "kite.showTourOnStartup": false,
 
