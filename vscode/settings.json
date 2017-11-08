@@ -41,5 +41,6 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.snippetSuggestions": "top",
   "editor.formatOnPaste": true,
-  "prettier.typescriptEnable": []
+  "prettier.typescriptEnable": [],
+  "todohighlight.isEnable": true
 }
