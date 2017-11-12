@@ -10,6 +10,9 @@
   "editor.rulers": [
     80
   ],
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnPaste": true,
   "workbench.fontAliasing": "antialiased",
   "workbench.colorTheme": "Solarized Dark",
   "workbench.iconTheme": "material-icon-theme",
@@ -22,6 +25,7 @@
 
   "kite.showTourOnStartup": false,
 
+  "todohighlight.isEnable": true,
   "todohighlight.keywords": [
     {
       "text": "NOTE:",
@@ -38,9 +42,7 @@
       "isWholeLine": false
     }
   ],
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.snippetSuggestions": "top",
-  "editor.formatOnPaste": true,
   "prettier.typescriptEnable": [],
-  "todohighlight.isEnable": true
+  "csharp.suppressDotnetInstallWarning": true,
+  "typescript.autoImportSuggestions.enabled": false
 }
