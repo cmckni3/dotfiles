@@ -42,7 +42,17 @@
       "isWholeLine": false
     }
   ],
-  "prettier.typescriptEnable": [],
+  "prettier.disableLanguages": ["typescript"],
   "csharp.suppressDotnetInstallWarning": true,
-  "typescript.autoImportSuggestions.enabled": false
+  "typescript.autoImportSuggestions.enabled": false,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": true
+  }
 }
