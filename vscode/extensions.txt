@@ -16,6 +16,7 @@ WakaTime.vscode-wakatime
 WallabyJs.quokka-vscode
 adamwalzer.scss-lint
 alefragnani.Bookmarks
+bierner.emojisense
 bierner.markdown-preview-github-styles
 christian-kohler.path-intellisense
 codezombiech.gitignore
