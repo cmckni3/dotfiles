@@ -5,6 +5,7 @@ DotJoshJohnson.xml
 EditorConfig.EditorConfig
 HookyQR.beautify
 HvyIndustries.crane
+James-Yu.latex-workshop
 Orta.vscode-ios-common-files
 Orta.vscode-jest
 Orta.vscode-react-native-storybooks
@@ -38,6 +39,7 @@ formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 formulahendry.code-runner
 guillaumedoutriaux.name-that-color
+hardikpthv.AngularMaterial
 hasanali.gitignore-templates
 joelday.docthis
 johnpapa.Angular2
@@ -73,6 +75,7 @@ timothymclane.react-redux-es6-snippets
 vsmobile.vscode-react-native
 waderyan.gitblame
 wayou.vscode-todo-highlight
+wcwhitehead.bootstrap-3-snippets
 whatwedo.twig
 wix.extractor
 wix.vscode-import-cost
