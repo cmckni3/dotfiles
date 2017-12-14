@@ -3,8 +3,7 @@
 alm
 bower
 check-tslint-all
-coffee-script
-coffeelint
+compodoc
 create-react-app
 diff-so-fancy
 elm
@@ -42,5 +41,6 @@ trevor
 tslint
 typedoc
 typescript
+typesync
 webpack
 yo
