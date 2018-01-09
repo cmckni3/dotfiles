@@ -1,10 +1,10 @@
 Angular.ng-template
 CoenraadS.bracket-pair-colorizer
 DSKWRK.vscode-generate-getter-setter
+DavidAnson.vscode-markdownlint
 DotJoshJohnson.xml
 EditorConfig.EditorConfig
 HookyQR.beautify
-HvyIndustries.crane
 James-Yu.latex-workshop
 Orta.vscode-ios-common-files
 Orta.vscode-jest
@@ -19,6 +19,9 @@ adamwalzer.scss-lint
 alefragnani.Bookmarks
 bierner.emojisense
 bierner.markdown-preview-github-styles
+bmewburn.vscode-intelephense-client
+calebporzio.better-phpunit
+calebporzio.simple-php-cs-fixer
 christian-kohler.path-intellisense
 codezombiech.gitignore
 cssho.vscode-svgviewer
@@ -33,8 +36,6 @@ fabiospampinato.vscode-projects-plus
 fabiospampinato.vscode-projects-plus-todo-plus
 fabiospampinato.vscode-todo-plus
 felixfbecker.php-debug
-felixfbecker.php-intellisense
-felixfbecker.php-pack
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 formulahendry.code-runner
