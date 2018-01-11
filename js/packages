@@ -1,5 +1,6 @@
 @angular/cli
 @kadira/storybook-ui
+@nrwl/schematics
 alm
 bower
 check-tslint-all
