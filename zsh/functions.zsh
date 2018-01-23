@@ -2,7 +2,7 @@
 # command to call hub commands
 function git() {hub "$@"}
 
-function gi() { curl -L -s https://www.gitignore.io/api/\$@ ;}
+function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
 
 function mysql_fast_import() {
   if [ -z "$1" ] && [ -z "$2" ]; then
