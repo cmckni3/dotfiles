@@ -41,6 +41,7 @@
     "suppressGitVersionWarning": false,
     "suppressLineUncommittedWarning": false,
     "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": true,
     "suppressUpdateNotice": false,
     "suppressWelcomeNotice": true
   },
