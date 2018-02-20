@@ -13,3 +13,4 @@ yarn-error.log
 *.sublime-project
 *.sublime-workspace
 node_modules
+lerna-debug.log
