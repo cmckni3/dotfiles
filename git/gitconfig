@@ -4,6 +4,8 @@
   path = ~/.gitconfig.shared
 [includeIf "gitdir:~/code/work/"]
   path = ~/.gitconfig.work
+[include]
+  path = ~/.gitconfig.local
 [filter "lfs"]
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
