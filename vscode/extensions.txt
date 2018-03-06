@@ -22,6 +22,7 @@ bierner.markdown-preview-github-styles
 bmewburn.vscode-intelephense-client
 calebporzio.better-phpunit
 calebporzio.simple-php-cs-fixer
+castwide.solargraph
 christian-kohler.path-intellisense
 codezombiech.gitignore
 cssho.vscode-svgviewer
@@ -48,6 +49,7 @@ johnpapa.angular-essentials
 johnpapa.winteriscoming
 junstyle.php-cs-fixer
 killalau.vscode-liquid-snippets
+kirchner-trevor.shopify-liquid-preview
 lukehoban.Go
 mrmlnc.vscode-apache
 mrmlnc.vscode-scss
@@ -79,6 +81,5 @@ wayou.vscode-todo-highlight
 wcwhitehead.bootstrap-3-snippets
 whatwedo.twig
 wix.extractor
-wix.vscode-import-cost
 wmaurer.change-case
 wwm.better-align
