@@ -8,6 +8,7 @@
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
   "editor.lineHeight": 24,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.renderWhitespace": "all",
@@ -20,6 +21,14 @@
     ".php_cs.dist": "php",
     "*.php": "php"
   },
+  "[jsonc]": {
+    "editor.formatOnSave": false
+  },
+  "[json]": {
+    "editor.formatOnSave": false
+  },
+  "html.format.wrapAttributes": "force-aligned",
+  "html.format.wrapLineLength": 0,
   "workbench.colorTheme": "Solarized Dark",
   "workbench.fontAliasing": "antialiased",
   "workbench.iconTheme": "material-icon-theme",
@@ -46,16 +55,15 @@
     "suppressWelcomeNotice": true
   },
 
-  "kite.showTourOnStartup": false,
-
   "prettier.arrowParens": "avoid",
-  "prettier.disableLanguages": ["typescript"],
-  "prettier.printWidth": false,
+  "prettier.disableLanguages": [],
+  "prettier.printWidth": 100,
   "prettier.proseWrap": "preserve",
   "prettier.semi": true,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
   "prettier.useTabs": false,
+  "prettier.tabWidth": 2,
 
   "projects.useTilde": true,
 
