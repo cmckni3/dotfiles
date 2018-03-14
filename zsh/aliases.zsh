@@ -1,8 +1,8 @@
-alias zshconfig="subl ~/.zshrc"
+alias zshconfig="code ~/.zshrc"
 alias reload=". ~/.zshrc"
 alias tlog='tail -f ~/php_error_log'
-alias ohmyzsh="subl ~/.oh-my-zsh"
-alias nginxconf="subl /usr/local/etc/nginx"
+alias ohmyzsh="code ~/.oh-my-zsh"
+alias nginxconf="code /usr/local/etc/nginx"
 alias sl='ls'
 alias rsyncpr='rsync -avh --progress'
 alias gem-nuke="gem list | cut -d' ' -f1 | xargs gem uninstall -aIx"
