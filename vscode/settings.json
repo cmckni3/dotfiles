@@ -37,7 +37,6 @@
   "auto-close-tag.SublimeText3Mode": true,
 
   "php.suggest.basic": false,
-  "intelephense.completionProvider.backslashPrefix": false,
   "C_Cpp.intelliSenseEngine": "Default",
   "csharp.suppressDotnetInstallWarning": true,
 
