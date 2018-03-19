@@ -4,8 +4,9 @@ DSKWRK.vscode-generate-getter-setter
 DavidAnson.vscode-markdownlint
 DotJoshJohnson.xml
 EditorConfig.EditorConfig
-HookyQR.beautify
 James-Yu.latex-workshop
+MariusAlchimavicius.json-to-ts
+MehediDracula.php-namespace-resolver
 Orta.vscode-ios-common-files
 Orta.vscode-jest
 Orta.vscode-react-native-storybooks
@@ -32,11 +33,15 @@ donjayamanne.githistory
 eamodio.gitlens
 eg2.tslint
 eiminsasete.apacheconf-snippets
+eriklynd.json-tools
 esbenp.prettier-vscode
 fabiospampinato.vscode-projects-plus
 fabiospampinato.vscode-projects-plus-todo-plus
 fabiospampinato.vscode-todo-plus
 felixfbecker.php-debug
+felixfbecker.php-intellisense
+felixfbecker.php-pack
+fetzi.php-file-types
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 formulahendry.code-runner
@@ -50,7 +55,7 @@ johnpapa.winteriscoming
 junstyle.php-cs-fixer
 killalau.vscode-liquid-snippets
 kirchner-trevor.shopify-liquid-preview
-lukehoban.Go
+marabesi.php-import-checker
 mrmlnc.vscode-apache
 mrmlnc.vscode-scss
 ms-python.python
@@ -69,6 +74,8 @@ rebornix.Ruby
 redhat.java
 rust-lang.rust
 santosh.react-native-snippet
+satokaz.vscode-memo-life-for-you
+shanoor.vscode-nginx
 sianglim.slim
 sleistner.vscode-fileutils
 streetsidesoftware.code-spell-checker
