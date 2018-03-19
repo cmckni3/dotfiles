@@ -21,6 +21,9 @@
     ".php_cs.dist": "php",
     "*.php": "php"
   },
+  "[dockerfile]": {
+    "editor.formatOnSave": false
+  },
   "[jsonc]": {
     "editor.formatOnSave": false
   },
@@ -29,6 +32,8 @@
   },
   "html.format.wrapAttributes": "force-aligned",
   "html.format.wrapLineLength": 0,
+  "html.format.extraLiners": "",
+  "html.format.unformatted": "wbr,link,meta",
   "workbench.colorTheme": "Solarized Dark",
   "workbench.fontAliasing": "antialiased",
   "workbench.iconTheme": "material-icon-theme",
