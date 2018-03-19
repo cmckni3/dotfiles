@@ -1,6 +1,7 @@
 [core]
     excludesfile = ~/.gitignore_global
     autocrlf = input
+    editor = "code --wait"
 [commit]
     template = ~/.gitmessage
 [user]
