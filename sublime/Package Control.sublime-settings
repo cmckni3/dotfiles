@@ -73,7 +73,6 @@
 		"SublimeLinter-coffeelint",
 		"SublimeLinter-contrib-bootlint",
 		"SublimeLinter-contrib-elixirc",
-		"SublimeLinter-contrib-golint",
 		"SublimeLinter-contrib-sass-lint",
 		"SublimeLinter-contrib-slim-lint",
 		"SublimeLinter-contrib-sqlint",
