@@ -30,6 +30,9 @@
   "[json]": {
     "editor.formatOnSave": false
   },
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
   "html.format.wrapAttributes": "force-aligned",
   "html.format.wrapLineLength": 0,
   "html.format.extraLiners": "",
