@@ -37,6 +37,7 @@
   "html.format.wrapLineLength": 0,
   "html.format.extraLiners": "",
   "html.format.unformatted": "wbr,link,meta",
+  "search.location": "panel",
   "workbench.colorTheme": "Solarized Dark",
   "workbench.fontAliasing": "antialiased",
   "workbench.iconTheme": "material-icon-theme",
