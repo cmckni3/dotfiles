@@ -18,6 +18,7 @@ WakaTime.vscode-wakatime
 WallabyJs.quokka-vscode
 adamwalzer.scss-lint
 alefragnani.Bookmarks
+bierner.color-info
 bierner.emojisense
 bierner.markdown-preview-github-styles
 bmewburn.vscode-intelephense-client
@@ -59,6 +60,7 @@ marabesi.php-import-checker
 mrmlnc.vscode-apache
 mrmlnc.vscode-scss
 ms-python.python
+ms-vscode.PowerShell
 ms-vscode.azure-account
 ms-vscode.cpptools
 ms-vscode.csharp
@@ -68,6 +70,7 @@ msjsdiag.debugger-for-chrome
 natewallace.angular2-inline
 neilbrayfield.php-docblocker
 neilding.language-liquid
+octref.vetur
 patbenatar.advanced-new-file
 pmneo.tsimporter
 rebornix.Ruby
@@ -90,3 +93,4 @@ whatwedo.twig
 wix.extractor
 wmaurer.change-case
 wwm.better-align
+yzhang.markdown-all-in-one
