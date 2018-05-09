@@ -48,6 +48,7 @@
   "php.suggest.basic": false,
   "C_Cpp.intelliSenseEngine": "Default",
   "csharp.suppressDotnetInstallWarning": true,
+  "cSpell.userWords": ["ngrx"],
 
   "code-runner.enableAppInsights": false,
 
@@ -75,8 +76,6 @@
   "prettier.tabWidth": 2,
 
   "projects.useTilde": true,
-
-  "sublimeTextKeymap.promptV3Features": true,
 
   "todohighlight.isEnable": true,
   "todohighlight.keywords": [
