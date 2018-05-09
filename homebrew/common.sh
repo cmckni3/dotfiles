@@ -7,10 +7,8 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 
   # Homebrew taps
   TAPS=(
-    homebrew/science
-    homebrew/versions
-    homebrew/php
     caskroom/cask
+    caskroom/fonts
     caskroom/versions
     bripkens/homebrew-dock
   )
@@ -18,12 +16,9 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   # Homebrew formulas
   FORMULAS=(
     ack
-    bats
-    brew-cask
     coreutils
     ctags
     curl
-    dnsmasq
     git
     git-flow
     git-extras
@@ -35,16 +30,8 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     jabba
     mercurial
     mogenerator
-    mysql
-    nginx
     nmap
-    objc-run
     openssl
-    phantomjs
-    pianobar
-    postgresql
-    python
-    python3
     rbenv
     rbenv-binstubs
     rbenv-ctags
@@ -52,10 +39,8 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     rbenv-gemset
     ruby-build
     ssh-copy-id
-    the_silver_searcher
     tmux
     tree
-    valgrind
     wget
     xctool
     zsh
@@ -67,12 +52,15 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     dash
     # Previously, docker-toolbox was used until Docker for Mac became usable
     docker
-    firefox
+    firefox-developer-edition
+    font-fira-code
+    font-hack
     google-chrome
     google-chrome-canary
     iterm2
     sourcetree
     sublime-text
+    visual-studio-code
     the-unarchiver
     yemuzip
   )

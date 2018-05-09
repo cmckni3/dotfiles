@@ -13,7 +13,6 @@ Orta.vscode-react-native-storybooks
 PKief.material-icon-theme
 PeterJausovec.vscode-docker
 Telerik.nativescript
-Tyriar.sort-lines
 WakaTime.vscode-wakatime
 WallabyJs.quokka-vscode
 adamwalzer.scss-lint
@@ -89,6 +88,7 @@ vsmobile.vscode-react-native
 waderyan.gitblame
 wayou.vscode-todo-highlight
 wcwhitehead.bootstrap-3-snippets
+wesbos.theme-cobalt2
 whatwedo.twig
 wix.extractor
 wmaurer.change-case

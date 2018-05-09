@@ -8,35 +8,19 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   )
 
   CASKS=(
-    airmail-beta
     android-studio
-    atom
-    base
-    brackets
     caffeine
     charles
-    chicken
-    chromecast
-    clamxav
-    cloud
-    filezilla
-    forklift
-    hockey
+    cloudapp
     kaleidoscope
     mou
-    mplayer-osx-extended
-    oclint
-    reveal
     sequel-pro
-    spark-inspector
-    testflight
     transmit
   )
 
   echo 'Installing homebrew taps'
 
   brew tap ${TAPS[@]}
-  brew install caskroom/cask/brew-cask
 
   echo 'Installing optional casks...this may take awhile'
 
