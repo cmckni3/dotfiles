@@ -48,7 +48,10 @@
   "php.suggest.basic": false,
   "C_Cpp.intelliSenseEngine": "Default",
   "csharp.suppressDotnetInstallWarning": true,
-  "cSpell.userWords": ["ngrx"],
+  "cSpell.userWords": [
+    "injectable",
+    "ngrx"
+  ],
 
   "code-runner.enableAppInsights": false,
 
@@ -95,5 +98,6 @@
     }
   ],
 
-  "typescript.autoImportSuggestions.enabled": false
+  "typescript.autoImportSuggestions.enabled": false,
+  "gitlens.historyExplorer.enabled": true
 }
