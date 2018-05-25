@@ -8,3 +8,4 @@ fetzi.php-file-types
 junstyle.php-cs-fixer
 marabesi.php-import-checker
 neilbrayfield.php-docblocker
+whatwedo.twig

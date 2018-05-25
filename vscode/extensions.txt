@@ -72,7 +72,6 @@ waderyan.gitblame
 wayou.vscode-todo-highlight
 wcwhitehead.bootstrap-3-snippets
 wesbos.theme-cobalt2
-whatwedo.twig
 wix.extractor
 wmaurer.change-case
 wwm.better-align

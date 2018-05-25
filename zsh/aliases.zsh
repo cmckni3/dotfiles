@@ -49,9 +49,9 @@ alias ginit="git init && git commit -m 'Initial commit' --allow-empty"
 
 # VS Code
 alias code-ext-export="code --list-extensions | sort > ~/dotfiles/vscode/extensions.txt"
-alias code-ext-export-filter="code --list-extensions | grep -Ev '(nativescript|php|react|rust)' | sort > ~/dotfiles/vscode/extensions.txt"
+alias code-ext-export-filter="code --list-extensions | grep -Ev '(nativescript|php|react|rust|twig)' | sort > ~/dotfiles/vscode/extensions.txt"
 alias code-ext-export-ns="code --list-extensions | grep -E 'nativescript' | sort > ~/dotfiles/vscode/nativescript-extensions.txt"
-alias code-ext-export-php="code --list-extensions | grep -E 'php' | sort > ~/dotfiles/vscode/php.txt"
+alias code-ext-export-php="code --list-extensions | grep -E '(php|twig)' | sort > ~/dotfiles/vscode/php.txt"
 alias code-ext-export-react-native="code --list-extensions | grep -E 'react-native' | sort > ~/dotfiles/vscode/react-native.txt"
 alias code-ext-export-rust="code --list-extensions | grep -E 'rust' | sort > ~/dotfiles/vscode/rust-extensions.txt"
 
