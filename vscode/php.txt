@@ -1,0 +1,10 @@
+MehediDracula.php-namespace-resolver
+calebporzio.better-phpunit
+calebporzio.simple-php-cs-fixer
+felixfbecker.php-debug
+felixfbecker.php-intellisense
+felixfbecker.php-pack
+fetzi.php-file-types
+junstyle.php-cs-fixer
+marabesi.php-import-checker
+neilbrayfield.php-docblocker

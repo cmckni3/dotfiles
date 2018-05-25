@@ -1,0 +1,3 @@
+Orta.vscode-react-native-storybooks
+santosh.react-native-snippet
+vsmobile.vscode-react-native
