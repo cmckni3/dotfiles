@@ -8,6 +8,7 @@ alias rsyncpr='rsync -avh --progress'
 alias gem-nuke="gem list | cut -d' ' -f1 | xargs gem uninstall -aIx"
 alias brewcc='rm -rf ~/Library/Caches/Homebrew/*'
 alias find-port-usage='netstat -vanp tcp | grep'
+alias global-yarn='code ~/.config/yarn/global/package.json'
 
 # Docker
 alias dc='docker-compose'
