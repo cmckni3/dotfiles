@@ -8,6 +8,8 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   echo 'Linking Visual Studio Code Preferences'
   mkdir -p "$USER_PACKAGES_DIR/snippets"
   ln -nfs "$DIR/settings.json" "$USER_PACKAGES_DIR"
+  echo 'Linking Visual Studio Code Keybindings'
+  ln -nfs "$DIR/keybindings.json" "$USER_PACKAGES_DIR"
 
   CODE_INSTALLED=true
   type code >/dev/null 2>&1 || { echo 'Visual Studio Code not installed. Skip installing extensions'; CODE_INSTALLED=false; }
