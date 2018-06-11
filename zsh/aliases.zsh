@@ -1,20 +1,24 @@
+# Shell
 alias zshconfig="code ~/.zshrc"
 alias reload=". ~/.zshrc"
-alias tlog='tail -f ~/php_error_log'
 alias ohmyzsh="code ~/.oh-my-zsh"
-alias nginxconf="code /usr/local/etc/nginx"
 alias sl='ls'
-alias rsyncpr='rsync -avh --progress'
-alias gem-nuke="gem list | cut -d' ' -f1 | xargs gem uninstall -aIx"
-alias brewcc='rm -rf ~/Library/Caches/Homebrew/*'
-alias find-port-usage='netstat -vanp tcp | grep'
+
+# Config files
+alias nginxconf="code /usr/local/etc/nginx"
 alias global-yarn='code ~/.config/yarn/global/package.json'
+
+# Logs
+alias tlog='tail -f ~/php_error_log'
+
 
 # Docker
 alias dc='docker-compose'
 alias rock='rocker-compose'
 alias docker-cleani="docker images | grep '<none>' | awk '{print \$3}' | xargs docker rmi"
 
+# Docker development containers
+# TODO: Move to compose files in a separate repo
 alias docker-redis-data='docker volume create --name redis-data'
 alias docker-redis='docker run -d --restart=always -p 6379:6379 -v redis-data:/data --name redis redis:3'
 alias docker-mongo-data='docker volume create --name mongo-data-db && docker volume create --name mongo-data-config'
@@ -39,6 +43,7 @@ alias docker-graphite='docker run -d \
 alias docker-machine-default='docker-machine create --virtualbox-disk-size 20000 -d virtualbox default'
 
 # Git
+alias ginit="git init && git commit -m 'Initial commit' --allow-empty"
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 alias gtags="git tag | xargs -I@ git log --format=format:\"%ai @%n\" -1 @ | sort | awk '{print \$4}'"
 alias gdes='git describe --tags'
@@ -46,21 +51,21 @@ alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
 alias gfdiff='git diff --name-only'
 alias ggrep='git log -S'
 alias gfastclone='git clone --depth 20'
-alias ginit="git init && git commit -m 'Initial commit' --allow-empty"
 
-# VS Code
-alias code-ext-export="code --list-extensions | sort > ~/dotfiles/vscode/extensions.txt"
-alias code-ext-export-filter="code --list-extensions | grep -Ev '(nativescript|php|react|rust|twig)' | sort > ~/dotfiles/vscode/extensions.txt"
-alias code-ext-export-ns="code --list-extensions | grep -E 'nativescript' | sort > ~/dotfiles/vscode/nativescript-extensions.txt"
-alias code-ext-export-php="code --list-extensions | grep -E '(php|twig)' | sort > ~/dotfiles/vscode/php.txt"
-alias code-ext-export-react-native="code --list-extensions | grep -E 'react-native' | sort > ~/dotfiles/vscode/react-native.txt"
-alias code-ext-export-rust="code --list-extensions | grep -E 'rust' | sort > ~/dotfiles/vscode/rust-extensions.txt"
+# JavaScript
+alias ng6-cli='yarn global add @angular/cli \
+  @angular-devkit/architect \
+  @angular-devkit/core \
+  @angular-devkit/schematics \
+  @schematics/angular \
+  @schematics/update'
 
 # R
 alias rstudio='LD_LIBRARY_PATH=$(/usr/libexec/java_home)/jre/lib/server: open -a RStudio'
 
-# Bundler
+# Ruby
 alias be="bundle exec"
+alias gem-nuke="gem list | cut -d' ' -f1 | xargs gem uninstall -aIx"
 
 # Projects
 alias cdcode='cd ~/code'
@@ -77,10 +82,20 @@ alias cdswift="cd ~/code/swift"
 alias cdswiftios="cd ~/code/swift/ios"
 alias cdwork="cd ~/code/work"
 
-alias wfc='when-files-change "clear && bundle exec rake spec"'
-
+alias rsyncpr='rsync -avh --progress'
+alias brewcc='rm -rf ~/Library/Caches/Homebrew/*'
+alias find-port-usage='netstat -vanp tcp | grep'
 alias find-node-modules="find . -type d -name 'node_modules'"
 alias largestfiles="du -k -I Library ~/* | awk '\$1 > 500000' | sort -nr"
 alias dds="find . -name '*.DS_Store' -type f -delete"
 alias clean-xcode-downloads="rm -rf ~/Library/Caches/com.apple.dt.Xcode/Downloads/*"
 alias clean-xcode-simulators="rm -rf /Library/Developer/CoreSimulator/Profiles/Runtimes/*"
+alias wfc='when-files-change "clear && bundle exec rake spec"'
+
+# VS Code
+alias code-ext-export="code --list-extensions | sort > ~/dotfiles/vscode/extensions.txt"
+alias code-ext-export-filter="code --list-extensions | grep -Ev '(nativescript|php|react|rust|twig)' | sort > ~/dotfiles/vscode/extensions.txt"
+alias code-ext-export-ns="code --list-extensions | grep -E 'nativescript' | sort > ~/dotfiles/vscode/nativescript-extensions.txt"
+alias code-ext-export-php="code --list-extensions | grep -E '(php|twig)' | sort > ~/dotfiles/vscode/php.txt"
+alias code-ext-export-react-native="code --list-extensions | grep -E 'react-native' | sort > ~/dotfiles/vscode/react-native.txt"
+alias code-ext-export-rust="code --list-extensions | grep -E 'rust' | sort > ~/dotfiles/vscode/rust-extensions.txt"
