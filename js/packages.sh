@@ -4,4 +4,4 @@ set -e
 
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
-yarn global add $(cat "$DIR/packages" | sed '/^#/ d' | xargs)
+yarn global add $(cat "$DIR/packages.txt" | sed '/^#/ d' | xargs)
