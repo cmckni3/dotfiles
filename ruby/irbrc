@@ -29,6 +29,10 @@ def addr(a)
   (a.object_id << 1).to_s(16)
 end
 
+def t
+  MiniTest.run
+end
+
 class Object
   def mate(method_name)
     file, line = method(method_name).source_location
