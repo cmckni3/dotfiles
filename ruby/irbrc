@@ -3,7 +3,7 @@
 require 'irb/completion'
 require 'irb/ext/save-history'
 
-%w(json).each do |gem|
+%w(json minitest).each do |gem|
   begin
     gem "#{gem}"
   rescue Gem::LoadError
@@ -38,6 +38,11 @@ class Object
   def subl(method_name)
     file, line = method(method_name).source_location
     `subl #{file}:#{line}`
+  end
+
+  def code(method_name)
+    file, line = method(method_name).source_location
+    `code --goto #{file}:#{line}`
   end
 end
 
