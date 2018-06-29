@@ -15,7 +15,9 @@
   "editor.renderWhitespace": "all",
   "editor.rulers": [80],
   "editor.snippetSuggestions": "top",
+  "editor.tabSize": 2,
   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "emmet.triggerExpansionOnTab": true,
   "explorer.openEditors.visible": 0,
   "files.associations": {
     ".php_cs": "php",
@@ -43,7 +45,6 @@
   "workbench.fontAliasing": "antialiased",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
-
   "auto-close-tag.SublimeText3Mode": true,
 
   "php.suggest.basic": false,
