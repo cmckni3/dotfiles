@@ -1,4 +1,5 @@
 Angular.ng-template
+AngularDoc.angulardoc-vscode
 CoenraadS.bracket-pair-colorizer
 DSKWRK.vscode-generate-getter-setter
 DavidAnson.vscode-markdownlint
@@ -11,6 +12,7 @@ Orta.vscode-ios-common-files
 Orta.vscode-jest
 PKief.material-icon-theme
 PeterJausovec.vscode-docker
+Prisma.vscode-graphql
 WakaTime.vscode-wakatime
 WallabyJs.quokka-vscode
 adamwalzer.scss-lint
@@ -19,7 +21,6 @@ bierner.color-info
 bierner.emojisense
 bierner.markdown-preview-github-styles
 bmewburn.vscode-intelephense-client
-carlowenig.angular-explorer
 castwide.solargraph
 christian-kohler.path-intellisense
 codezombiech.gitignore
@@ -48,6 +49,7 @@ killalau.vscode-liquid-snippets
 kirchner-trevor.shopify-liquid-preview
 mrmlnc.vscode-apache
 mrmlnc.vscode-scss
+ms-mssql.mssql
 ms-python.python
 ms-vscode.PowerShell
 ms-vscode.azure-account
