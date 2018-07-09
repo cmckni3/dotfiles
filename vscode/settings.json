@@ -51,6 +51,7 @@
   "C_Cpp.intelliSenseEngine": "Default",
   "csharp.suppressDotnetInstallWarning": true,
   "cSpell.userWords": [
+    "fico",
     "injectable",
     "ngrx"
   ],
