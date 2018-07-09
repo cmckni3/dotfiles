@@ -14,3 +14,4 @@ yarn-error.log
 *.sublime-workspace
 node_modules
 lerna-debug.log
+.angulardoc.json
