@@ -6,6 +6,7 @@ DotJoshJohnson.xml
 EditorConfig.EditorConfig
 James-Yu.latex-workshop
 MariusAlchimavicius.json-to-ts
+Mikael.Angular-BeastCode
 Orta.vscode-ios-common-files
 Orta.vscode-jest
 PKief.material-icon-theme
@@ -18,6 +19,7 @@ bierner.color-info
 bierner.emojisense
 bierner.markdown-preview-github-styles
 bmewburn.vscode-intelephense-client
+carlowenig.angular-explorer
 castwide.solargraph
 christian-kohler.path-intellisense
 codezombiech.gitignore
