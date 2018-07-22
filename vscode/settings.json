@@ -19,6 +19,7 @@
   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
   "emmet.triggerExpansionOnTab": true,
   "explorer.openEditors.visible": 0,
+  "extensions.autoUpdate": false,
   "files.associations": {
     ".php_cs": "php",
     ".php_cs.dist": "php",
