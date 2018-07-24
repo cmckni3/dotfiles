@@ -40,7 +40,7 @@ alias docker-graphite='docker run -d \
  hopsoft/graphite-statsd'
 
 # Docker machine
-alias docker-machine-default='docker-machine create --virtualbox-disk-size 20000 -d virtualbox default'
+alias docker-machine-create='docker-machine create --virtualbox-disk-size 20000 -d virtualbox default'
 
 # Git
 alias ginit="git init && git commit -m 'Initial commit' --allow-empty"

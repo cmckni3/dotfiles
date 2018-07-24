@@ -16,6 +16,10 @@ docker-enter() {
   docker exec -it "$@" /bin/bash;
 }
 
+docker-health() {
+  docker inspect --format "{{json .State.Health }}" "$@" | jq
+}
+
 function thinctl() {
   command=$1
   project_directory=`pwd | xargs basename`
