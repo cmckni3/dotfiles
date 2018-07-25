@@ -17,11 +17,13 @@ WakaTime.vscode-wakatime
 WallabyJs.quokka-vscode
 adamwalzer.scss-lint
 alefragnani.Bookmarks
+alexdima.copy-relative-path
 bierner.color-info
 bierner.emojisense
 bierner.markdown-preview-github-styles
 bmewburn.vscode-intelephense-client
 castwide.solargraph
+christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 codezombiech.gitignore
 cssho.vscode-svgviewer
@@ -29,6 +31,7 @@ deerawan.vscode-dash
 donjayamanne.githistory
 eamodio.gitlens
 eg2.tslint
+eg2.vscode-npm-script
 eiminsasete.apacheconf-snippets
 eriklynd.json-tools
 esbenp.prettier-vscode
@@ -65,6 +68,8 @@ pmneo.tsimporter
 rebornix.Ruby
 redhat.java
 satokaz.vscode-memo-life-for-you
+sdras.night-owl
+sdras.vue-vscode-snippets
 shanoor.vscode-nginx
 sianglim.slim
 sleistner.vscode-fileutils
@@ -79,4 +84,5 @@ wesbos.theme-cobalt2
 wix.extractor
 wmaurer.change-case
 wwm.better-align
+xabikos.JavaScriptSnippets
 yzhang.markdown-all-in-one
