@@ -103,5 +103,6 @@
   ],
 
   "typescript.autoImportSuggestions.enabled": false,
-  "gitlens.historyExplorer.enabled": true
+  "gitlens.historyExplorer.enabled": true,
+  "nativescript.analytics.enabled": false
 }
