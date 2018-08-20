@@ -16,6 +16,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   # Homebrew formulas
   FORMULAS=(
     ack
+    ag
     coreutils
     ctags
     curl
@@ -41,6 +42,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     ssh-copy-id
     tmux
     tree
+    watchman
     wget
     xctool
     zsh
