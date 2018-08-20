@@ -42,6 +42,7 @@
   "html.format.extraLiners": "",
   "html.format.unformatted": "wbr,link,meta",
   "search.location": "panel",
+  "terminal.integrated.shell.osx": "/bin/zsh",
   "workbench.colorTheme": "Solarized Dark",
   "workbench.fontAliasing": "antialiased",
   "workbench.iconTheme": "material-icon-theme",
