@@ -8,7 +8,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   # Homebrew taps
   TAPS=(
     caskroom/cask
-    caskroom/fonts
+    homebrew/cask-fonts
     caskroom/versions
     bripkens/homebrew-dock
   )
@@ -58,6 +58,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     google-chrome
     google-chrome-canary
     iterm2
+    spectacle
     sourcetree
     sublime-text
     visual-studio-code
