@@ -93,9 +93,9 @@ alias clean-xcode-simulators="rm -rf /Library/Developer/CoreSimulator/Profiles/R
 alias wfc='when-files-change "clear && bundle exec rake spec"'
 
 # VS Code
-alias code-ext-export="code --list-extensions | sort > ~/dotfiles/vscode/extensions.txt"
-alias code-ext-export-filter="code --list-extensions | grep -Ev '(nativescript|intelephense|php|react|rust|twig)' | sort > ~/dotfiles/vscode/extensions.txt"
-alias code-ext-export-ns="code --list-extensions | grep -E 'nativescript' | sort > ~/dotfiles/vscode/nativescript-extensions.txt"
-alias code-ext-export-php="code --list-extensions | grep -E '(intelephense|php|twig)' | sort > ~/dotfiles/vscode/php.txt"
-alias code-ext-export-react-native="code --list-extensions | grep -E 'react-native' | sort > ~/dotfiles/vscode/react-native.txt"
-alias code-ext-export-rust="code --list-extensions | grep -E 'rust' | sort > ~/dotfiles/vscode/rust-extensions.txt"
+alias code-ext-export="code --list-extensions | sort -f > ~/dotfiles/vscode/extensions.txt"
+alias code-ext-export-filter="code --list-extensions | grep -Ev '(nativescript|intelephense|php|react|rust|twig)' | sort -f > ~/dotfiles/vscode/extensions.txt"
+alias code-ext-export-ns="code --list-extensions | grep -E 'nativescript' | sort -f > ~/dotfiles/vscode/nativescript-extensions.txt"
+alias code-ext-export-php="code --list-extensions | grep -E '(intelephense|php|twig)' | sort -f > ~/dotfiles/vscode/php.txt"
+alias code-ext-export-react-native="code --list-extensions | grep -E 'react-native' | sort -f > ~/dotfiles/vscode/react-native.txt"
+alias code-ext-export-rust="code --list-extensions | grep -E 'rust' | sort -f > ~/dotfiles/vscode/rust-extensions.txt"
