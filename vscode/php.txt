@@ -1,4 +1,4 @@
-MehediDracula.php-namespace-resolver
+bmewburn.vscode-intelephense-client
 calebporzio.better-phpunit
 calebporzio.simple-php-cs-fixer
 felixfbecker.php-debug
@@ -7,5 +7,6 @@ felixfbecker.php-pack
 fetzi.php-file-types
 junstyle.php-cs-fixer
 marabesi.php-import-checker
+MehediDracula.php-namespace-resolver
 neilbrayfield.php-docblocker
 whatwedo.twig

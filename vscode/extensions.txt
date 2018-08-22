@@ -21,7 +21,6 @@ alexdima.copy-relative-path
 bierner.color-info
 bierner.emojisense
 bierner.markdown-preview-github-styles
-bmewburn.vscode-intelephense-client
 castwide.solargraph
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
@@ -50,8 +49,10 @@ johnpapa.angular-essentials
 johnpapa.winteriscoming
 killalau.vscode-liquid-snippets
 kirchner-trevor.shopify-liquid-preview
+mikestead.dotenv
 mrmlnc.vscode-apache
 mrmlnc.vscode-scss
+ms-azuretools.vscode-cosmosdb
 ms-mssql.mssql
 ms-python.python
 ms-vscode.PowerShell
@@ -65,7 +66,7 @@ neilding.language-liquid
 octref.vetur
 patbenatar.advanced-new-file
 pmneo.tsimporter
-rebornix.Ruby
+rebornix.ruby
 redhat.java
 satokaz.vscode-memo-life-for-you
 sdras.night-owl
