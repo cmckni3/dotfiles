@@ -79,6 +79,7 @@ tombonnike.vscode-status-bar-format-toggle
 waderyan.gitblame
 WakaTime.vscode-wakatime
 WallabyJs.quokka-vscode
+wangtao0101.vscode-js-import
 wayou.vscode-todo-highlight
 wcwhitehead.bootstrap-3-snippets
 wesbos.theme-cobalt2
