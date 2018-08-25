@@ -74,7 +74,9 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 
   echo 'Installing homebrew taps'
 
-  brew tap ${TAPS[@]}
+  for tap in ${TAPS[@]}; do
+    brew tap "${tap}"
+  done
 
   echo 'Installing formulae'
 
@@ -86,8 +88,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 
   echo 'Cleaning up'
 
-  brew cleanup
-  brew cask cleanup
+  brew cleanup -s
 
   echo 'Install Dash & Sublime licenses.'
 
