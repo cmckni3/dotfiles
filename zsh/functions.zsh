@@ -12,12 +12,27 @@ function mysql_fast_import() {
   fi
 }
 
+# Docker
 docker-enter() {
   docker exec -it "$@" /bin/bash;
 }
 
 docker-health() {
   docker inspect --format "{{json .State.Health }}" "$@" | jq
+}
+
+# personal documentation pages
+function mdless() {
+  pandoc -s -f markdown -t man "$1" | groff -T utf8 -man | less
+}
+function um-edit() {
+  mkdir -p ~/.notes; code "~/.notes/$1.md"
+}
+function um() {
+  mdless ~/.notes/"$1.md"
+}
+function um-ls() {
+  ls ~/.notes
 }
 
 function thinctl() {

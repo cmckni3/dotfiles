@@ -33,6 +33,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     mogenerator
     nmap
     openssl
+    pandoc
     rbenv
     rbenv-binstubs
     rbenv-ctags
