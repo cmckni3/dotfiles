@@ -12,6 +12,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     caffeine
     charles
     cloudapp
+    dash
     kaleidoscope
     mou
     sequel-pro
