@@ -4,7 +4,7 @@
 
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.emptySelectionClipboard": false,
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "Dank Mono, Fira Code",
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.formatOnPaste": true,
@@ -43,7 +43,7 @@
   "html.format.unformatted": "wbr,link,meta",
   "search.location": "panel",
   "terminal.integrated.shell.osx": "/bin/zsh",
-  "workbench.colorTheme": "Solarized Dark",
+  "workbench.colorTheme": "Dark+ Mono",
   "workbench.fontAliasing": "antialiased",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
@@ -55,7 +55,8 @@
   "cSpell.userWords": [
     "fico",
     "injectable",
-    "ngrx"
+    "ngrx",
+    "shopify"
   ],
 
   "code-runner.enableAppInsights": false,
