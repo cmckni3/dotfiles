@@ -20,6 +20,7 @@ DotJoshJohnson.xml
 DSKWRK.vscode-generate-getter-setter
 eamodio.gitlens
 EditorConfig.EditorConfig
+EFanZh.graphviz-preview
 eg2.tslint
 eg2.vscode-npm-script
 eiminsasete.apacheconf-snippets
@@ -28,6 +29,7 @@ esbenp.prettier-vscode
 fabiospampinato.vscode-projects-plus
 fabiospampinato.vscode-projects-plus-todo-plus
 fabiospampinato.vscode-todo-plus
+faustinoaq.crystal-lang
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 formulahendry.code-runner
