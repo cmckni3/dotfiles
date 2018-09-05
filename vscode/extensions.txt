@@ -9,6 +9,7 @@ bierner.markdown-preview-github-styles
 castwide.solargraph
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
+cmckni3.dark-plus-mono
 codezombiech.gitignore
 CoenraadS.bracket-pair-colorizer
 cssho.vscode-svgviewer
@@ -35,9 +36,7 @@ hardikpthv.AngularMaterial
 hasanali.gitignore-templates
 James-Yu.latex-workshop
 joelday.docthis
-johnpapa.angular-essentials
 johnpapa.Angular2
-johnpapa.winteriscoming
 killalau.vscode-liquid-snippets
 kirchner-trevor.shopify-liquid-preview
 MariusAlchimavicius.json-to-ts
@@ -67,7 +66,6 @@ Prisma.vscode-graphql
 rebornix.ruby
 redhat.java
 satokaz.vscode-memo-life-for-you
-sdras.night-owl
 sdras.vue-vscode-snippets
 shanoor.vscode-nginx
 sianglim.slim
@@ -82,7 +80,6 @@ WallabyJs.quokka-vscode
 wangtao0101.vscode-js-import
 wayou.vscode-todo-highlight
 wcwhitehead.bootstrap-3-snippets
-wesbos.theme-cobalt2
 wix.extractor
 wmaurer.change-case
 wwm.better-align
