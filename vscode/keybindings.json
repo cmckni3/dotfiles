@@ -18,5 +18,9 @@
     "key": "alt+cmd+left",
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+,",
+    "command": "workbench.action.openSettingsJson"
   }
 ]
