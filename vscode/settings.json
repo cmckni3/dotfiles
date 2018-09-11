@@ -86,25 +86,66 @@
 
   "projects.useTilde": true,
 
-  "todohighlight.isEnable": true,
-  "todohighlight.keywords": [
+  "color-highlight.markerType": "outline",
+  "better-comments.tags": [
     {
-      "text": "NOTE:",
-      "color": "#fff",
-      "backgroundColor": "#009688",
-      "overviewRulerColor": "rgb(0, 151, 136, 0.8)",
-      "isWholeLine": false
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
     },
     {
-      "text": "HACK:",
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "todo",
+      "color": "#ffbd2a",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "fixme",
       "color": "#fff",
-      "backgroundColor": "#FF3D00",
-      "overviewRulerColor": "rgb(255, 59, 1, 0.8)",
-      "isWholeLine": false
+      "strikethrough": false,
+      "backgroundColor": "#f06292"
+    },
+    {
+      "tag": "hack",
+      "color": "#FF3D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "note",
+      "color": "#009688",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
     }
   ],
 
   "typescript.autoImportSuggestions.enabled": false,
   "gitlens.historyExplorer.enabled": true,
-  "nativescript.analytics.enabled": false
+  "nativescript.analytics.enabled": false,
+  "github.hosts": [
+    {
+      "host": "https://github.com",
+      "username": "oauth",
+      "token": "system"
+    }
+  ]
 }

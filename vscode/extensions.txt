@@ -1,3 +1,4 @@
+aaron-bond.better-comments
 adamwalzer.scss-lint
 alefragnani.Bookmarks
 alexdima.copy-relative-path
@@ -33,6 +34,7 @@ faustinoaq.crystal-lang
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 formulahendry.code-runner
+GitHub.vscode-pull-request-github
 guillaumedoutriaux.name-that-color
 hardikpthv.AngularMaterial
 hasanali.gitignore-templates
@@ -56,6 +58,7 @@ ms-vscode.PowerShell
 ms-vscode.sublime-keybindings
 msjsdiag.debugger-for-chrome
 natewallace.angular2-inline
+naumovs.color-highlight
 neilding.language-liquid
 octref.vetur
 Orta.vscode-ios-common-files
@@ -80,7 +83,6 @@ waderyan.gitblame
 WakaTime.vscode-wakatime
 WallabyJs.quokka-vscode
 wangtao0101.vscode-js-import
-wayou.vscode-todo-highlight
 wcwhitehead.bootstrap-3-snippets
 wix.extractor
 wmaurer.change-case
