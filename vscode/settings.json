@@ -25,6 +25,8 @@
     ".php_cs.dist": "php",
     "*.php": "php"
   },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 5000,
   "[dockerfile]": {
     "editor.formatOnSave": false
   },
