@@ -1,4 +1,3 @@
-aaron-bond.better-comments
 adamwalzer.scss-lint
 alefragnani.Bookmarks
 alexdima.copy-relative-path
