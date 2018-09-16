@@ -143,6 +143,9 @@
   "typescript.autoImportSuggestions.enabled": false,
   "gitlens.historyExplorer.enabled": true,
   "nativescript.analytics.enabled": false,
+  "htmlhint.options": {
+    "attr-lowercase": false
+  },
   "github.hosts": [
     {
       "host": "https://github.com",
