@@ -52,6 +52,7 @@ ms-azuretools.vscode-cosmosdb
 ms-mssql.mssql
 ms-python.python
 ms-vscode.azure-account
+ms-vscode.azurecli
 ms-vscode.cpptools
 ms-vscode.csharp
 ms-vscode.PowerShell
