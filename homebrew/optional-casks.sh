@@ -13,6 +13,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     charles
     cloudapp
     dash
+    google-chrome-canary
     kaleidoscope
     mou
     sequel-pro

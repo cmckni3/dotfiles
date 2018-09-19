@@ -20,6 +20,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     coreutils
     ctags
     curl
+    desk
     git
     git-flow
     git-extras
@@ -58,7 +59,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     font-fira-code
     font-hack
     google-chrome
-    google-chrome-canary
     iterm2
     spectacle
     sourcetree
