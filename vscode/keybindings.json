@@ -22,5 +22,9 @@
   {
     "key": "cmd+,",
     "command": "workbench.action.openSettingsJson"
+  },
+  {
+    "key": "alt+b",
+    "command": "multiCommand.makeRoom"
   }
 ]
