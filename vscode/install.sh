@@ -18,7 +18,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     exts=$(cat "$DIR/extensions.txt")
     for ext in $exts; do
       echo "Installing $ext"
-      code --install-extension "$ext"
+      code --force --install-extension "$ext"
     done
   fi
 fi
