@@ -62,7 +62,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     iterm2
     spectacle
     sourcetree
-    sublime-text
     visual-studio-code
     the-unarchiver
     yemuzip
