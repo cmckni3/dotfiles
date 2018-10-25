@@ -15,3 +15,4 @@ yarn-error.log
 node_modules
 lerna-debug.log
 .angulardoc.json
+vandelay-js.js

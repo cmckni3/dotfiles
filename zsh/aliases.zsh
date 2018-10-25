@@ -90,6 +90,7 @@ alias largestfiles="du -k -I Library ~/* | awk '\$1 > 500000' | sort -nr"
 alias dds="find . -name '*.DS_Store' -type f -delete"
 alias clean-xcode-downloads="rm -rf ~/Library/Caches/com.apple.dt.Xcode/Downloads/*"
 alias clean-xcode-simulators="rm -rf /Library/Developer/CoreSimulator/Profiles/Runtimes/*"
+alias xcode-simulator-data="open ~/Library/Developer/CoreSimulator/Devices"
 alias wfc='when-files-change "clear && bundle exec rake spec"'
 
 # VS Code
