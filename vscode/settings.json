@@ -104,7 +104,7 @@
 
   "prettier.arrowParens": "avoid",
   "prettier.printWidth": 100,
-  "prettier.disableLanguages": ["html"],
+  "prettier.disableLanguages": ["angular", "html", ",vue"],
   "prettier.proseWrap": "preserve",
   "prettier.semi": true,
   "prettier.singleQuote": true,
