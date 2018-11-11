@@ -76,6 +76,7 @@
     "shopify"
   ],
   "tslint.jsEnable": true,
+  "tslint.packageManager": "yarn",
 
   "code-runner.enableAppInsights": false,
 
