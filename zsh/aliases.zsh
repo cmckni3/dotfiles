@@ -51,6 +51,9 @@ alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
 alias gfdiff='git diff --name-only'
 alias ggrep='git log -S'
 alias gfastclone='git clone --depth 20'
+alias gignore='git update-index --assume-unchanged'
+alias gunignore='git update-index --assume-no-unchanged'
+alias gignored="git ls-files -v | grep '^h'"
 
 # JavaScript
 alias ng6-cli='yarn global add @angular/cli \
