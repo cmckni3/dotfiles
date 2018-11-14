@@ -53,7 +53,7 @@ alias ggrep='git log -S'
 alias gfastclone='git clone --depth 20'
 alias gignore='git update-index --assume-unchanged'
 alias gunignore='git update-index --assume-no-unchanged'
-alias gignored="git ls-files -v | grep '^h'"
+alias gignored="git ls-files -v | grep '^[a-z]'"
 
 # JavaScript
 alias ng6-cli='yarn global add @angular/cli \
