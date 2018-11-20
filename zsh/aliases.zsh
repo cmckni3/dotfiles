@@ -52,7 +52,7 @@ alias gfdiff='git diff --name-only'
 alias ggrep='git log -S'
 alias gfastclone='git clone --depth 20'
 alias gignore='git update-index --assume-unchanged'
-alias gunignore='git update-index --assume-no-unchanged'
+alias gunignore='git update-index --no-assume-unchanged'
 alias gignored="git ls-files -v | grep '^[a-z]'"
 
 # JavaScript
