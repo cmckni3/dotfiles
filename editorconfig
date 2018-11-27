@@ -27,3 +27,6 @@ indent_style = tab
 [*.{md,rst}]
 insert_final_newline = false
 trim_trailing_whitespace = false
+
+[*.xml]
+indent_size = 4
