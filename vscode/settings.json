@@ -112,6 +112,7 @@
   "prettier.trailingComma": "es5",
   "prettier.useTabs": false,
   "prettier.tabWidth": 2,
+  "prettier.requireConfig": true,
 
   "projects.useTilde": true,
 
