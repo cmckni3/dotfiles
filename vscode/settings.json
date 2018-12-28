@@ -173,12 +173,5 @@
   "htmlhint.options": {
     "tagname-lowercase": false,
     "attr-lowercase": false
-  },
-  "githubPullRequests.hosts": [
-    {
-      "host": "https://github.com",
-      "username": "oauth",
-      "token": "system"
-    }
-  ]
+  }
 }
