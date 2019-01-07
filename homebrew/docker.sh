@@ -4,7 +4,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 
   FORMULAS=(
     dock
-    docker-compose
   )
 
   echo 'Installing docker formulae'

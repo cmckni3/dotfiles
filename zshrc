@@ -37,6 +37,8 @@ export EDITOR=vim
 # location to find Go packages
 export GOPATH="$HOME/code/go"
 
+export ANDROID_HOME=/usr/local/share/android-sdk
+
 export ANSIBLE_HOSTS=~/ansible_hosts
 
 # Force GPG passphrase on command line
@@ -46,7 +48,7 @@ if [[ -n "$SSH_CONNECTION" ]] ;then
 fi
 
 # Create the path from scratch so it doesn't get messed up when using tmux
-export PATH=$GOPATH/bin:/usr/local/heroku/bin:"$HOME/ansible/bin":"$HOME/.rbenv/bin":./bin:"$HOME/bin":"$HOME/bin/mongo":"$HOME/bin/redis":./node_modules/.bin:/usr/local/bin:/usr/local/sbin:"/usr/local/texlive/2015/bin/x86_64-darwin":/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+export PATH=$ANDROID_HOME:$HOME/.fastlane/bin:$GOPATH/bin:/usr/local/heroku/bin:"$HOME/ansible/bin":"$HOME/.rbenv/bin":./bin:"$HOME/bin":"$HOME/bin/mongo":"$HOME/bin/redis":./node_modules/.bin:/usr/local/bin:/usr/local/sbin:"/usr/local/texlive/2015/bin/x86_64-darwin":/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
 
 if which rbenv > /dev/null; then
   eval "$(rbenv init -)"

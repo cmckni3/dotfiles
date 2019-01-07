@@ -53,7 +53,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   # Homebrew casks
   CASKS=(
     alfred
-    # Previously, docker-toolbox was used until Docker for Mac became usable
     docker
     firefox-developer-edition
     font-fira-code
