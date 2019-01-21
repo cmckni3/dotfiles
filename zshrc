@@ -38,6 +38,7 @@ export EDITOR=vim
 export GOPATH="$HOME/code/go"
 
 export ANDROID_HOME=/usr/local/share/android-sdk
+export ANDROID_PATH=$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools
 
 export ANSIBLE_HOSTS=~/ansible_hosts
 
@@ -48,7 +49,7 @@ if [[ -n "$SSH_CONNECTION" ]] ;then
 fi
 
 # Create the path from scratch so it doesn't get messed up when using tmux
-export PATH=$ANDROID_HOME:$HOME/.fastlane/bin:$GOPATH/bin:/usr/local/heroku/bin:"$HOME/ansible/bin":"$HOME/.rbenv/bin":./bin:"$HOME/bin":"$HOME/bin/mongo":"$HOME/bin/redis":./node_modules/.bin:/usr/local/bin:/usr/local/sbin:"/usr/local/texlive/2015/bin/x86_64-darwin":/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+export PATH=$ANDROID_PATH:$HOME/.fastlane/bin:$GOPATH/bin:/usr/local/heroku/bin:"$HOME/ansible/bin":"$HOME/.rbenv/bin":./bin:"$HOME/bin":"$HOME/bin/mongo":"$HOME/bin/redis":./node_modules/.bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
 
 if which rbenv > /dev/null; then
   eval "$(rbenv init -)"
