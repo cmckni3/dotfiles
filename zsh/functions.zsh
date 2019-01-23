@@ -35,10 +35,35 @@ function um-ls() {
   ls ~/.notes
 }
 
-function thinctl() {
-  command=$1
-  project_directory=`pwd | xargs basename`
-  bundle exec thin $command -S /tmp/$project_directory-dev.sock -d --tag $project_directory -s 5 -P tmp/pids/thin.pid
+# weather
+weather()
+{
+  locale=$1
+  lang=${2:-${LANG%_*}}
+  while [ "$#" -gt 0 ];
+  do
+    case $1 in
+      -h* | --help*)
+      echo "-------------------------"
+        echo "    Terminal Weather"
+      echo "-------------------------\n"
+      echo "Command: weather"
+      echo "or"
+      echo "Command: weather LOCALE LANGUAGE(option)\n"
+      echo "Default LANGUAGE: SYSYEM_LANGUAGE"
+      echo "-------------------------\n"
+      curl wttr.in/:help
+      return
+      ;;
+
+      *)
+      shift
+      ;;
+    esac
+  done
+
+  # change Paris to your default location
+  curl -H "Accept-Language: $lang" wttr.in/$locale
 }
 
 function brew-clean() { brew list | grep $@ | xargs brew uninstall ;}
