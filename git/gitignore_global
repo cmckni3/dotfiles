@@ -16,3 +16,4 @@ node_modules
 lerna-debug.log
 .angulardoc.json
 vandelay-js.js
+jsconfig.json
