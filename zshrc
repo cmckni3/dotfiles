@@ -24,6 +24,13 @@ fi
 
 antigen bundle zsh-users/zsh-syntax-highlighting
 
+# Custom aliases and functions
+antigen bundle $HOME/dotfiles/zsh
+
+antigen theme bhilburn/powerlevel9k powerlevel9k
+
+antigen apply
+
 POWERLEVEL9K_MODE='nerdfont-complete'
 
 # settings
@@ -34,13 +41,6 @@ POWERLEVEL9K_DATE_FORMAT='%D{%Y-%m-%d}'
 # prompt segments
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(ssh date time dir vcs rbenv aws newline context)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(battery)
-
-# Custom aliases and functions
-antigen bundle $HOME/dotfiles/zsh
-
-antigen theme bhilburn/powerlevel9k powerlevel9k
-
-antigen apply
 
 export SVN_EDITOR=vim
 export EDITOR=vim
