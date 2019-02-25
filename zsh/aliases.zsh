@@ -68,7 +68,7 @@ alias rstudio='LD_LIBRARY_PATH=$(/usr/libexec/java_home)/jre/lib/server: open -a
 
 # Ruby
 alias be="bundle exec"
-alias gem-nuke="gem list | cut -d' ' -f1 | xargs gem uninstall -aIx"
+alias gem-nuke="gem list | grep -Ev '(bigdecimal|cmath|csv|date|dbm|did_you_mean|etc|fcntl|fiddle|fileutils|gdbm|io-console|ipaddr|json|minitest|net-telnet|openssl|power_assert|psych|rake|rdoc|scanf|sdbm|stringio|strscan|test-unit|webrick|xmlrpc|zlib)' | cut -d' ' -f1 | xargs gem uninstall -aIx"
 
 # Projects
 alias cdcode='cd ~/code'
