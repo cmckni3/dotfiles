@@ -26,7 +26,7 @@ function mdless() {
   pandoc -s -f markdown -t man "$1" | groff -T utf8 -man | less
 }
 function um-edit() {
-  mkdir -p ~/.notes; code "~/.notes/$1.md"
+  mkdir -p ~/.notes; code ~/.notes/"$1.md"
 }
 function um() {
   mdless ~/.notes/"$1.md"
