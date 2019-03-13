@@ -87,6 +87,7 @@ alias cdwork="cd ~/code/work"
 
 alias rsyncpr='rsync -avh --progress'
 alias brewcc='rm -rf ~/Library/Caches/Homebrew/*'
+alias yarncc='rm -rf ~/Library/Caches/Yarn/*'
 alias find-port-usage='netstat -vanp tcp | grep'
 alias find-node-modules="find . -type d -name 'node_modules'"
 alias largestfiles="du -k -I Library ~/* | awk '\$1 > 500000' | sort -nr"
