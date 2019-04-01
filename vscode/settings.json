@@ -118,6 +118,8 @@
   "prettier.tabWidth": 2,
   "prettier.requireConfig": true,
 
+  "vetur.format.defaultFormatter.html": "none",
+
   "projects.useTilde": true,
 
   "color-highlight.markerType": "outline",
