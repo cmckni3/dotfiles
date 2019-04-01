@@ -22,6 +22,10 @@ if type cap >/dev/null 2>&1; then
   antigen bundle capistrano
 fi
 
+# nvm
+export NVM_LAZY_LOAD=true NVM_AUTO_USE=true
+antigen bundle lukechilds/zsh-nvm
+
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Custom aliases and functions
@@ -65,8 +69,6 @@ export PATH=$ANDROID_PATH:$HOME/.fastlane/bin:$GOPATH/bin:/usr/local/heroku/bin:
 if which rbenv > /dev/null; then
   eval "$(rbenv init -)"
 fi
-
-[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh # This loads NVM
 
 [[ -s $HOME/.asdf/asdf.sh ]] && . $HOME/.asdf/asdf.sh
 
