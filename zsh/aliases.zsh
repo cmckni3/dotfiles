@@ -20,17 +20,17 @@ alias docker-cleani="docker images | grep '<none>' | awk '{print \$3}' | xargs d
 # Docker development containers
 # TODO: Move to compose files in a separate repo
 alias docker-redis-data='docker volume create --name redis-data'
-alias docker-redis='docker run -d --restart=always -p 6379:6379 -v redis-data:/data --name redis redis:3'
+alias docker-redis='docker run -d --restart=always -p 6379:6379 -v redis-data:/data --name redis registry.hub.docker.com/library/redis:3'
 alias docker-mongo-data='docker volume create --name mongo-data-db && docker volume create --name mongo-data-config'
-alias docker-mongo='docker run -d --restart=always -p 27017:27017 -v mongo-data-db:/data/db -v mongo-data-config:/data/configdb --name mongo mongo:3'
+alias docker-mongo='docker run -d --restart=always -p 27017:27017 -v mongo-data-db:/data/db -v mongo-data-config:/data/configdb --name mongo registry.hub.docker.com/library/mongo:3'
 alias docker-elasticsearch-data='docker volume create --name elasticsearch-data'
-alias docker-elasticsearch='docker run -d --restart=always -p 9200:9200 -v elasticsearch-data:/usr/share/elasticsearch/data --name elasticsearch elasticsearch:1.7'
+alias docker-elasticsearch='docker run -d --restart=always -p 9200:9200 -v elasticsearch-data:/usr/share/elasticsearch/data --name elasticsearch registry.hub.docker.com/library/elasticsearch:1.7'
 alias docker-solr-data='docker volume create --name solr-data'
-alias docker-solr='docker run -d --restart=always -p 8983:8983 -v solr-data:/opt/solr/server/solr/mycores --name solr solr:7'
+alias docker-solr='docker run -d --restart=always -p 8983:8983 -v solr-data:/opt/solr/server/solr/mycores --name solr registry.hub.docker.com/library/solr:7'
 alias docker-mysql-data='docker volume create --name mysql-data'
-alias docker-mysql='docker run -d -e MYSQL_ROOT_PASSWORD=root --restart=always -p 3306:3306 -v mysql-data:/var/lib/mysql --name mysql mysql:5.6'
+alias docker-mysql='docker run -d -e MYSQL_ROOT_PASSWORD=root --restart=always -p 3306:3306 -v mysql-data:/var/lib/mysql --name mysql registry.hub.docker.com/library/mysql:5.6'
 alias docker-pg-data='docker volume create --name pg-data'
-alias docker-pg='docker run -d -e PGDATA=/data -e POSTGRES_PASSWORD=root -v pg-data:/data -p 5432:5432 --name postgres postgres:9'
+alias docker-pg='docker run -d -e PGDATA=/data -e POSTGRES_PASSWORD=root -v pg-data:/data -p 5432:5432 --name postgres registry.hub.docker.com/library/postgres:9'
 alias docker-graphite='docker run -d \
  --name graphite \
  --restart=always \
