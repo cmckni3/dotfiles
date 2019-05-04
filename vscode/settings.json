@@ -64,6 +64,11 @@
   "typescript.suggest.autoImports": false,
   "npm.enableScriptExplorer": true,
 
+  // remove statusbar (at least unused ones)
+  "workbench.statusBar.feedback.visible": false,
+  "cSpell.showStatus": false,
+  "tsimporter.noStatusBar": true,
+
   "auto-close-tag.SublimeText3Mode": true,
 
   "php.suggest.basic": false,
