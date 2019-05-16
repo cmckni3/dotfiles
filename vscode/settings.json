@@ -76,7 +76,10 @@
   "intelephense.completionProvider.backslashPrefix": false,
   "C_Cpp.intelliSenseEngine": "Default",
   "csharp.suppressDotnetInstallWarning": true,
+  "cSpell.language": "en",
   "cSpell.userWords": [
+    "boostlink",
+    "dynamodb",
     "fico",
     "injectable",
     "ngrx",
