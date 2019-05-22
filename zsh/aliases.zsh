@@ -30,7 +30,7 @@ alias docker-solr='docker run -d --restart=always -p 8983:8983 -v solr-data:/opt
 alias docker-mysql-data='docker volume create --name mysql-data'
 alias docker-mysql='docker run -d -e MYSQL_ROOT_PASSWORD=root --restart=always -p 3306:3306 -v mysql-data:/var/lib/mysql --name mysql registry.hub.docker.com/library/mysql:5.6'
 alias docker-pg-data='docker volume create --name pg-data'
-alias docker-pg='docker run -d -e PGDATA=/data -e POSTGRES_PASSWORD=root -v pg-data:/data -p 5432:5432 --name postgres registry.hub.docker.com/library/postgres:9'
+alias docker-pg='docker run -d -e PGDATA=/var/lib/postgresql/data -e POSTGRES_PASSWORD=root -v pg-data:/var/lib/postgresql/data -p 5432:5432 --name postgres registry.hub.docker.com/library/postgres:9'
 alias docker-graphite='docker run -d \
  --name graphite \
  --restart=always \
