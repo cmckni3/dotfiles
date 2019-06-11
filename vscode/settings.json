@@ -51,6 +51,8 @@
   "html.format.wrapLineLength": 0,
   "html.format.extraLiners": "",
   "html.format.unformatted": "wbr,link,meta",
+  "html.format.indentInnerHtml": true,
+  "html.format.indentHandlebars": true,
   "search.location": "panel",
   "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.fontFamily": "Dank Mono, Hack Nerd Font",
@@ -90,6 +92,7 @@
     "nofollow",
     "personalization",
     "personalizations",
+    "presale",
     "shopify",
     "sortablejs",
     "upsert"
@@ -194,5 +197,8 @@
   "htmlhint.options": {
     "tagname-lowercase": false,
     "attr-lowercase": false
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
