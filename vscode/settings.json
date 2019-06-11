@@ -1,6 +1,7 @@
 {
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
+  "update.mode": "manual",
 
   "diffEditor.ignoreTrimWhitespace": false,
   "debug.toolBarLocation": "docked",
