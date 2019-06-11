@@ -21,7 +21,6 @@ DSKWRK.vscode-generate-getter-setter
 eamodio.gitlens
 EditorConfig.EditorConfig
 EFanZh.graphviz-preview
-eg2.tslint
 eg2.vscode-npm-script
 eiminsasete.apacheconf-snippets
 eriklynd.json-tools
@@ -44,6 +43,7 @@ joelday.docthis
 johnpapa.Angular2
 killalau.vscode-liquid-snippets
 kirchner-trevor.shopify-liquid-preview
+lextudio.restructuredtext
 MariusAlchimavicius.json-to-ts
 Mikael.Angular-BeastCode
 mikestead.dotenv
@@ -59,8 +59,9 @@ ms-vscode.azure-account
 ms-vscode.azurecli
 ms-vscode.cpptools
 ms-vscode.csharp
-ms-vscode.PowerShell
+ms-vscode.powershell
 ms-vscode.sublime-keybindings
+ms-vscode.vscode-typescript-tslint-plugin
 ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
 natewallace.angular2-inline
