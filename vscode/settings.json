@@ -86,6 +86,7 @@
     "Uploader",
     "boostlink",
     "boostlinks",
+    "cognito",
     "dynamodb",
     "fico",
     "injectable",
