@@ -47,6 +47,9 @@
   "[markdown]": {
     "editor.formatOnSave": false
   },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "html.format.enable": true,
   "html.format.wrapAttributes": "force-aligned",
   "html.format.wrapLineLength": 0,
@@ -75,6 +78,7 @@
 
   "auto-close-tag.SublimeText3Mode": true,
 
+  "aws.samcli.location": "/usr/local/bin/sam",
   "php.suggest.basic": false,
   "intelephense.completionProvider.addUseDeclaration": true,
   "intelephense.completionProvider.backslashPrefix": false,
@@ -82,21 +86,24 @@
   "csharp.suppressDotnetInstallWarning": true,
   "cSpell.language": "en",
   "cSpell.userWords": [
-    "Flatpickr",
-    "Uploader",
     "boostlink",
     "boostlinks",
+    "cloudformation",
     "cognito",
     "dynamodb",
+    "fargate",
     "fico",
+    "flatpickr",
     "injectable",
     "ngrx",
     "nofollow",
     "personalization",
     "personalizations",
     "presale",
+    "quicksight",
     "shopify",
     "sortablejs",
+    "uploader",
     "upsert"
   ],
   "tslint.jsEnable": true,
@@ -199,8 +206,5 @@
   "htmlhint.options": {
     "tagname-lowercase": false,
     "attr-lowercase": false
-  },
-  "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
