@@ -94,6 +94,7 @@
     "dynamodb",
     "fargate",
     "fico",
+    "filesize",
     "flatpickr",
     "injectable",
     "ngrx",
