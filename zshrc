@@ -77,3 +77,7 @@ fi
 
 [ -s "$HOME/.jabba/jabba.sh" ] && source "$HOME/.jabba/jabba.sh"
 
+# XXX: short circuit tabtab completion auto installation
+# tabtab source for serverless package
+# tabtab source for sls package
+
