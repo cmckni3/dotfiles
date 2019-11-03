@@ -16,6 +16,7 @@ alias tlog='tail -f ~/php_error_log'
 alias dc='docker-compose'
 alias rock='rocker-compose'
 alias docker-cleani="docker images | grep '<none>' | awk '{print \$3}' | xargs docker rmi"
+alias dis="docker images --format '{{.Size}}\t{{.Repository}}:{{.Tag}}\t{{.ID}}' | sort -h | column -t"
 
 # Docker development containers
 # TODO: Move to compose files in a separate repo

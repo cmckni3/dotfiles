@@ -11,17 +11,17 @@ defaults write com.apple.dock expose-animation-duration -float 0.1
 
 defaults write com.apple.dock autohide-delay -float 0
 
-defaults write com.apple.mail DisableReplyAnimations -bool true
-defaults write com.apple.mail DisableSendAnimations -bool true
+defaults write com.apple.mail DisableReplyAnimations -bool TRUE
+defaults write com.apple.mail DisableSendAnimations -bool TRUE
 
 # defaults write NSGlobalDomain InitialKeyRepeat -int 15
 # defaults write NSGlobalDomain KeyRepeat -int 6
 
 # Disable .DS_Store on network drives
-defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
 
 # Disable .DS_Store on USB drives
-defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool TRUE
 
 ##
 ## Dashboard

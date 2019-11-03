@@ -11,6 +11,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     homebrew/cask-fonts
     caskroom/versions
     bripkens/homebrew-dock
+    mongodb/brew
   )
 
   # Homebrew formulas

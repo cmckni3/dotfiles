@@ -7,6 +7,8 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     elasticsearch
     ghostscript
     imagemagick
+    mongodb-community
+    mongodb-community-shell
     neo4j
     qt
     r
