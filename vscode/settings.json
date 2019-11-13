@@ -47,6 +47,9 @@
   "[markdown]": {
     "editor.formatOnSave": false
   },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -90,8 +93,11 @@
     "boostlink",
     "boostlinks",
     "cloudformation",
+    "cloudtrail",
+    "cloudwatch",
     "cognito",
     "dynamodb",
+    "entrypoint",
     "fargate",
     "fico",
     "filesize",
@@ -103,6 +109,7 @@
     "personalizations",
     "presale",
     "quicksight",
+    "rekognition",
     "shopify",
     "sortablejs",
     "uploader",
@@ -135,17 +142,6 @@
       ]
     }
   ],
-
-  "prettier.arrowParens": "avoid",
-  "prettier.printWidth": 100,
-  "prettier.disableLanguages": ["angular", "html", "vue"],
-  "prettier.proseWrap": "preserve",
-  "prettier.semi": true,
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "es5",
-  "prettier.useTabs": false,
-  "prettier.tabWidth": 2,
-  "prettier.requireConfig": true,
 
   "vetur.format.defaultFormatter.html": "none",
 

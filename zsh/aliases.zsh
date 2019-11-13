@@ -14,7 +14,6 @@ alias tlog='tail -f ~/php_error_log'
 
 # Docker
 alias dc='docker-compose'
-alias rock='rocker-compose'
 alias docker-cleani="docker images | grep '<none>' | awk '{print \$3}' | xargs docker rmi"
 alias dis="docker images --format '{{.Size}}\t{{.Repository}}:{{.Tag}}\t{{.ID}}' | sort -h | column -t"
 
@@ -56,6 +55,10 @@ alias gignore='git update-index --assume-unchanged'
 alias gunignore='git update-index --no-assume-unchanged'
 alias gignored="git ls-files -v | grep '^[a-z]'"
 
+# Homebrew
+alias brew-export='brew list | column -t'
+alias brewcc='rm -rf ~/Library/Caches/Homebrew/*'
+
 # JavaScript
 alias ng6-cli='yarn global add @angular/cli \
   @angular-devkit/architect \
@@ -63,6 +66,7 @@ alias ng6-cli='yarn global add @angular/cli \
   @angular-devkit/schematics \
   @schematics/angular \
   @schematics/update'
+alias yarncc='rm -rf ~/Library/Caches/Yarn/*'
 
 # R
 alias rstudio='LD_LIBRARY_PATH=$(/usr/libexec/java_home)/jre/lib/server: open -a RStudio'
@@ -87,8 +91,6 @@ alias cdswiftios="cd ~/code/swift/ios"
 alias cdwork="cd ~/code/work"
 
 alias rsyncpr='rsync -avh --progress'
-alias brewcc='rm -rf ~/Library/Caches/Homebrew/*'
-alias yarncc='rm -rf ~/Library/Caches/Yarn/*'
 alias find-port-usage='netstat -vanp tcp | grep'
 alias find-node-modules="find . -type d -name 'node_modules'"
 alias largestfiles="du -k -I Library ~/* | awk '\$1 > 500000' | sort -nr"
