@@ -55,7 +55,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   CASKS=(
     alfred
     docker
-    firefox-developer-edition
     font-fira-code
     font-hack
     google-chrome
