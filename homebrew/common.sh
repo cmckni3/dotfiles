@@ -6,10 +6,10 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   alias git='hub'
 
   # Homebrew taps
+  brew tap giginet/toybox https://github.com/giginet/Toybox.git
   TAPS=(
     aws/tap
     bripkens/dock
-    giginet/toybox
     heroku/brew
     homebrew/cask
     homebrew/cask-fonts
