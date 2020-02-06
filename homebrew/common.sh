@@ -7,10 +7,17 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 
   # Homebrew taps
   TAPS=(
-    caskroom/cask
+    aws/tap
+    bripkens/dock
+    giginet/toybox
+    heroku/brew
+    homebrew/cask
     homebrew/cask-fonts
-    caskroom/versions
-    bripkens/homebrew-dock
+    homebrew/cask-versions
+    homebrew/core
+    homebrew/services
+    jzelinskie/faq
+    microsoft/msodbcsql
     mongodb/brew
   )
 
