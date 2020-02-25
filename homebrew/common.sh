@@ -63,7 +63,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     font-hack
     google-chrome
     iterm2
-    spectacle
     sourcetree
     visual-studio-code
     the-unarchiver

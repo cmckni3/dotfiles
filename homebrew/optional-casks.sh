@@ -12,6 +12,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     kaleidoscope
     mou
     sequel-pro
+    spectacle
     transmit
   )
 
