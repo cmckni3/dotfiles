@@ -6,7 +6,10 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     dart
     elasticsearch
     ghostscript
+    graphviz
     imagemagick
+    jabba
+    mercurial
     mongodb-community
     mongodb-community-shell
     neo4j

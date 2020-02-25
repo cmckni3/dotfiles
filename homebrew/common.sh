@@ -17,6 +17,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     homebrew/core
     homebrew/services
     jzelinskie/faq
+    linuxkit/linuxkit
     microsoft/msodbcsql
     mongodb/brew
   )
@@ -34,11 +35,8 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     git-extras
     gnu-sed
     gnu-tar
-    graphviz
     htop-osx
     hub
-    jabba
-    mercurial
     mogenerator
     nmap
     openssl
@@ -61,7 +59,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   # Homebrew casks
   CASKS=(
     alfred
-    docker
     font-fira-code
     font-hack
     google-chrome

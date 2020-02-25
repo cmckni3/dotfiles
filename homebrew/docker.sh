@@ -6,9 +6,17 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     dock
   )
 
+  CASKS=(
+    docker
+  )
+
   echo 'Installing docker formulae'
 
   brew install ${FORMULAS[@]}
+
+  echo 'Installing docker casks'
+
+  brew cask install ${CASKS[@]}
 
   echo 'Cleaning up'
 
