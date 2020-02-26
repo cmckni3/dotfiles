@@ -63,7 +63,6 @@
   "html.format.unformatted": "wbr,link,meta",
   "html.format.indentInnerHtml": true,
   "html.format.indentHandlebars": true,
-  "search.location": "panel",
   "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.fontFamily": "Dank Mono, Hack Nerd Font",
   "terminal.integrated.fontSize": 14,
