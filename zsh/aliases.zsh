@@ -98,6 +98,7 @@ alias dds="find . -name '*.DS_Store' -type f -delete"
 alias clean-xcode-downloads="rm -rf ~/Library/Caches/com.apple.dt.Xcode/Downloads/*"
 alias clean-xcode-simulators="rm -rf /Library/Developer/CoreSimulator/Profiles/Runtimes/*"
 alias backup-chrome='cp -rp ~/Library/Application\ Support/Google/Chrome/Default ~/Desktop/Chrome-backup-$(date +"%Y-%m-%d")'
+alias backup-canary='cp -rp ~/Library/Application\ Support/Google/Chrome\ Canary/Default ~/Desktop/Canary-backup-$(date +"%Y-%m-%d")'
 alias backup-brave='cp -rp ~/Library/Application\ Support/BraveSoftware/Brave-Browser/Default ~/Desktop/Brave-backup-$(date +"%Y-%m-%d")'
 alias xcode-simulator-data="open ~/Library/Developer/CoreSimulator/Devices"
 alias wfc='when-files-change "clear && bundle exec rake spec"'
