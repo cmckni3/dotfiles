@@ -26,6 +26,7 @@
     "vue": "html"
   },
   "explorer.openEditors.visible": 0,
+  "explorer.compactFolders": false,
   "extensions.autoUpdate": false,
   "files.associations": {
     ".php_cs": "php",
@@ -88,6 +89,7 @@
   "csharp.suppressDotnetInstallWarning": true,
   "cSpell.language": "en",
   "cSpell.userWords": [
+    "alexa",
     "amazonaws",
     "amzn",
     "apigateway",
@@ -102,6 +104,10 @@
     "cloudfront",
     "cloudtrail",
     "cloudwatch",
+    "codebuild",
+    "codecommit",
+    "codedeploy",
+    "codepipeline",
     "cognito",
     "cooldown",
     "datasync",
@@ -144,6 +150,7 @@
     "subnet",
     "subnets",
     "traefik",
+    "transcoding",
     "uploader",
     "upsert",
     "websockets"
