@@ -6,6 +6,8 @@
     template = ~/.gitmessage
 [user]
     useConfigOnly = true
+[pull]
+    rebase = false
 [push]
     default = simple
 [rerere]

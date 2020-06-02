@@ -84,6 +84,7 @@
   "auto-close-tag.SublimeText3Mode": true,
 
   "aws.samcli.location": "/usr/local/bin/sam",
+  "aws.telemetry": false,
   "php.suggest.basic": false,
   "C_Cpp.intelliSenseEngine": "Default",
   "csharp.suppressDotnetInstallWarning": true,
@@ -124,15 +125,19 @@
     "flatpickr",
     "geocode",
     "geolocation",
+    "gitlab",
+    "govcloud",
     "graphql",
     "hipaa",
     "injectable",
     "iolap",
     "lifecycle",
+    "mediaconvert",
     "mediainfo",
     "microservice",
     "microservices",
     "ngrx",
+    "nibrs",
     "nist",
     "nofollow",
     "nonnegligent",
@@ -174,6 +179,11 @@
     "suppressShowKeyBindingsNotice": true,
     "suppressUpdateNotice": false,
     "suppressWelcomeNotice": true
+  },
+
+  "htmlhint.options": {
+    "tagname-lowercase": false,
+    "attr-lowercase": false
   },
 
   "multiCommand.commands": [
@@ -240,10 +250,5 @@
       "strikethrough": false,
       "backgroundColor": "transparent"
     }
-  ],
-
-  "htmlhint.options": {
-    "tagname-lowercase": false,
-    "attr-lowercase": false
-  }
+  ]
 }
