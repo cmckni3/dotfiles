@@ -11,11 +11,14 @@ alias global-yarn='code ~/.config/yarn/global/package.json'
 # Logs
 alias tlog='tail -f ~/php_error_log'
 
+alias uuid='uuidgen | tr "[:upper:]" "[:lower:]"'
+
 
 # Docker
 alias dc='docker-compose'
 alias docker-cleani="docker images | grep '<none>' | awk '{print \$3}' | xargs docker rmi"
 alias dis="docker images --format '{{.Size}}\t{{.Repository}}:{{.Tag}}\t{{.ID}}' | sort -h | column -t"
+alias dils="docker images --format '{{ .Repository }}:{{ .Tag }}'"
 
 # Docker development containers
 # TODO: Move to compose files in a separate repo

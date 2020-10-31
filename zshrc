@@ -7,6 +7,7 @@ antigen use oh-my-zsh
 
 if type git >/dev/null 2>&1; then
   antigen bundle git
+  antigen bundle gitfast
   antigen bundle git-flow
 fi
 
