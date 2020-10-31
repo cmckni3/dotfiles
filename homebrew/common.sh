@@ -38,6 +38,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     htop-osx
     hub
     mogenerator
+    mono-libgdiplus
     nmap
     openssl
     pandoc

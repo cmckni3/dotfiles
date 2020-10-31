@@ -26,6 +26,7 @@
     "vue": "html"
   },
   "explorer.openEditors.visible": 0,
+  "explorer.compactFolders": false,
   "extensions.autoUpdate": false,
   "files.associations": {
     ".php_cs": "php",
@@ -83,11 +84,13 @@
   "auto-close-tag.SublimeText3Mode": true,
 
   "aws.samcli.location": "/usr/local/bin/sam",
+  "aws.telemetry": false,
   "php.suggest.basic": false,
   "C_Cpp.intelliSenseEngine": "Default",
   "csharp.suppressDotnetInstallWarning": true,
   "cSpell.language": "en",
   "cSpell.userWords": [
+    "alexa",
     "amazonaws",
     "amzn",
     "apigateway",
@@ -96,12 +99,17 @@
     "backoff",
     "boostlink",
     "boostlinks",
+    "camelcase",
     "cidr",
     "cjis",
     "cloudformation",
     "cloudfront",
     "cloudtrail",
     "cloudwatch",
+    "codebuild",
+    "codecommit",
+    "codedeploy",
+    "codepipeline",
     "cognito",
     "cooldown",
     "datasync",
@@ -117,15 +125,19 @@
     "flatpickr",
     "geocode",
     "geolocation",
+    "gitlab",
+    "govcloud",
     "graphql",
     "hipaa",
     "injectable",
     "iolap",
     "lifecycle",
+    "mediaconvert",
     "mediainfo",
     "microservice",
     "microservices",
     "ngrx",
+    "nibrs",
     "nist",
     "nofollow",
     "nonnegligent",
@@ -141,9 +153,12 @@
     "secretsmanager",
     "shopify",
     "sortablejs",
+    "stepfunctions",
     "subnet",
     "subnets",
     "traefik",
+    "transcoding",
+    "unauth",
     "uploader",
     "upsert",
     "websockets"
@@ -164,6 +179,11 @@
     "suppressShowKeyBindingsNotice": true,
     "suppressUpdateNotice": false,
     "suppressWelcomeNotice": true
+  },
+
+  "htmlhint.options": {
+    "tagname-lowercase": false,
+    "attr-lowercase": false
   },
 
   "multiCommand.commands": [
@@ -230,10 +250,5 @@
       "strikethrough": false,
       "backgroundColor": "transparent"
     }
-  ],
-
-  "htmlhint.options": {
-    "tagname-lowercase": false,
-    "attr-lowercase": false
-  }
+  ]
 }
