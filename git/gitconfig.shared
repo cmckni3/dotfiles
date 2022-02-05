@@ -2,6 +2,8 @@
     excludesfile = ~/.gitignore_global
     autocrlf = input
     editor = "code --wait"
+[init]
+    defaultBranch = "master"
 [commit]
     template = ~/.gitmessage
 [user]

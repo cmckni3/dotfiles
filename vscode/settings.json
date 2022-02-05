@@ -3,6 +3,10 @@
   "telemetry.enableCrashReporter": false,
   "update.mode": "manual",
 
+  "redhat.telemetry.enabled": false,
+  "code-runner.enableAppInsights": false,
+  "aws.telemetry": false,
+
   "diffEditor.ignoreTrimWhitespace": false,
   "debug.toolBarLocation": "docked",
   "editor.emptySelectionClipboard": false,
@@ -76,30 +80,32 @@
   "terminal.integrated.fontFamily": "Dank Mono, Hack Nerd Font",
   "terminal.integrated.fontSize": 14,
   "workbench.activityBar.visible": true,
-  "workbench.colorTheme": "Dark+ Mono",
   "workbench.fontAliasing": "antialiased",
   "workbench.editorAssociations": [
     {
-      "viewType": "jupyter.notebook.ipynb",
+      "viewType": "jupyter-notebook",
       "filenamePattern": "*.ipynb"
     }
   ],
   "workbench.editor.untitled.hint": "hidden",
   "workbench.editor.highlightModifiedTabs": true,
+  "workbench.colorTheme": "Dark+ Mono",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
 
-  "javascript.implicitProjectConfig.checkJs": true,
   "typescript.suggest.autoImports": false,
 
   // remove statusbar (at least unused ones)
+  "git.enableStatusBarSync": false,
   "cSpell.showStatus": false,
+  "liveshare.showInStatusBar": "whileCollaborating",
   "tsimporter.noStatusBar": true,
+  "quokka.startViewStatusBar": false,
+  "projects.statusbarEnabled": false,
 
   "auto-close-tag.SublimeText3Mode": true,
 
   "aws.samcli.location": "/usr/local/bin/sam",
-  "aws.telemetry": false,
   "php.suggest.basic": false,
   "C_Cpp.intelliSenseEngine": "Default",
   "csharp.suppressDotnetInstallWarning": true,
@@ -161,8 +167,10 @@
     "nist",
     "nofollow",
     "nonnegligent",
+    "opensearch",
     "personalization",
     "personalizations",
+    "pino",
     "presale",
     "quicksight",
     "quickstart",
@@ -170,6 +178,7 @@
     "recaptcha",
     "rekognition",
     "retryable",
+    "roadmaps",
     "runtimes",
     "secretsmanager",
     "shopify",
@@ -179,6 +188,8 @@
     "subnets",
     "traefik",
     "transcoding",
+    "transcribeservice",
+    "ulid",
     "unauth",
     "uploader",
     "upsert",
@@ -187,8 +198,6 @@
   "tslint.jsEnable": true,
   "tslint.packageManager": "yarn",
 
-  "code-runner.enableAppInsights": false,
-
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
     "suppressCommitNotFoundWarning": false,
@@ -196,10 +205,6 @@
     "suppressGitVersionWarning": false,
     "suppressLineUncommittedWarning": false,
     "suppressNoRepositoryWarning": false,
-    "suppressResultsExplorerNotice": true,
-    "suppressShowKeyBindingsNotice": true,
-    "suppressUpdateNotice": false,
-    "suppressWelcomeNotice": true
   },
 
   "htmlhint.options": {
@@ -216,8 +221,6 @@
       ]
     }
   ],
-
-  "vetur.format.defaultFormatter.html": "none",
 
   "projects.useTilde": true,
 
