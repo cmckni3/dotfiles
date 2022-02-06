@@ -8,7 +8,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     ghostscript
     graphviz
     imagemagick
-    jabba
     mercurial
     mongodb-community
     mongodb-community-shell
