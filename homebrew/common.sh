@@ -86,7 +86,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 
   echo 'Installing casks'
 
-  brew cask install ${CASKS[@]}
+  brew install ${CASKS[@]}
 
   echo 'Cleaning up'
 
