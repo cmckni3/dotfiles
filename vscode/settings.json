@@ -1,6 +1,5 @@
 {
-  "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false,
+  "telemetry.telemetryLevel": "off",
   "update.mode": "manual",
 
   "redhat.telemetry.enabled": false,
@@ -24,6 +23,7 @@
   "editor.snippetSuggestions": "top",
   "editor.tabSize": 2,
   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.bracketPairColorization.enabled": true,
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
     "blade.php": "html",
@@ -62,6 +62,9 @@
   "[markdown]": {
     "editor.formatOnSave": false
   },
+  "[rego]": {
+    "editor.defaultFormatter": "tsandall.opa"
+  },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -81,12 +84,9 @@
   "terminal.integrated.fontSize": 14,
   "workbench.activityBar.visible": true,
   "workbench.fontAliasing": "antialiased",
-  "workbench.editorAssociations": [
-    {
-      "viewType": "jupyter-notebook",
-      "filenamePattern": "*.ipynb"
-    }
-  ],
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
   "workbench.editor.untitled.hint": "hidden",
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.colorTheme": "Dark+ Mono",
@@ -156,6 +156,7 @@
     "hipaa",
     "injectable",
     "iolap",
+    "kubernetes",
     "lifecycle",
     "loggable",
     "mediaconvert",
