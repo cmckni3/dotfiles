@@ -67,7 +67,7 @@ if [[ -n "$SSH_CONNECTION" ]] ;then
 fi
 
 # Create the path from scratch so it doesn't get messed up when using tmux
-export PATH=$ANDROID_PATH:$HOME/.fastlane/bin:$GOPATH/bin:/usr/local/heroku/bin:"$HOME/Library/Python/2.7/bin":"$HOME/ansible/bin":"$HOME/.rbenv/bin":./bin:"$HOME/bin":"$HOME/bin/mongo":"$HOME/bin/redis":./node_modules/.bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+export PATH=$ANDROID_PATH:$HOME/.fastlane/bin:$GOPATH/bin:/usr/local/heroku/bin:"$HOME/Library/Python/2.7/bin":"$HOME/ansible/bin":"$HOME/.rbenv/bin":./bin:"$HOME/bin":"$HOME/bin/mongo":"$HOME/bin/redis":./node_modules/.bin:/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
 
 if which rbenv > /dev/null; then
   eval "$(rbenv init -)"
