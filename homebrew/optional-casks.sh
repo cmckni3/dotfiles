@@ -12,7 +12,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     kaleidoscope
     mou
     sequel-pro
-    spectacle
+    rectangle
     transmit
   )
 
@@ -23,6 +23,5 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   echo 'Cleaning up'
 
   brew cleanup
-  brew cask cleanup
 
 fi
