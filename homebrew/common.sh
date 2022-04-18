@@ -6,7 +6,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   alias git='hub'
 
   # Homebrew taps
-  brew tap giginet/toybox https://github.com/giginet/Toybox.git
   TAPS=(
     aws/tap
     bripkens/dock
@@ -53,7 +52,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     tree
     watchman
     wget
-    xctool
     zsh
   )
 
