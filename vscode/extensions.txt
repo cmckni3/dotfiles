@@ -27,7 +27,6 @@ esbenp.prettier-vscode
 fabiospampinato.vscode-projects-plus
 fabiospampinato.vscode-projects-plus-todo-plus
 fabiospampinato.vscode-todo-plus
-faustinoaq.crystal-lang
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 formulahendry.code-runner
@@ -68,10 +67,8 @@ octref.vetur
 Orta.vscode-ios-common-files
 Orta.vscode-jest
 patbenatar.advanced-new-file
-PeterJausovec.vscode-docker
 PKief.material-icon-theme
 pmneo.tsimporter
-Prisma.vscode-graphql
 rebornix.ruby
 redhat.java
 redhat.vscode-yaml
