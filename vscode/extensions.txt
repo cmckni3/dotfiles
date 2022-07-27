@@ -11,7 +11,6 @@ christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 cmckni3.dark-plus-mono
 codezombiech.gitignore
-CoenraadS.bracket-pair-colorizer
 cssho.vscode-svgviewer
 DavidAnson.vscode-markdownlint
 deerawan.vscode-dash
