@@ -13,6 +13,7 @@ cmckni3.dark-plus-mono
 codezombiech.gitignore
 cssho.vscode-svgviewer
 DavidAnson.vscode-markdownlint
+dbaeumer.vscode-eslint
 deerawan.vscode-dash
 donjayamanne.githistory
 DotJoshJohnson.xml
@@ -59,7 +60,6 @@ ms-vscode.cpptools
 ms-vscode.csharp
 ms-vscode.powershell
 ms-vscode.sublime-keybindings
-ms-vscode.vscode-typescript-tslint-plugin
 ms-vsliveshare.vsliveshare
 natewallace.angular2-inline
 naumovs.color-highlight
