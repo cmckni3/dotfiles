@@ -63,7 +63,6 @@ ms-vscode.powershell
 ms-vscode.sublime-keybindings
 ms-vscode.vscode-typescript-tslint-plugin
 ms-vsliveshare.vsliveshare
-msjsdiag.debugger-for-chrome
 natewallace.angular2-inline
 naumovs.color-highlight
 neilding.language-liquid
