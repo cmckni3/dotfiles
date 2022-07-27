@@ -21,7 +21,6 @@ DSKWRK.vscode-generate-getter-setter
 eamodio.gitlens
 EditorConfig.EditorConfig
 EFanZh.graphviz-preview
-eg2.vscode-npm-script
 eiminsasete.apacheconf-snippets
 eriklynd.json-tools
 esbenp.prettier-vscode
