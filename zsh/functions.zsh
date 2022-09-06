@@ -67,3 +67,8 @@ weather()
 }
 
 function brew-clean() { brew list | grep $@ | xargs brew uninstall ;}
+
+function cat-file-by-name() {
+  filename=$1
+  find . -name "$1" -type f -exec grep -Iq . {} \; -print | xargs awk 'FNR==1{print FILENAME ":" $0; }'
+}
