@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-set -e
+set -ex
 
 # Check for prerequisites
 type zsh >/dev/null 2>&1 || {
