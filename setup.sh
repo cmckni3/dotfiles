@@ -14,6 +14,14 @@ DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 ZSH=$(which zsh)
 
+echo 'Installing homebrew'
+
+export PATH=/opt/homebrew/bin:$PATH
+
+sh "$DIR/homebrew/install.sh"
+sh "$DIR/homebrew/common.sh"
+sh "$DIR/sublime/install.sh"
+
 echo 'Linking configuration files'
 
 # emacs
@@ -64,10 +72,6 @@ chsh -s $ZSH
 echo 'Loading zsh'
 zsh
 source $HOME/.zshrc
-
-sh "$DIR/homebrew/install.sh"
-sh "$DIR/homebrew/common.sh"
-sh "$DIR/sublime/install.sh"
 
 # Install ruby
 echo 'Installing ruby'
