@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-set -ex
+set -e
 
 # Check for prerequisites
 type zsh >/dev/null 2>&1 || {
@@ -13,10 +13,6 @@ type zsh >/dev/null 2>&1 || {
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 ZSH=$(which zsh)
-
-sh "$DIR/homebrew/install.sh"
-sh "$DIR/homebrew/common.sh"
-sh "$DIR/sublime/install.sh"
 
 echo 'Linking configuration files'
 
@@ -68,6 +64,10 @@ chsh -s $ZSH
 echo 'Loading zsh'
 zsh
 source $HOME/.zshrc
+
+sh "$DIR/homebrew/install.sh"
+sh "$DIR/homebrew/common.sh"
+sh "$DIR/sublime/install.sh"
 
 # Install ruby
 echo 'Installing ruby'
