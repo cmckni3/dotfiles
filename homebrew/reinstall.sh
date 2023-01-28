@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
 
-brew list | xargs brew reinstall -v
+brew list | xargs brew reinstall
