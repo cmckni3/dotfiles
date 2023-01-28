@@ -60,6 +60,8 @@ export ANSIBLE_HOSTS=~/ansible_hosts
 
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 
+export DOCKER_DEFAULT_PLATFORM=linux/amd64
+
 # Force GPG passphrase on command line
 export GPG_TTY=$(tty)
 if [[ -n "$SSH_CONNECTION" ]] ;then
