@@ -6,14 +6,13 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     android-studio
     caffeine
     charles
-    cloudapp
-    dash
     google-chrome-canary
     kaleidoscope
     mou
     sequel-pro
     rectangle
     transmit
+    zight
   )
 
   echo 'Installing optional casks...this may take awhile'
