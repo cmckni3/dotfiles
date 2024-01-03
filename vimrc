@@ -4,4 +4,5 @@ set autoindent          " auto indenting
 set number              " line numbers
 set nobackup            " get rid of anoying ~file
 autocmd Filetype gitcommit setlocal spell textwidth=72
+set backspace=indent,eol,start
 
