@@ -7,11 +7,11 @@ bierner.color-info
 bierner.emojisense
 bierner.markdown-preview-github-styles
 castwide.solargraph
+chouzz.vscode-better-align
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 cmckni3.dark-plus-mono
 codezombiech.gitignore
-cssho.vscode-svgviewer
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 deerawan.vscode-dash
@@ -76,11 +76,13 @@ ryuta46.multi-command
 satokaz.vscode-memo-life-for-you
 sdras.vue-vscode-snippets
 shanoor.vscode-nginx
+shopify.ruby-lsp
 sianglim.slim
 sleistner.vscode-fileutils
 streetsidesoftware.code-spell-checker
 sysoev.language-stylus
 thekalinga.bootstrap4-vscode
+tamasfe.even-better-toml
 tombonnike.vscode-status-bar-format-toggle
 waderyan.gitblame
 WakaTime.vscode-wakatime
@@ -89,7 +91,6 @@ wangtao0101.vscode-js-import
 wcwhitehead.bootstrap-3-snippets
 wix.extractor
 wmaurer.change-case
-wwm.better-align
 xabikos.JavaScriptSnippets
 yzhang.markdown-all-in-one
 ziyasal.vscode-open-in-github
