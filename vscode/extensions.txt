@@ -34,6 +34,7 @@ GitHub.vscode-pull-request-github
 guillaumedoutriaux.name-that-color
 hardikpthv.AngularMaterial
 hasanali.gitignore-templates
+htmlhint.vscode-htmlhint
 humao.rest-client
 James-Yu.latex-workshop
 jasonnutter.search-node-modules
