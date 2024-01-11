@@ -69,7 +69,6 @@ Orta.vscode-jest
 patbenatar.advanced-new-file
 PKief.material-icon-theme
 pmneo.tsimporter
-rebornix.ruby
 redhat.java
 redhat.vscode-yaml
 ryuta46.multi-command
