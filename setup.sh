@@ -75,14 +75,13 @@ source $HOME/.zshrc
 
 # Install ruby
 echo 'Installing ruby'
-rbenv install 2.2.7
-rbenv install 2.3.4
+rbenv install 2.7.8
 
-rbenv global 2.3.4
+rbenv global 2.7.8
 
 # Install nodejs
 echo 'Installing nvm'
 curl https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 echo 'Installing node.js'
-nvm install 8 && nvm install 10
-nvm alias default 8
+nvm install 18 && nvm install 20
+nvm alias default 18
