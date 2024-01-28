@@ -32,7 +32,7 @@ function um() {
   mdless ~/.notes/"$1.md"
 }
 function um-ls() {
-  ls ~/.notes
+  ls ~/.notes/
 }
 
 # weather
