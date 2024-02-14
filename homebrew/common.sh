@@ -8,7 +8,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   # Homebrew taps
   TAPS=(
     aws/tap
-    bripkens/dock
     heroku/brew
     homebrew/cask
     homebrew/cask-fonts
@@ -17,7 +16,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     homebrew/services
     jzelinskie/faq
     linuxkit/linuxkit
-    microsoft/msodbcsql
     mongodb/brew
   )
 
@@ -41,6 +39,8 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     nmap
     openssl
     pandoc
+    pyenv
+    pyenv-virtualenv
     rbenv
     rbenv-binstubs
     rbenv-ctags
