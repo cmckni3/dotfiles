@@ -84,7 +84,7 @@
   "terminal.integrated.fontSize": 14,
   "workbench.fontAliasing": "antialiased",
   "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
+    "*.ipynb": "jupyter-notebook"
   },
   "workbench.editor.empty.hint": "hidden",
   "workbench.editor.highlightModifiedTabs": true,
@@ -99,7 +99,6 @@
   "cSpell.showStatus": false,
   "liveshare.showInStatusBar": "whileCollaborating",
   "tsimporter.noStatusBar": true,
-  "quokka.startViewStatusBar": false,
   "projects.statusbarEnabled": false,
 
   "auto-close-tag.SublimeText3Mode": true,
@@ -195,8 +194,6 @@
     "upsert",
     "websockets"
   ],
-  "tslint.jsEnable": true,
-  "tslint.packageManager": "yarn",
 
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
