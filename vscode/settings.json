@@ -82,12 +82,11 @@
   "terminal.integrated.defaultProfile.osx": "/bin/zsh",
   "terminal.integrated.fontFamily": "Dank Mono, Hack Nerd Font",
   "terminal.integrated.fontSize": 14,
-  "workbench.activityBar.visible": true,
   "workbench.fontAliasing": "antialiased",
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
   },
-  "workbench.editor.untitled.hint": "hidden",
+  "workbench.editor.empty.hint": "hidden",
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.colorTheme": "Dark+ Mono",
   "workbench.iconTheme": "material-icon-theme",
