@@ -62,6 +62,9 @@ alias gignored="git ls-files -v | grep '^[a-z]'"
 alias brew-export='brew list | column -t'
 alias brewcc='rm -rf ~/Library/Caches/Homebrew/*'
 
+# Terraform
+alias tf='terraform'
+
 # JavaScript
 alias ng6-cli='yarn global add @angular/cli \
   @angular-devkit/architect \
