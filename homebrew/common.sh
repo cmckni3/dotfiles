@@ -8,9 +8,9 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   # Homebrew taps
   TAPS=(
     aws/tap
+    hashicorp/tap
     heroku/brew
     homebrew/cask
-    homebrew/cask-fonts
     homebrew/cask-versions
     homebrew/core
     homebrew/services
@@ -28,13 +28,13 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     curl
     desk
     git
-    git-flow
     git-extras
+    git-flow
+    git-town
     gnu-sed
     gnu-tar
     htop-osx
     hub
-    mogenerator
     mono-libgdiplus
     nmap
     openssl
