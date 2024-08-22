@@ -3,8 +3,9 @@
 if [[ "$OSTYPE" == "darwin"* ]]; then
 
   FORMULAS=(
-    awscli
+    amazon-ecs-cli
     aws-shell
+    awscli
     # CloudWatch Logs cli tool
     awslogs
     # CloudTrail cli tool
