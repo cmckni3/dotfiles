@@ -17,3 +17,5 @@ lerna-debug.log
 .angulardoc.json
 vandelay-js.js
 jsconfig.json
+.terraform.tfstate.lock.info
+.infracost/*
