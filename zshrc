@@ -89,6 +89,16 @@ fi
 
 [ -s "$HOME/.jabba/jabba.sh" ] && source "$HOME/.jabba/jabba.sh"
 
+# Don't autoupdate homebrew on macOS 12 and earlier
+if type sw_vers >/dev/null 2>&1; then
+  MAC_MAJOR_VERSION=$(sw_vers -productVersion | cut -d'.' -f1)
+  # echo "macOS major version: ${MAC_MAJOR_VERSION}"
+  if [[ "${MAC_MAJOR_VERSION}" -le "12" ]]; then
+    # echo "macOS <= 12 is true"
+    export HOMEBREW_NO_AUTO_UPDATE=1
+  fi
+fi
+
 # tabtab source for serverless package
 # tabtab source for sls package
 # tabtab source for slss package
