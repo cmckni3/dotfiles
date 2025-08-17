@@ -73,5 +73,4 @@ You can make local customizations for some programs by editing these files:
 ## TODO
 
 1. More robust setup script
-1. Add the rest of my common homebrew formulas and casks
 1. Tests
