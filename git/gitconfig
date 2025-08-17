@@ -13,3 +13,5 @@
   process = git-lfs filter-process
 [hub]
   protocol = ssh
+[alias]
+  update = "remote update -p"
