@@ -96,9 +96,13 @@ alias cdswift="cd ~/code/swift"
 alias cdswiftios="cd ~/code/swift/ios"
 alias cdwork="cd ~/code/work"
 
+# Misc
 alias rsyncpr='rsync -avh --progress'
 alias find-port-usage='netstat -vanp tcp | grep'
-alias find-node-modules="find . -type d -name 'node_modules'"
+alias find-node-modules="find . -type d -name 'node_modules' -not -path './Library/*' -not -path './.config/*' -not -path './.nvm/*' -not -path './.vscode/*'"
+alias find-prettier="find . -name '.prettier*' -type f"
+alias find-eslintrc="find . -name '.eslintrc' -type f"
+alias find-editorconfig="find . -name '.editorconfig' -type f"
 alias largestfiles="du -k -I Library ~/* | awk '\$1 > 500000' | sort -nr"
 alias dds="find . -name '*.DS_Store' -type f -delete"
 alias clean-xcode-downloads="rm -rf ~/Library/Caches/com.apple.dt.Xcode/Downloads/*"
