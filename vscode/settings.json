@@ -38,12 +38,23 @@
     "*.php": "php"
   },
   "files.autoSave": "onFocusChange",
-  "formattingToggle.affects": [
-    "formatOnPaste",
-    "formatOnSave"
-  ],
+  "formattingToggle.affects": ["formatOnPaste", "formatOnSave"],
   "[dockerfile]": {
     "editor.formatOnSave": false
+  },
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -201,7 +212,7 @@
     "suppressFileNotUnderSourceControlWarning": false,
     "suppressGitVersionWarning": false,
     "suppressLineUncommittedWarning": false,
-    "suppressNoRepositoryWarning": false,
+    "suppressNoRepositoryWarning": false
   },
 
   "htmlhint.options": {
@@ -214,7 +225,7 @@
       "command": "multiCommand.makeRoom",
       "sequence": [
         "workbench.action.toggleActivityBarVisibility",
-        "workbench.action.toggleSidebarVisibility",
+        "workbench.action.toggleSidebarVisibility"
       ]
     }
   ],
