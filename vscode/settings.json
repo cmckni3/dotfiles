@@ -1,6 +1,7 @@
 {
   "telemetry.telemetryLevel": "off",
   "update.mode": "manual",
+  "extensions.autoUpdate": "off",
 
   "redhat.telemetry.enabled": false,
   "code-runner.enableAppInsights": false,
@@ -31,7 +32,6 @@
   },
   "explorer.openEditors.visible": 0,
   "explorer.compactFolders": false,
-  "extensions.autoUpdate": false,
   "files.associations": {
     ".php_cs": "php",
     ".php_cs.dist": "php",
